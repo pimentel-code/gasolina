@@ -8,6 +8,7 @@
 #   gasolina publicar     põe o app na internet (GitHub) e o APK para baixar; "publicar sim" confirma direto
 #   gasolina link         mostra o link para mandar a outras pessoas
 #   gasolina qr           mostra o QR code para baixar o APK no celular (depois de publicar)
+#   gasolina ligar-robo   liga o site e a atualização no GitHub (precisa: gh auth refresh -s workflow)
 #   gasolina testar       abre o app num navegador de teste e confere erros
 #   gasolina registro     mostra as últimas atualizações automáticas
 #   gasolina apk          gera o app Android (Gasolina.apk) e põe uma cópia em ~/Downloads
@@ -212,6 +213,22 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || true
   qr)
     mostrar_qr ;;
 
+  ligar-robo)   # liga o site + atualização no GitHub (precisa da permissão "workflow" no login do gh)
+    [ -f robo-github/atualizar.yml ] || { echo "O robô já está ligado."; exit 0; }
+    if ! gh auth status 2>&1 | grep -q "'workflow'\|workflow"; then
+      echo "O login do GitHub neste PC ainda não tem a permissão 'workflow'."
+      echo "No terminal (fora do chat do Claude), rode:  gh auth refresh -h github.com -s workflow"
+      echo "e depois:  gasolina ligar-robo"; exit 1
+    fi
+    puxar 2>/dev/null
+    mkdir -p .github/workflows && git mv robo-github/atualizar.yml .github/workflows/atualizar.yml && rmdir robo-github 2>/dev/null
+    git -c user.email="$EMAIL" -c user.name="pedropimentel" commit -q -m "Liga o robô de atualização e o site
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+    git push -q origin main || { echo "${ruim}O GitHub recusou. Confira a permissão 'workflow'.${f}"; exit 1; }
+    sleep 3; gh workflow run atualizar.yml -R "$CONTA/$REPO" >/dev/null 2>&1 || true
+    echo "${ok}Robô ligado.${f} Em 2 a 5 minutos o site estará em https://$CONTA.github.io/$REPO/" ;;
+
   *)
-    sed -n '2,17p' "$0" | sed 's/^# \{0,1\}//' ;;
+    sed -n '2,18p' "$0" | sed 's/^# \{0,1\}//' ;;
 esac
