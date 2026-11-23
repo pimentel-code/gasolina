@@ -47,6 +47,11 @@ e põe o APK num link fixo, e no fim mostra um **QR code** (também salvo em `~/
 No celular, aponte a câmera para o QR code ou abra o link. O Chrome baixa o arquivo. Toque em "Abrir" e permita
 "instalar apps desta fonte" para o Chrome, só na primeira vez. Para ver o QR code de novo: `gasolina qr`.
 Versão nova: `gasolina apk-nova "o que mudou"`. O link continua o mesmo, e o app instalado avisa "Saiu a versão nova".
+**Situação em 22/11/2026:** publicado. O repositório é github.com/pimentel-code/gasolina e o APK é a release v1.1.
+O link fixo funciona: o arquivo baixado é idêntico ao do PC. O **robô do GitHub e o site ainda estão DESLIGADOS**:
+o login do `gh` não tem a permissão `workflow`, então o arquivo do robô está guardado em `robo-github/`.
+Para ligar: `gh auth refresh -h github.com -s workflow` no terminal e depois `gasolina ligar-robo`.
+Enquanto isso, o relógio do PC atualiza os dados do repositório (o calendário que o celular lê vem de lá).
 **Sem publicar:** mande `~/Downloads/Gasolina.apk` pelo WhatsApp ou pelo cabo e toque nele.
 Depois de publicado, o link fixo é `https://github.com/pimentel-code/gasolina/releases/latest/download/Gasolina.apk`
 e aparece também no rodapé do site. Também dá para acompanhar pelo Obtainium, colando o endereço do repositório.
