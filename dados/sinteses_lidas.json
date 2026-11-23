@@ -1,0 +1,620 @@
+{
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/abril/sintese-precos-n14.pdf": {
+  "erro": "não reconheci a composição do preço na síntese (formato mudou?)",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/abril/sintese-precos-n15.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/abril/sintese-precos-n16.pdf": {
+  "ok": true,
+  "semana": "2024-04-20"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/abril/sintese-precos-n17.pdf": {
+  "ok": true,
+  "semana": "2024-04-27"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/agosto/2024_08_19_nova-sintese-de-precos_semana-de-04-08-a-10-08_v2.pdf": {
+  "ok": true,
+  "semana": "2024-08-10"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/agosto/sintese-precos-n33.pdf": {
+  "ok": true,
+  "semana": "2024-08-17"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/agosto/sintese-precos-n34.pdf": {
+  "ok": true,
+  "semana": "2024-08-24"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/agosto/sintese-precos-n35.pdf": {
+  "ok": true,
+  "semana": "2024-08-31"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/dezembro/sintese-precos-n49.pdf": {
+  "ok": true,
+  "semana": "2024-12-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/dezembro/sintese-precos-n50.pdf": {
+  "ok": true,
+  "semana": "2024-12-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/dezembro/sintese-semana-15-a-21-12-24.pdf": {
+  "ok": true,
+  "semana": "2024-12-21"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/dezembro/sintese-semana-22-a-28-12-24.pdf": {
+  "ok": true,
+  "semana": "2024-12-28"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/fevereiro/sintese-precos-n05.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/fevereiro/sintese-precos-n06.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/fevereiro/sintese-precos-n08.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/fevereiro/sintese-precos-n09.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/fevereiro/sinteseprecosn07.pdf": {
+  "erro": "não reconheci a composição do preço na síntese (formato mudou?)",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/janeiro/RelatorioSinteseOrdinarian03_Semana14.01a20.01_v2.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/janeiro/sintese-precos-n01.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/janeiro/sintese-precos-n02.pdf": {
+  "erro": "não reconheci a composição do preço na síntese (formato mudou?)",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/janeiro/sintese-precos-n04.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/julho/sintese-precos-n27.pdf": {
+  "ok": true,
+  "semana": "2024-07-06"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/julho/sintese-precos-n28.pdf": {
+  "ok": true,
+  "semana": "2024-07-13"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/julho/sintese-precos-n29.pdf": {
+  "ok": true,
+  "semana": "2024-07-20"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/julho/sintese-precos-n30.pdf": {
+  "ok": true,
+  "semana": "2024-07-27"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/julho/sintese-precos-n31.pdf": {
+  "ok": true,
+  "semana": "2024-08-03"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/junho/sintese-precos-n23.pdf": {
+  "ok": true,
+  "semana": "2024-06-08"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/junho/sintese-precos-n24.pdf": {
+  "ok": true,
+  "semana": "2024-06-15"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/junho/sintese-precos-n25.pdf": {
+  "ok": true,
+  "semana": "2024-06-22"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/junho/sintese-precos-n26.pdf": {
+  "ok": true,
+  "semana": "2024-06-29"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/maio/sintese-precos-n18.pdf": {
+  "ok": true,
+  "semana": "2024-05-04"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/maio/sintese-precos-n19.pdf": {
+  "ok": true,
+  "semana": "2024-05-11"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/maio/sintese-precos-n20.pdf": {
+  "ok": true,
+  "semana": "2024-05-18"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/maio/sintese-precos-n21.pdf": {
+  "ok": true,
+  "semana": "2024-05-25"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/marco/sintese-precos-n10.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/marco/sintese-precos-n11.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/marco/sintese-precos-n12.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/marco/sintese-precos-n13.pdf": {
+  "erro": "síntese sem a página de gasolina/realização",
+  "ignorar": true,
+  "ok": false,
+  "tentativas": 1
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/novembro/sintese-precos-n45.pdf": {
+  "ok": true,
+  "semana": "2024-11-09"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/novembro/sintese-precos-n46.pdf": {
+  "ok": true,
+  "semana": "2024-11-16"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/novembro/sintese-precos-n47.pdf": {
+  "ok": true,
+  "semana": "2024-11-23"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/novembro/sintese-precos-n48.pdf": {
+  "ok": true,
+  "semana": "2024-11-30"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/outubro/sintese-precos-n41.pdf": {
+  "ok": true,
+  "semana": "2024-10-12"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/outubro/sintese-precos-n42.pdf": {
+  "ok": true,
+  "semana": "2024-10-19"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/outubro/sintese-precos-n43.pdf": {
+  "ok": true,
+  "semana": "2024-10-26"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/outubro/sintese-precos-n44.pdf": {
+  "ok": true,
+  "semana": "2024-11-02"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/setembro/sintese-precos-n36.pdf": {
+  "ok": true,
+  "semana": "2024-09-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/setembro/sintese-precos-n37.pdf": {
+  "ok": true,
+  "semana": "2024-09-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/setembro/sintese-precos-n38.pdf": {
+  "ok": true,
+  "semana": "2024-09-21"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/setembro/sintese-precos-n39.pdf": {
+  "ok": true,
+  "semana": "2024-09-28"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2024/setembro/sintese-precos-n40.pdf": {
+  "ok": true,
+  "semana": "2024-10-05"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/agosto/sintese-precos-n32.pdf": {
+  "ok": true,
+  "semana": "2025-08-09"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/agosto/sintese-precos-n33.pdf": {
+  "ok": true,
+  "semana": "2025-08-16"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/agosto/sintese-precos-n34.pdf": {
+  "ok": true,
+  "semana": "2025-08-23"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/agosto/sintese-precos-n35.pdf": {
+  "ok": true,
+  "semana": "2025-08-30"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/fevereiro/sintese-precos-n06.pdf": {
+  "ok": true,
+  "semana": "2025-02-08"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/fevereiro/sintese-precos-n07.pdf": {
+  "ok": true,
+  "semana": "2025-02-15"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/fevereiro/sintese-precos-n08.pdf": {
+  "ok": true,
+  "semana": "2025-02-22"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/fevereiro/sintese-precos-n09.pdf": {
+  "ok": true,
+  "semana": "2025-03-01"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/fevereiro/sintese-precos-n10.pdf": {
+  "ok": true,
+  "semana": "2025-03-08"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/janeiro/sintese-precos-04.pdf": {
+  "ok": true,
+  "semana": "2025-01-25"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/janeiro/sintese-precos-n01.pdf": {
+  "ok": true,
+  "semana": "2026-01-03"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/janeiro/sintese-precos-n02.pdf": {
+  "ok": true,
+  "semana": "2026-01-10"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/janeiro/sintese-precos-n03.pdf": {
+  "ok": true,
+  "semana": "2026-01-17"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/janeiro/sintese-precos-n05.pdf": {
+  "ok": true,
+  "semana": "2025-02-01"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/julho/sintese-precos-n28.pdf": {
+  "ok": true,
+  "semana": "2025-07-12"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/julho/sintese-precos-n29.pdf": {
+  "ok": true,
+  "semana": "2025-07-19"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/julho/sintese-precos-n30.pdf": {
+  "ok": true,
+  "semana": "2025-07-26"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/julho/sintese-precos-n31.pdf": {
+  "ok": true,
+  "semana": "2025-08-01"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/junho/sintese-precos-n23.pdf": {
+  "ok": true,
+  "semana": "2025-06-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/junho/sintese-precos-n24.pdf": {
+  "ok": true,
+  "semana": "2025-06-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/junho/sintese-precos-n25.pdf": {
+  "ok": true,
+  "semana": "2025-06-21"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/junho/sintese-precos-n26.pdf": {
+  "ok": true,
+  "semana": "2025-06-28"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/junho/sintese-precos-n27.pdf": {
+  "ok": true,
+  "semana": "2025-07-05"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/maio/sintese-precos-n18.pdf": {
+  "ok": true,
+  "semana": "2025-05-03"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/maio/sintese-precos-n19.pdf": {
+  "ok": true,
+  "semana": "2025-05-10"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/maio/sintese-precos-n20.pdf": {
+  "ok": true,
+  "semana": "2025-05-17"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/maio/sintese-precos-n21.pdf": {
+  "ok": true,
+  "semana": "2025-05-24"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/maio/sintese-precos-n22.pdf": {
+  "ok": true,
+  "semana": "2025-05-31"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n11.pdf": {
+  "ok": true,
+  "semana": "2025-03-15"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n12.pdf": {
+  "ok": true,
+  "semana": "2025-03-22"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n13.pdf": {
+  "ok": true,
+  "semana": "2025-03-29"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n14.pdf": {
+  "ok": true,
+  "semana": "2025-04-05"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n15.pdf": {
+  "ok": true,
+  "semana": "2025-04-12"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n16.pdf": {
+  "ok": true,
+  "semana": "2025-04-19"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/marco/sintese-precos-n17.pdf": {
+  "ok": true,
+  "semana": "2025-04-26"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-44.pdf": {
+  "ok": true,
+  "semana": "2025-11-01"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-47.pdf": {
+  "ok": true,
+  "semana": "2025-11-22"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-48.pdf": {
+  "ok": true,
+  "semana": "2025-11-29"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-49.pdf": {
+  "ok": true,
+  "semana": "2025-12-06"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-50.pdf": {
+  "ok": true,
+  "semana": "2025-12-13"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-51.pdf": {
+  "ok": true,
+  "semana": "2025-12-20"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sintese-precos-52.pdf": {
+  "ok": true,
+  "semana": "2025-12-27"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sinteseprecos45.pdf": {
+  "ok": true,
+  "semana": "2025-11-08"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/novembro/sinteseprecos46.pdf": {
+  "ok": true,
+  "semana": "2025-11-15"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/outubro/sintese-precos-41.pdf": {
+  "ok": true,
+  "semana": "2025-10-11"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/outubro/sintese-precos-42.pdf": {
+  "ok": true,
+  "semana": "2025-10-18"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/outubro/sintese-precos-43.pdf": {
+  "ok": true,
+  "semana": "2025-10-25"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/setembro/sintese-precos-36.pdf": {
+  "ok": true,
+  "semana": "2025-09-06"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/setembro/sintese-precos-37.pdf": {
+  "ok": true,
+  "semana": "2025-09-13"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/setembro/sintese-precos-38.pdf": {
+  "ok": true,
+  "semana": "2025-09-20"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/setembro/sintese-precos-39.pdf": {
+  "ok": true,
+  "semana": "2025-09-27"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2025/setembro/sintese-precos-40.pdf": {
+  "ok": true,
+  "semana": "2025-10-04"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-02.pdf": {
+  "ok": true,
+  "semana": "2026-01-10"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-04.pdf": {
+  "ok": true,
+  "semana": "2026-01-24"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-05.pdf": {
+  "ok": true,
+  "semana": "2026-01-31"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-06.pdf": {
+  "ok": true,
+  "semana": "2026-02-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-07.pdf": {
+  "ok": true,
+  "semana": "2026-02-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-08.pdf": {
+  "ok": true,
+  "semana": "2026-02-21"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-09.pdf": {
+  "ok": true,
+  "semana": "2026-02-28"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-10.pdf": {
+  "ok": true,
+  "semana": "2026-03-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-11.pdf": {
+  "ok": true,
+  "semana": "2026-03-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-12.pdf": {
+  "ok": true,
+  "semana": "2026-03-21"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-13.pdf": {
+  "ok": true,
+  "semana": "2026-03-28"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-14.pdf": {
+  "ok": true,
+  "semana": "2026-03-04"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-17.pdf": {
+  "ok": true,
+  "semana": "2026-04-25"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-18.pdf": {
+  "ok": true,
+  "semana": "2026-05-02"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-19.pdf": {
+  "ok": true,
+  "semana": "2026-05-09"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-21.pdf": {
+  "ok": true,
+  "semana": "2026-04-11"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-22.pdf": {
+  "ok": true,
+  "semana": "2026-05-30"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-23.pdf": {
+  "ok": true,
+  "semana": "2026-06-06"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-24.pdf": {
+  "ok": true,
+  "semana": "2026-06-13"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-25.pdf": {
+  "ok": true,
+  "semana": "2026-06-20"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-26.pdf": {
+  "ok": true,
+  "semana": "2026-06-27"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-27.pdf": {
+  "ok": true,
+  "semana": "2026-07-04"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-28.pdf": {
+  "ok": true,
+  "semana": "2026-07-11"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-29.pdf": {
+  "ok": true,
+  "semana": "2026-07-18"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-30.pdf": {
+  "ok": true,
+  "semana": "2026-07-25"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-31.pdf": {
+  "ok": true,
+  "semana": "2026-08-01"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-32.pdf": {
+  "ok": true,
+  "semana": "2026-08-08"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-33.pdf": {
+  "ok": true,
+  "semana": "2026-08-15"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-34-pdf": {
+  "ok": true,
+  "semana": "2026-08-22"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-35.pdf": {
+  "ok": true,
+  "semana": "2026-08-29"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-36.pdf": {
+  "ok": true,
+  "semana": "2026-09-05"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-37.pdf": {
+  "ok": true,
+  "semana": "2026-09-12"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-38.pdf": {
+  "ok": true,
+  "semana": "2026-09-19"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-39.pdf": {
+  "ok": true,
+  "semana": "2026-09-26"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-40.pdf": {
+  "ok": true,
+  "semana": "2026-10-03"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-41.pdf": {
+  "ok": true,
+  "semana": "2026-10-10"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-42.pdf": {
+  "ok": true,
+  "semana": "2026-10-17"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-43.pdf": {
+  "ok": true,
+  "semana": "2026-10-24"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-44.pdf": {
+  "ok": true,
+  "semana": "2026-10-31"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-45.pdf": {
+  "ok": true,
+  "semana": "2026-11-07"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-46-pdf": {
+  "ok": true,
+  "semana": "2026-11-14"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sinteseprecos15.pdf": {
+  "ok": true,
+  "semana": "2026-04-11"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sinteseprecos16.pdf": {
+  "ok": true,
+  "semana": "2026-04-18"
+ },
+ "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sinteseprecos20.pdf": {
+  "ok": true,
+  "semana": "2026-05-16"
+ }
+}

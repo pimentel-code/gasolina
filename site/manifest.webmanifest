@@ -1,0 +1,16 @@
+{
+  "name": "Gasolina: vai subir ou cair?",
+  "short_name": "Gasolina",
+  "description": "Preço da gasolina por Estado e cidade, previsão das próximas semanas e os motivos.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f9f9f7",
+  "theme_color": "#184f95",
+  "icons": [
+    {"src": "icones/icone-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icones/icone-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icones/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

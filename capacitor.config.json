@@ -1,0 +1,14 @@
+{
+  "appId": "io.github.pimentelcode.gasolina",
+  "appName": "Gasolina",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#184f95"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_gasolina",
+      "iconColor": "#184f95"
+    }
+  }
+}

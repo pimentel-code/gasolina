@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gasolina: vai subir ou cair?</title>
+<meta name="description" content="Preço da gasolina por Estado e cidade, previsão para as próximas semanas e os motivos. Dados oficiais da ANP, atualizados todo dia.">
+<meta property="og:title" content="Gasolina: vai subir ou cair?">
+<meta property="og:description" content="Preço por Estado e cidade, previsão das próximas semanas e os motivos. Dados oficiais da ANP.">
+<meta property="og:image" content="icones/icone-512.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#184f95">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icones/icone-180.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<a class="pular" href="#principal">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="marca">
+    <img src="icones/icone.svg" alt="" width="36" height="36">
+    <div>
+      <h1>Gasolina: vai subir ou cair?</h1>
+      <p class="sub">Preço nos postos, previsão das próximas semanas e os motivos</p>
+    </div>
+  </div>
+  <div class="acoes-topo">
+    <button id="bt-tema" class="bt-icone" type="button" aria-label="Trocar tema claro/escuro" title="Tema claro/escuro">☾</button>
+    <button id="bt-instalar" class="bt" type="button" hidden>Instalar app</button>
+    <button id="bt-compartilhar" class="bt bt-forte" type="button">Compartilhar</button>
+  </div>
+</header>
+
+<div class="escolha" role="search">
+  <label for="busca">Ver o preço de</label>
+  <div class="campo-busca">
+    <input id="busca" type="search" autocomplete="off" placeholder="Brasil, um Estado ou uma cidade (ex.: Petrolina)"
+           aria-describedby="dica-busca" aria-autocomplete="list" aria-controls="sugestoes" aria-expanded="false" role="combobox">
+    <ul id="sugestoes" role="listbox" hidden></ul>
+  </div>
+  <div id="atalhos" class="atalhos" aria-label="Atalhos"></div>
+  <p id="dica-busca" class="dica">A ANP pesquisa cerca de 460 cidades toda semana.</p>
+</div>
+
+<p id="frescor" class="frescor" aria-live="polite">Carregando os dados…</p>
+<p id="atualizacao" class="frescor atualizacao" hidden><span id="atualizacao-txt" aria-live="polite"></span>
+  <button id="bt-atualizar" class="bt" type="button">Atualizar agora</button></p>
+<div id="nova-versao" class="avisos alerta-versao" hidden></div>
+<div id="avisos" class="avisos" hidden></div>
+
+<main id="principal">
+  <section class="grade-topo">
+    <article class="cartao heroi" id="cartao-preco" aria-labelledby="t-lugar">
+      <h2 id="t-lugar" class="rotulo">—</h2>
+      <div class="valor-heroi" id="preco">—</div>
+      <p class="linha-sec" id="preco-detalhe"></p>
+      <p class="linha-sec" id="preco-faixa"></p>
+    </article>
+
+    <article class="cartao previsao" id="cartao-previsao" aria-labelledby="t-prev">
+      <h2 id="t-prev" class="rotulo">Próximas 2 semanas</h2>
+      <div class="prev-linha">
+        <span id="prev-seta" class="seta" aria-hidden="true">·</span>
+        <div>
+          <div id="prev-texto" class="prev-texto">—</div>
+          <div id="prev-valor" class="linha-sec"></div>
+        </div>
+      </div>
+      <p id="prev-confianca" class="confianca"></p>
+    </article>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-porque">
+    <h2 id="t-porque">Por quê? A conta da previsão</h2>
+    <p class="explica">Comparamos os custos de agora (refinaria, etanol e impostos) com os de algumas
+      semanas atrás. O que subiu no custo e o posto ainda não repassou tende a chegar à bomba; o que caiu e o posto não baixou, idem.</p>
+    <div id="conta" class="conta"></div>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-olho">
+    <h2 id="t-olho">Fique de olho</h2>
+    <div class="duas">
+      <div>
+        <h3>Pressão sobre as refinarias</h3>
+        <div id="pressao"></div>
+      </div>
+      <div>
+        <h3>Calendário: o que já tem data</h3>
+        <ol id="eventos" class="eventos"></ol>
+        <label id="lembretes" class="lembretes" hidden><input type="checkbox" id="ch-lembretes"> Me avisar (notificação) na véspera e no dia de cada data</label>
+      </div>
+    </div>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-mapa">
+    <div class="cab-secao">
+      <h2 id="t-mapa">Estados</h2>
+      <div class="segmentado" role="group" aria-label="O que o mapa mostra">
+        <button type="button" data-mapa="previsao" aria-pressed="true">Previsão</button>
+        <button type="button" data-mapa="preco" aria-pressed="false">Preço</button>
+      </div>
+    </div>
+    <div class="mapa-e-legenda">
+      <div id="mapa" class="mapa" role="group" aria-label="Mapa dos Estados (toque para escolher)"></div>
+      <div id="mapa-legenda" class="legenda"></div>
+    </div>
+    <details class="tabela-detalhe">
+      <summary>Ver como tabela (todos os Estados)</summary>
+      <div id="tabela-ufs" class="rolagem"></div>
+    </details>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-comp">
+    <h2 id="t-comp">Do que é feito o preço (média do Brasil)</h2>
+    <div id="composicao"></div>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-graf">
+    <div class="cab-secao">
+      <h2 id="t-graf">Histórico</h2>
+      <div class="segmentado" role="group" aria-label="Período">
+        <button type="button" data-periodo="26" aria-pressed="false">6 meses</button>
+        <button type="button" data-periodo="52" aria-pressed="true">1 ano</button>
+        <button type="button" data-periodo="156" aria-pressed="false">3 anos</button>
+        <button type="button" data-periodo="0" aria-pressed="false">Tudo</button>
+      </div>
+    </div>
+    <div class="graficos">
+      <figure class="grafico" id="g-preco"></figure>
+      <figure class="grafico" id="g-atacado"></figure>
+      <figure class="grafico" id="g-anidro"></figure>
+      <figure class="grafico" id="g-brent"></figure>
+      <figure class="grafico" id="g-dolar"></figure>
+    </div>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-not">
+    <h2 id="t-not">Notícias dos últimos dias</h2>
+    <ul id="noticias" class="noticias"></ul>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-como">
+    <h2 id="t-como">Como a previsão é feita (e quanto ela acerta)</h2>
+    <div id="metodo"></div>
+  </section>
+
+  <section class="cartao" aria-labelledby="t-fontes">
+    <h2 id="t-fontes">De onde vêm os dados</h2>
+    <div id="fontes" class="rolagem"></div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <p>Este app faz uma estimativa com dados públicos. Não é garantia de preço nem recomendação.
+     Decisões do governo e da Petrobras podem mudar tudo de um dia para o outro.</p>
+  <p id="rodape-dados"></p>
+  <p id="baixar-apk" hidden></p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="nativo.js"></script>
+<script src="graficos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

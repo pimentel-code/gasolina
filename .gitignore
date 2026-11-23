@@ -1,0 +1,13 @@
+cache/
+__pycache__/
+*.tmp
+*.corrompido
+testes/fotos/
+node_modules/
+www/
+Gasolina.apk
+android/app/build/
+android/build/
+android/.gradle/
+android/app/src/main/assets/public/
+android/local.properties

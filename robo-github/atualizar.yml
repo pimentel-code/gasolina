@@ -1,0 +1,74 @@
+# Atualiza os dados duas vezes por dia e publica o site (GitHub Pages).
+# Roda nos servidores do GitHub: funciona mesmo com o PC desligado.
+name: Atualizar dados e publicar
+
+on:
+  schedule:
+    - cron: "15 10 * * *"   # 07:15 em Brasília
+    - cron: "15 22 * * *"   # 19:15 em Brasília
+  workflow_dispatch: {}      # botão "Run workflow" na aba Actions
+  push:
+    branches: [main]         # quando o PC envia algo, só republica
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gasolina
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ferramenta para ler PDF
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Buscar dados
+        id: coleta
+        env:
+          TZ: America/Sao_Paulo
+        run: |
+          set +e
+          python3 -I coletor/atualizar.py
+          cod=$?
+          echo "codigo=$cod" >> "$GITHUB_OUTPUT"
+          # 0 = tudo certo; 1 = alguma fonte falhou (segue com o último dado bom); 2 = nada funcionou
+          [ $cod -le 1 ]
+      - name: Guardar os dados novos
+        run: |
+          git config user.name "gasolina-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados site/dados
+          if git diff --cached --quiet; then echo "Nada mudou."; exit 0; fi
+          git commit -q -m "Dados atualizados ($(TZ=America/Sao_Paulo date '+%d/%m %H:%M'))"
+          for t in 1 2 3; do
+            git pull -q --rebase -X theirs origin main && git push -q origin main && exit 0
+            sleep 10
+          done
+          exit 1
+
+  publicar:
+    needs: atualizar
+    if: always() && (needs.atualizar.result == 'success' || needs.atualizar.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

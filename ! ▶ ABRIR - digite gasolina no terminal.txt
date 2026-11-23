@@ -1,0 +1,7 @@
+GASOLINA: VAI SUBIR OU CAIR?
+
+No PC:       Painel de Aplicativos → cartão "Gasolina"   (ou digite: gasolina)
+No celular:  instale o Gasolina.apk (cópia em ~/Downloads/Gasolina.apk)
+
+Outros comandos: gasolina status | gasolina atualizar | gasolina apk | gasolina publicar
+Tudo explicado no LEIA-ME.md desta pasta.

@@ -1,0 +1,94 @@
+{
+ "_como_editar": "Um evento por bloco. data = AAAA-MM-DD. efeito = R$ por litro na bomba (gasolina C); null quando não dá para calcular. status: 'confirmado' (vai acontecer), 'depende' (pode ser adiado/prorrogado), 'aconteceu', 'cancelado'. revisado_em = dia em que você conferiu o evento (notícias anteriores a esse dia são ignoradas). busca = palavras que, se aparecerem juntas numa manchete recente, fazem o app avisar 'pode ter mudado — conferir'. Depois de editar, rode: gasolina atualizar",
+ "icms_atual": 1.57,
+ "mistura_anidro": 0.32,
+ "eventos": [
+  {
+   "id": "opep-2026-11",
+   "data": "2026-11-29",
+   "titulo": "Reunião da OPEP+ define as cotas de produção de 2027",
+   "tipo": "mercado",
+   "efeito": null,
+   "status": "confirmado",
+   "explicacao": "Corte de produção tende a subir o petróleo; aumento tende a baixar. O efeito chega à bomba só se a Petrobras ou as refinarias privadas reajustarem.",
+   "fonte": "https://www.opovo.com.br/noticias/mundo/2026/11/19/petroleo-fecha-praticamente-estavel-em-meio-a-incertezas-geopoliticas-no-oriente-medio.html"
+  },
+  {
+   "id": "desoneracao-fim-2026-12",
+   "data": "2026-12-10",
+   "titulo": "Fim da desoneração federal da gasolina (PIS/Cofins e Cide voltam)",
+   "tipo": "tributo",
+   "efeito": 0.61,
+   "status": "depende",
+   "explicacao": "Decreto 13.159/2026 zerou PIS/Cofins (R$ 0,79) e Cide (R$ 0,10) por litro de gasolina A até 09/12/2026. Se não houver nova prorrogação, voltam R$ 0,89 por litro de gasolina A, cerca de R$ 0,61 por litro na bomba (68% da mistura). Já foi prorrogada outras vezes.",
+   "busca": [
+    "prorroga",
+    "desonera"
+   ],
+   "fonte": "https://atlaspublico.com.br/noticias/decreto-prorroga-ate-9-de-dezembro-reducao-a-zero-de-100048",
+   "revisado_em": "2026-11-22"
+  },
+  {
+   "id": "entressafra-2026",
+   "data": "2026-12-01",
+   "fim": "2027-03-31",
+   "titulo": "Entressafra da cana no Centro-Sul",
+   "tipo": "sazonal",
+   "efeito": null,
+   "status": "confirmado",
+   "explicacao": "Com menos cana sendo moída, o etanol anidro (32% da gasolina) costuma encarecer até a nova safra, em abril.",
+   "fonte": "https://www.cepea.org.br/br/indicador/etanol.aspx"
+  },
+  {
+   "id": "cbs-2027",
+   "data": "2027-01-01",
+   "titulo": "CBS substitui PIS/Cofins nos combustíveis (reforma tributária)",
+   "tipo": "tributo",
+   "efeito": null,
+   "status": "depende",
+   "explicacao": "A alíquota da CBS por litro sai da carga média de jul/2025 a jun/2026 (Portaria Conjunta MF/CGIBS 14/2026). Se vier com a carga cheia, funciona como o fim da desoneração. Valor por litro ainda a confirmar.",
+   "busca": [
+    "CBS",
+    "combust"
+   ],
+   "fonte": "https://www.gazetadopovo.com.br/economia/governo-publica-metodologia-calcular-novos-impostos-combustiveis/",
+   "revisado_em": "2026-11-22"
+  },
+  {
+   "id": "e32-fim",
+   "data": "2027-01-28",
+   "titulo": "Vence a mistura de 32% de etanol (E32), prorrogável uma vez",
+   "tipo": "mistura",
+   "efeito": null,
+   "status": "depende",
+   "explicacao": "Resolução do CNPE de 30/07/2026, 180 dias a partir de 01/08/2026. Voltar ao E30 muda pouco: depende de o anidro estar mais caro ou mais barato que a gasolina A.",
+   "busca": [
+    "E32",
+    "mistura"
+   ],
+   "fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/conselho-eleva-de-30-para-32-teor-de-etanol-na-gasolina-por-180-dias/",
+   "revisado_em": "2026-11-22"
+  },
+  {
+   "id": "icms-2027",
+   "data": "2027-02-01",
+   "titulo": "ICMS da gasolina sobe de R$ 1,57 para R$ 1,64 por litro",
+   "tipo": "tributo",
+   "efeito": 0.07,
+   "status": "confirmado",
+   "explicacao": "Convênio ICMS 127/2026 (Confaz, 27/10/2026). Vale igual para todos os Estados.",
+   "fonte": "https://atlaspublico.com.br/noticias/confaz-fixa-aliquotas-de-icms-sobre-combustiveis-com-95742"
+  }
+ ],
+ "refinaria_privada": {
+  "_nota": "Estados em que refinarias privadas pesam no abastecimento (aproximado). Elas acompanham o mercado internacional de perto, então o petróleo e o dólar chegam mais rápido à bomba.",
+  "BA": "Acelen (Refinaria de Mataripe)",
+  "SE": "Acelen (Refinaria de Mataripe)",
+  "AL": "Acelen (Refinaria de Mataripe), em parte",
+  "AM": "Refinaria da Amazônia (REAM)",
+  "RR": "Refinaria da Amazônia (REAM)",
+  "AC": "Refinaria da Amazônia (REAM)",
+  "RO": "Refinaria da Amazônia (REAM)",
+  "RN": "Refinaria Clara Camarão (Guamaré), em parte"
+ }
+}
