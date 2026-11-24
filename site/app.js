@@ -1,4 +1,4 @@
-/* Gasolina: vai subir ou cair? — tela do app (HTML/JS puro, sem bibliotecas).
+/* Gas: vai subir ou cair? (antes "Gasolina") — tela do app (HTML/JS puro, sem bibliotecas).
    Organizada em 6 abas: Resumo, Postos, Por quê, Estados, Agenda e Sobre.
    Os dados vêm prontos (painel.json, historico.json, municipios.json, postos/<UF>.json); aqui só se desenha. */
 (function () {
@@ -184,7 +184,7 @@
     desenharMetodo();
     desenharFontes();
     if (H && aba === "porque") desenharGraficos();
-    document.title = `Gasolina em ${L.nome}: vai subir ou cair?`;
+    document.title = `Gas · ${L.nome}: vai subir ou cair?`;
   }
 
   function desenharFrescor() {
@@ -876,7 +876,7 @@
       bt.disabled = false;
       notaMapa("");
       aviso(err.code === 1
-        ? "Sem permissão de localização. Para liberar: Configurações do celular → Apps → Gasolina → Permissões → Localização."
+        ? "Sem permissão de localização. Para liberar: Configurações do celular → Apps → Gas → Permissões → Localização."
         : "Não consegui achar sua localização agora. Confira se a localização (GPS) do celular está ligada.");
     }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 120000 });
   }
@@ -1110,7 +1110,7 @@
     const u = new URL(NATIVO ? Nativo.REMOTO : local && P && P.endereco_publico ? P.endereco_publico : location.href);
     u.search = lugar === "BR" ? "" : "?local=" + encodeURIComponent(lugar);
     u.hash = "";
-    let texto = "Gasolina: vai subir ou cair? Preço, previsão e os motivos.";
+    let texto = "Gas: o preço do combustível vai subir ou cair? Preço, previsão, postos e os motivos.";
     if (L && L.a) texto = `Gasolina em ${L.nome}: ${reais(L.a.preco)}. ${(TEXTO_VEREDITO[L.a.veredito] || TEXTO_VEREDITO.incerto)[1]} nas próximas ${P.modelo.horizonte} semanas. Veja os motivos:`;
     if (local && !(P && P.endereco_publico)) {
       aviso("Este endereço só funciona no seu PC. Para mandar a outras pessoas, publique o app: gasolina publicar");
@@ -1215,7 +1215,7 @@
           const r = P ? await Nativo.lembretes.ligar(P.eventos || [], reais) : "sem-dados";
           if (r !== "ok") {
             caixa.checked = false;
-            aviso(r === "negado" ? "O Android não deixou: libere as notificações do Gasolina nas Configurações." : "Não consegui ligar os lembretes agora.");
+            aviso(r === "negado" ? "O Android não deixou: libere as notificações do Gas nas Configurações." : "Não consegui ligar os lembretes agora.");
           } else aviso("Pronto: aviso às 9h na véspera e no dia de cada data.");
         } else { await Nativo.lembretes.desligar(); aviso("Lembretes desligados."); }
       });
@@ -1313,7 +1313,7 @@
     bt.disabled = true; bt.textContent = "Baixando…";
     try {
       const r = await window.AtualizarApp.instalar();
-      if (r === "permissao") aviso('Só da primeira vez: ligue "Permitir desta fonte" para o Gasolina, volte e toque em Atualizar de novo.');
+      if (r === "permissao") aviso('Só da primeira vez: ligue "Permitir desta fonte" para o Gas, volte e toque em Atualizar de novo.');
     } catch (e) { aviso(e.message || "Não consegui baixar a versão nova. Confira a internet."); }
     bt.disabled = false; bt.textContent = "Atualizar";
   }

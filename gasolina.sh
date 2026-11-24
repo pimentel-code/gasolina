@@ -7,6 +7,7 @@
 #   gasolina eventos      abre o calendário de impostos/datas para editar
 #   gasolina publicar     põe o app na internet (GitHub) e o APK para baixar; "publicar sim" confirma direto
 #   gasolina link         mostra o link para mandar a outras pessoas
+#   gasolina convite      link + QR da página de convite (passo a passo para instalar)
 #   gasolina qr           mostra o QR code para baixar o APK no celular (depois de publicar)
 #   gasolina ligar-robo   liga o site e a atualização no GitHub (precisa: gh auth refresh -s workflow)
 #   gasolina testar       abre o app num navegador de teste e confere erros
@@ -131,16 +132,16 @@ with zipfile.ZipFile('miolo.zip', 'w', zipfile.ZIP_DEFLATED) as z:
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || true
   local t
-  for t in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
+  for t in 1 2 3; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin main && break; sleep 5; done
   gh release create "v1.$novo" Gasolina.apk miolo.zip -R "$CONTA/$REPO" --prerelease --latest=false \
-    --title "Gasolina 1.$novo (teste)" --notes "$nota
+    --title "Gas 1.$novo (teste)" --notes "$nota
 
 [nativo:$nativo]" || return 1
   if [ "$nativo" = "$novo" ]; then tipo="com parte NATIVA nova: os celulares mostram \"Versão nova\" para instalar o APK"
   else tipo="só telas/regras: os celulares se atualizam sozinhos, sem aviso"; fi
   local link="https://github.com/$CONTA/$REPO/releases/download/v1.$novo/Gasolina.apk"
   echo
-  echo "${ok}Publicado para TESTE: Gasolina 1.$novo${f} ($tipo)."
+  echo "${ok}Publicado para TESTE: Gas 1.$novo${f} ($tipo)."
   echo "Recebem: os celulares com \"Receber versões de teste\" ligado (aba Sobre). A estável não mudou."
   echo "Instalar à mão: $link"
   if command -v qrencode >/dev/null; then
@@ -158,16 +159,16 @@ aprovar_versao() {
   if [ -z "$tag" ] || [ "$tag" = "null" ]; then echo "Não há versão de teste esperando aprovação."; return 1; fi
   n="${tag#v1.}"
   notas=$(gh release view "$tag" -R "$CONTA/$REPO" --json body --jq .body | sed 's/\[nativo:[0-9]*\]//' | head -c 300)
-  gh release edit "$tag" -R "$CONTA/$REPO" --prerelease=false --latest --title "Gasolina 1.$n" || return 1
+  gh release edit "$tag" -R "$CONTA/$REPO" --prerelease=false --latest --title "Gas 1.$n" || return 1
   escrever_versao "$n" "$notas"
   git add site/app-versao.json
   git -c user.email="$EMAIL" -c user.name="pedropimentel" commit -q -m "Gasolina 1.$n liberada para todos" || true
   local t
-  for t in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
+  for t in 1 2 3; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin main && break; sleep 5; done
   git fetch -q --tags origin
   git push -q -f origin "$tag^{commit}:refs/heads/estavel"      # o site (quando ligado) sai deste ramo
   echo
-  echo "${ok}Liberado para todos: Gasolina 1.$n.${f}"
+  echo "${ok}Liberado para todos: Gas 1.$n.${f}"
   echo "  · os celulares trocam as telas sozinhos; se a versão pede APK novo, aparece \"Versão nova\" com o botão Atualizar"
   mostrar_qr
 }
@@ -241,6 +242,14 @@ EOF
 
   testar-celular)
     node testes/coletor-js.mjs --rede 2>&1 | grep -v '^Warning' && node testes/postos.mjs && ./copiar-www.sh && FOTOS=/tmp node testes/apk.js ;;
+
+  convite)     # página de convite (passo a passo para instalar) — link + QR code
+    printf '\n%sMande este link (WhatsApp, e-mail…):%s\n  %shttps://%s.github.io/%s/instalar.html%s\n' "$ok" "$f" "$v" "$CONTA" "$REPO" "$f"
+    curl -s -o /dev/null -w '%{http_code}' "https://$CONTA.github.io/$REPO/instalar.html" | grep -q 200 \
+      || echo "${a}Atenção: a página ainda não está no ar (o site liga com: gasolina ligar-robo, e precisa de uma versão aprovada que já tenha a página).${f}"
+    printf '\n  QR code para imprimir ou mandar como imagem:\n  %s/site/icones/convite-qr.png\n\n' "$PASTA"
+    xdg-open "$PASTA/site/icones/convite-qr.png" >/dev/null 2>&1 &
+    ;;
 
   link)
     if publicado; then echo "https://$CONTA.github.io/$REPO/"; echo "Para uma cidade: https://$CONTA.github.io/$REPO/?local=PE/PETROLINA"

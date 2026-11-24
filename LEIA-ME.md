@@ -266,3 +266,7 @@ O app Android tem duas partes:
 - **Testes:** `node testes/miolo.js` cobre 5 situações de escolha de versão. `testes/apk.js` simula um GitHub com 1.8 (só telas) e 1.9 (APK novo).
 - **A 1ª versão com isso** precisa ser instalada **à mão** (QR), porque os APKs antigos não têm a peça. Depois, nunca mais.
 - Backup de antes: `.antes-autoatualizar-20261123/`.
+
+## Nome "Gas" e página de convite (23/11/2026)
+- O nome visível passou a ser **Gas** (tela, ícone no celular, Painel). Pasta, repositório, comando `gasolina` e o arquivo `Gasolina.apk` continuam com o nome antigo de propósito: trocar quebraria o link fixo e a atualização de quem já instalou. Backup: `.antes-nome-gas-20261123/`.
+- Convite: `site/instalar.html` (passo a passo Android/iPhone; no PC mostra QR). Link: https://pimentel-code.github.io/gasolina/instalar.html — `gasolina convite` mostra link + QR (`site/icones/convite-qr.png`). Só fica no ar com o site ligado (`gasolina ligar-robo`) e depois de aprovar uma versão que tenha a página (o site sai do ramo `estavel`).

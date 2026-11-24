@@ -1,6 +1,6 @@
 {
-  "name": "Gasolina: vai subir ou cair?",
-  "short_name": "Gasolina",
+  "name": "Gas: vai subir ou cair?",
+  "short_name": "Gas",
   "description": "Preço da gasolina por Estado e cidade, previsão das próximas semanas e os motivos.",
   "lang": "pt-BR",
   "start_url": "./",

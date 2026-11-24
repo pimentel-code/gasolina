@@ -1,7 +1,7 @@
 /* Funciona sem internet: guarda a tela e os últimos dados.
    Tela: do cache primeiro (troca de versão = muda VERSAO).
    Dados: da internet primeiro; sem rede, o último guardado. */
-const VERSAO = "gasolina-v4";
+const VERSAO = "gasolina-v5";
 const TELA = ["./", "index.html", "estilo.css", "app.js", "graficos.js", "nativo.js", "miolo.js", "manifest.webmanifest", "icones/icone.svg", "icones/icone-192.png"];
 
 self.addEventListener("install", e => {

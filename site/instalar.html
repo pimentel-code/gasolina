@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Instalar o Gas</title>
+<meta name="description" content="O preço do combustível vai subir ou cair? Previsão, postos mais baratos da sua cidade e os motivos. Grátis, sem cadastro.">
+<meta property="og:title" content="Instalar o Gas">
+<meta property="og:description" content="O preço do combustível vai subir ou cair? Previsão, postos mais baratos da sua cidade e os motivos. Grátis, sem cadastro.">
+<meta property="og:image" content="icones/icone-512.png">
+<meta name="theme-color" content="#184f95">
+<link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+<style>
+  :root {
+    color-scheme: light dark;
+    --azul: #184f95; --azul-claro: #e8f0fb; --fundo: #f3f5f8; --cartao: #fff;
+    --texto: #1c2026; --suave: #5b616b; --linha: #dfe3ea; --verde: #0a8a0a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --azul-claro: #1b2b40; --fundo: #0e1014; --cartao: #181b21; --texto: #eef0f3; --suave: #a3a9b3; --linha: #2a2f38; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--fundo); color: var(--texto); }
+  .topo { background: linear-gradient(160deg, #184f95 0%, #2a78d6 100%); color: #fff; text-align: center; padding: 36px 20px 68px; }
+  .topo img { width: 88px; height: 88px; border-radius: 22px; background: #fff; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+  .topo h1 { margin: 14px 0 2px; font-size: 34px; letter-spacing: .01em; }
+  .topo .lema { margin: 0 0 10px; font-size: 18px; opacity: .95; }
+  .topo p { margin: 0 auto; max-width: 470px; opacity: .92; font-size: 16px; }
+  main { max-width: 560px; margin: -44px auto 40px; padding: 0 16px; }
+  .cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 22px; padding: 20px; margin-bottom: 16px; box-shadow: 0 10px 30px rgba(16,24,40,.10); }
+  h2 { margin: 0 0 6px; font-size: 21px; }
+  .sub { color: var(--suave); margin: 0 0 14px; font-size: 15px; }
+  .botao { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; min-height: 58px; border-radius: 16px;
+    background: var(--azul); color: #fff; font-size: 19px; font-weight: 700; text-decoration: none; box-shadow: 0 6px 18px rgba(24,79,149,.35); }
+  .botao:active { transform: scale(.98); }
+  .versao { text-align: center; color: var(--suave); font-size: 14px; margin: 8px 0 0; }
+  ol { padding: 0; margin: 18px 0 0; list-style: none; counter-reset: passo; }
+  ol li { counter-increment: passo; position: relative; padding: 0 0 16px 48px; min-height: 36px; }
+  ol li::before { content: counter(passo); position: absolute; left: 0; top: -2px; width: 34px; height: 34px; border-radius: 50%;
+    background: var(--azul-claro); color: var(--azul); font-weight: 800; display: grid; place-items: center; }
+  @media (prefers-color-scheme: dark) { ol li::before { color: #7fb2ef; } }
+  .tela { display: inline-block; margin-top: 4px; padding: 2px 10px; border-radius: 10px; background: var(--fundo); border: 1px solid var(--linha); font-size: 14px; font-weight: 650; }
+  .dica { font-size: 14px; color: var(--suave); display: block; margin-top: 4px; }
+  .faz { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+  .faz li { display: flex; gap: 12px; align-items: flex-start; }
+  .faz span { font-size: 24px; line-height: 1.2; flex: none; width: 32px; text-align: center; }
+  .qr { text-align: center; }
+  .qr img { width: 220px; height: 220px; background: #fff; padding: 10px; border-radius: 16px; border: 1px solid var(--linha); }
+  .escondido { display: none; }
+  .troca { text-align: center; margin: 4px 0 18px; font-size: 15px; }
+  .troca a { color: var(--azul); font-weight: 650; }
+  @media (prefers-color-scheme: dark) { .troca a { color: #7fb2ef; } }
+  .rodape { text-align: center; color: var(--suave); font-size: 13px; padding: 0 16px 30px; }
+</style>
+</head>
+<body>
+<header class="topo">
+  <img src="icones/icone-192.png" alt="">
+  <h1>Gas</h1>
+  <p class="lema">O combustível vai subir ou cair?</p>
+  <p>Preço da gasolina na sua cidade, a chance de mudar nas próximas semanas e os postos mais baratos no mapa. Grátis, sem cadastro.</p>
+</header>
+
+<main>
+  <!-- no computador: QR para abrir no celular -->
+  <section class="cartao qr escondido" id="noPC">
+    <h2>Abra esta página no celular</h2>
+    <p class="sub">Aponte a câmera do celular para o código:</p>
+    <img src="icones/convite-qr.svg" alt="QR code do convite do Gas">
+  </section>
+
+  <section class="cartao">
+    <h2>O que o Gas faz</h2>
+    <ul class="faz">
+      <li><span>⛽</span><div><b>Preço de hoje</b> na sua cidade ou Estado, com dados oficiais da ANP.</div></li>
+      <li><span>📈</span><div><b>Vai subir ou cair?</b> A chance de o preço mudar nas próximas semanas, e por quê, em palavras simples.</div></li>
+      <li><span>📍</span><div><b>Postos no mapa</b>: quanto cada posto cobra pela gasolina, etanol e diesel, e qual fica mais perto de você.</div></li>
+      <li><span>📅</span><div><b>Datas que mexem no preço</b>, como mudanças de imposto, com aviso no celular se você quiser.</div></li>
+    </ul>
+  </section>
+
+  <section class="cartao" id="android">
+    <h2>📱 Android</h2>
+    <p class="sub">Instala uma vez. Depois o Gas se atualiza sozinho.</p>
+    <a class="botao" id="baixar" href="https://github.com/pimentel-code/gasolina/releases/latest/download/Gasolina.apk">⬇️ Baixar o Gas</a>
+    <p class="versao" id="versao">&nbsp;</p>
+    <ol>
+      <li>Toque em <strong>Baixar o Gas</strong>.
+        <span class="dica">Se o navegador disser que o arquivo "pode ser perigoso", toque em <span class="tela">Baixar mesmo assim</span>.
+        Ele avisa isso de todo app que não vem da Play Store.</span></li>
+      <li>Quando terminar, toque em <span class="tela">Abrir</span>.
+        <span class="dica">Se não aparecer, abra a pasta <strong>Downloads</strong> e toque em <strong>Gasolina.apk</strong>.</span></li>
+      <li>Só da primeira vez, o Android pergunta se pode instalar apps baixados pelo navegador.
+        Toque em <span class="tela">Configurações</span>, ligue <span class="tela">Permitir desta fonte</span> e volte.</li>
+      <li>Toque em <span class="tela">Instalar</span>.
+        <span class="dica">Se aparecer o Play Protect dizendo "app desconhecido", toque em
+        <span class="tela">Mais detalhes</span> → <span class="tela">Instalar mesmo assim</span>.</span></li>
+      <li>Abra o Gas e busque a sua cidade lá em cima.
+        <span class="dica">A localização só é pedida se você tocar na setinha da aba Postos ("perto de mim"). Ela fica no seu celular.</span></li>
+    </ol>
+  </section>
+
+  <p class="troca" id="trocaIphone"><a href="#iphone" id="verIphone">Tem iPhone? Veja aqui</a></p>
+
+  <section class="cartao escondido" id="iphone">
+    <h2>🍎 iPhone</h2>
+    <p class="sub">No iPhone o Gas funciona pelo Safari, como um app na tela de início.</p>
+    <a class="botao" href="./">Abrir o Gas</a>
+    <ol>
+      <li>Abra esta página no <strong>Safari</strong> e toque em <strong>Abrir o Gas</strong>.</li>
+      <li>Toque no botão <span class="tela">Compartilhar</span> (o quadrado com a setinha para cima).</li>
+      <li>Escolha <span class="tela">Adicionar à Tela de Início</span> → <span class="tela">Adicionar</span>.</li>
+      <li>Pronto: o ícone do Gas fica junto dos outros apps.</li>
+    </ol>
+  </section>
+
+  <section class="cartao">
+    <h2>🔒 Seus dados</h2>
+    <p class="sub" style="margin:0">Não tem cadastro nem login. O Gas não recebe nada seu: a cidade escolhida e a localização ficam só no seu celular.
+      É uma estimativa feita com dados públicos (ANP, Banco Central e outros), não uma garantia de preço.</p>
+  </section>
+</main>
+<p class="rodape">Gas · feito com dados oficiais e gratuitos</p>
+
+<script>
+  // celular Android ou iPhone: mostra o certo primeiro; computador: mostra o QR
+  const ua = navigator.userAgent;
+  const iphone = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const android = /Android/.test(ua);
+  if (!iphone && !android) document.getElementById("noPC").classList.remove("escondido");
+  if (iphone) {
+    document.getElementById("iphone").classList.remove("escondido");
+    document.getElementById("android").classList.add("escondido");
+    document.getElementById("trocaIphone").innerHTML = '<a href="#android" id="verAndroid">Tem Android? Veja aqui</a>';
+  }
+  document.addEventListener("click", e => {
+    const a = e.target.closest("#verIphone, #verAndroid");
+    if (!a) return;
+    e.preventDefault();
+    const alvo = document.getElementById(a.id === "verIphone" ? "iphone" : "android");
+    alvo.classList.remove("escondido");
+    alvo.scrollIntoView({ behavior: "smooth" });
+  });
+  fetch("app-versao.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(v => {
+    if (v && v.versao) document.getElementById("versao").textContent = `Versão ${v.versao} · cerca de 8 MB`;
+  }).catch(() => { });
+</script>
+</body>
+</html>
