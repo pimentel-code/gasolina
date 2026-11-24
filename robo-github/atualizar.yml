@@ -63,9 +63,15 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
+      # telas: da última versão APROVADA (ramo "estavel"); dados: os mais novos (ramo main)
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: estavel
+          fetch-depth: 0
+      - name: Dados mais novos
+        run: |
+          git fetch -q origin main
+          git checkout origin/main -- site/dados site/app-versao.json || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

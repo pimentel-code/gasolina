@@ -507,6 +507,16 @@ def main():
     base.gravar()
     gerar_saidas(base, cfg)
     base.gravar()           # o registro de previsões é atualizado ao gerar
+    try:                    # preço posto a posto (à parte: se falhar, o resto segue)
+        import postos
+        postos.atualizar()
+    except Exception as e:
+        log("Postos: falhou:", e)
+    try:                    # onde fica cada posto no mapa (só os novos; no máximo 15 min por rodada)
+        import locais
+        locais.atualizar(limite_min=15)
+    except Exception as e:
+        log("Locais: falhou:", e)
     falhas = [f for f, st in base.fontes.items() if not st.get("ok")]
     if falhas:
         log("Terminou com fontes falhando:", ", ".join(falhas))

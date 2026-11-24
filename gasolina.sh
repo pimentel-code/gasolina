@@ -12,7 +12,10 @@
 #   gasolina testar       abre o app num navegador de teste e confere erros
 #   gasolina registro     mostra as últimas atualizações automáticas
 #   gasolina apk          gera o app Android (Gasolina.apk) e põe uma cópia em ~/Downloads
-#   gasolina apk-nova "o que mudou"   publica versão nova do APK (os celulares são avisados)
+#   gasolina apk-teste "o que mudou"  publica versão de TESTE (só para quem ligou "versões de teste" no app)
+#   gasolina aprovar                  libera para TODOS a última versão de teste
+#   gasolina apk-nova "o que mudou"   publica e já libera para todos (apk-teste + aprovar)
+#   (os celulares se atualizam sozinhos, como o Prumo: telas sem aviso; APK novo com o botão Atualizar)
 #   gasolina testar-celular  confere o coletor do celular contra o do PC e simula o app (precisa de internet)
 #   gasolina sincronizar  (usado pelo relógio automático, 2x por dia)
 
@@ -85,6 +88,90 @@ enviar() {   # manda os dados novos para o GitHub (o site se atualiza sozinho)
   echo "${ruim}Não consegui enviar ao GitHub (sem internet?). Tento de novo na próxima vez.${f}"
 }
 
+# ---------------------------------------------------------------- publicar versões (o mesmo jeito do Prumo)
+# Cada versão vira uma release v1.N no GitHub com o APK e o miolo.zip (telas/regras).
+# Os celulares trocam o miolo SOZINHOS; só pedem para instalar o APK quando a parte
+# nativa mudou (marca [nativo:N] na release). Detalhes em site/miolo.js.
+
+publicar_versao() {
+  local nota="$1"
+  publicado || { echo "Primeiro publique o app: gasolina publicar"; return 1; }
+  gh api user >/dev/null 2>&1 || { echo "${ruim}O gh não está logado. Rode: gh auth login${f}"; return 1; }
+  echo "${v}Testando antes de publicar…${f}"
+  { node testes/miolo.js >/dev/null && node testes/postos.mjs >/dev/null && ./copiar-www.sh && FOTOS=/tmp node testes/apk.js >/dev/null; } \
+    || { echo "${ruim}O teste do app falhou: nada foi publicado.${f}"; return 1; }
+  git fetch -q --tags origin 2>/dev/null || true
+  local atual novo maior nativo ultima tipo
+  atual=$(grep -oP '^codigo=\K\d+' android/versao.properties)
+  maior=$(git tag -l 'v1.*' | grep -oP '^v1\.\K\d+' | sort -n | tail -1)
+  novo=$(( (maior > atual ? maior : atual) + 1 ))       # nunca repete número já usado (nem de teste)
+  sed -i "s/^codigo=.*/codigo=$novo/" android/versao.properties
+  # A parte nativa mudou desde a última versão? (pasta android/, plugins, configuração)
+  ultima=$(git tag -l 'v1.*' --sort=-v:refname | grep -E '^v1\.[0-9]+$' | head -1)
+  nativo=$(cat android/nativo-minimo.txt 2>/dev/null || echo "$novo")
+  if [ -z "$ultima" ] || ! git diff --quiet "$ultima" -- android capacitor.config.json package.json package-lock.json \
+       ':!android/versao.properties' ':!android/nativo-minimo.txt' ':!android/app/src/main/assets' \
+     || [ -n "$(git ls-files --others --exclude-standard android capacitor.config.json)" ]; then
+    nativo=$novo
+  fi
+  echo "$nativo" > android/nativo-minimo.txt
+  ./montar-apk.sh || return 1
+  rm -f miolo.zip
+  python3 -I -c "
+import zipfile, os
+with zipfile.ZipFile('miolo.zip', 'w', zipfile.ZIP_DEFLATED) as z:
+    for raiz, _, arqs in os.walk('www'):
+        for a in arqs:
+            c = os.path.join(raiz, a); z.write(c, os.path.relpath(c, 'www'))
+"
+  cp -f Gasolina.apk ~/Downloads/Gasolina-teste.apk
+  [ -n "$nota" ] || nota="Versão 1.$novo"
+  git add -A
+  git -c user.email="$EMAIL" -c user.name="pedropimentel" commit -q -m "Gasolina 1.$novo (teste): $nota
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || true
+  local t
+  for t in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
+  gh release create "v1.$novo" Gasolina.apk miolo.zip -R "$CONTA/$REPO" --prerelease --latest=false \
+    --title "Gasolina 1.$novo (teste)" --notes "$nota
+
+[nativo:$nativo]" || return 1
+  if [ "$nativo" = "$novo" ]; then tipo="com parte NATIVA nova: os celulares mostram \"Versão nova\" para instalar o APK"
+  else tipo="só telas/regras: os celulares se atualizam sozinhos, sem aviso"; fi
+  local link="https://github.com/$CONTA/$REPO/releases/download/v1.$novo/Gasolina.apk"
+  echo
+  echo "${ok}Publicado para TESTE: Gasolina 1.$novo${f} ($tipo)."
+  echo "Recebem: os celulares com \"Receber versões de teste\" ligado (aba Sobre). A estável não mudou."
+  echo "Instalar à mão: $link"
+  if command -v qrencode >/dev/null; then
+    qrencode -t ANSIUTF8 -m 2 "$link"
+    qrencode -s 10 -m 3 -o "$HOME/Downloads/Gasolina-TESTE-QR.png" "$link" && echo "(imagem: ~/Downloads/Gasolina-TESTE-QR.png)"
+  fi
+  echo "Gostou? Libere para todos com:  gasolina aprovar"
+}
+
+aprovar_versao() {
+  gh api user >/dev/null 2>&1 || { echo "${ruim}O gh não está logado. Rode: gh auth login${f}"; return 1; }
+  local tag="$1" n notas
+  [ -n "$tag" ] || tag=$(gh release list -R "$CONTA/$REPO" --limit 30 --json tagName,isPrerelease \
+                          --jq '[.[] | select(.isPrerelease) | select(.tagName | test("^v1\\.[0-9]+$"))][0].tagName')
+  if [ -z "$tag" ] || [ "$tag" = "null" ]; then echo "Não há versão de teste esperando aprovação."; return 1; fi
+  n="${tag#v1.}"
+  notas=$(gh release view "$tag" -R "$CONTA/$REPO" --json body --jq .body | sed 's/\[nativo:[0-9]*\]//' | head -c 300)
+  gh release edit "$tag" -R "$CONTA/$REPO" --prerelease=false --latest --title "Gasolina 1.$n" || return 1
+  escrever_versao "$n" "$notas"
+  git add site/app-versao.json
+  git -c user.email="$EMAIL" -c user.name="pedropimentel" commit -q -m "Gasolina 1.$n liberada para todos" || true
+  local t
+  for t in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
+  git fetch -q --tags origin
+  git push -q -f origin "$tag^{commit}:refs/heads/estavel"      # o site (quando ligado) sai deste ramo
+  echo
+  echo "${ok}Liberado para todos: Gasolina 1.$n.${f}"
+  echo "  · os celulares trocam as telas sozinhos; se a versão pede APK novo, aparece \"Versão nova\" com o botão Atualizar"
+  mostrar_qr
+}
+
 case "${1:-abrir}" in
   abrir)
     exec painel gasolina ;;
@@ -143,28 +230,17 @@ EOF
     ./montar-apk.sh || exit 1
     cp -f Gasolina.apk ~/Downloads/Gasolina.apk && echo "Cópia em ~/Downloads/Gasolina.apk (dá para mandar pelo WhatsApp e instalar no celular)." ;;
 
-  apk-nova)
-    publicado || { echo "Primeiro publique o app: gasolina publicar"; exit 1; }
-    gh api user >/dev/null 2>&1 || { echo "${ruim}O gh não está logado. Rode: gh auth login${f}"; exit 1; }
-    node testes/coletor-js.mjs >/dev/null 2>&1 && ./copiar-www.sh && FOTOS=/tmp node testes/apk.js >/dev/null || { echo "${ruim}O teste do app falhou: nada foi publicado.${f}"; exit 1; }
-    atual=$(grep -oP '^codigo=\K\d+' android/versao.properties); novo=$((atual + 1))
-    sed -i "s/^codigo=.*/codigo=$novo/" android/versao.properties
-    ./montar-apk.sh || exit 1
-    cp -f Gasolina.apk ~/Downloads/Gasolina.apk
-    nota="${2:-Versão 1.$novo}"
-    escrever_versao "$novo" "$nota"
-    puxar 2>/dev/null
-    git add -A
-    git -c user.email="$EMAIL" -c user.name="pedropimentel" commit -q -m "App Android 1.$novo: $nota
+  apk-teste)   # versão de TESTE: só chega a quem ligou "Receber versões de teste" no app
+    publicar_versao "${2:-}" ;;
 
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
-    git push -q origin main || { echo "${ruim}Não consegui enviar ao GitHub.${f}"; exit 1; }
-    gh release create "v1.$novo" Gasolina.apk -R "$CONTA/$REPO" --title "Gasolina 1.$novo" --notes "$nota" --latest || exit 1
-    echo "${ok}Publicado: Gasolina 1.$novo.${f} Quem tem o app vê o aviso \"Saiu a versão nova\" ao abrir."
-    mostrar_qr ;;
+  aprovar)     # libera para TODOS a última versão de teste (ou: gasolina aprovar v1.N)
+    aprovar_versao "${2:-}" ;;
+
+  apk-nova)    # publica e já libera para todos (= apk-teste + aprovar)
+    publicar_versao "${2:-}" && aprovar_versao "" ;;
 
   testar-celular)
-    node testes/coletor-js.mjs --rede 2>&1 | grep -v '^Warning' && ./copiar-www.sh && FOTOS=/tmp node testes/apk.js ;;
+    node testes/coletor-js.mjs --rede 2>&1 | grep -v '^Warning' && node testes/postos.mjs && ./copiar-www.sh && FOTOS=/tmp node testes/apk.js ;;
 
   link)
     if publicado; then echo "https://$CONTA.github.io/$REPO/"; echo "Para uma cidade: https://$CONTA.github.io/$REPO/?local=PE/PETROLINA"

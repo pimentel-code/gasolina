@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 rm -rf www && mkdir -p www/coletor www/lib www/base
 cp -r site/. www/
 rm -f www/sw.js www/app-versao.json                 # no app nativo os arquivos já são locais
-cp coletor-js/coletor.mjs coletor-js/pdf-texto.mjs www/coletor/
+cp coletor-js/coletor.mjs coletor-js/pdf-texto.mjs coletor-js/postos.mjs www/coletor/
 cp node_modules/pdfjs-dist/build/pdf.min.mjs node_modules/pdfjs-dist/build/pdf.worker.min.mjs www/lib/
 cp dados/*.json eventos.json www/base/
 codigo=$(grep -oP '^codigo=\K\d+' android/versao.properties 2>/dev/null || echo 1)

@@ -164,3 +164,105 @@ e nenhuma versão bateu o simples "vai ficar igual". Por isso o app mostra chanc
 | `~/.config/systemd/user/gasolina-atualizar.timer` | Relógio do PC (07:45 e 19:45) |
 
 Primeira carga do zero: `python3 -I coletor/atualizar.py --reconstruir` (cerca de 5 minutos, baixa ~40 MB).
+
+## Visual em abas (EM TESTE desde 22/11/2026)
+
+A tela foi reorganizada em 5 abas (no celular, a barra fica embaixo):
+**Resumo** (preço, previsão, motivos em linguagem simples, próximas datas) · **Por quê** (do que é feito o
+preço, o que mudou nos custos, importação, petróleo/dólar/etanol, um gráfico por vez) · **Estados** (mapa,
+ranking, cidades do Estado) · **Agenda** (calendário + notícias com filtro) · **Sobre** (método, acerto,
+fontes, tema claro/escuro).
+
+- Visual antigo guardado em `.antes-visual-20261122/` (site/, testes e gasolina.sh). Para desfazer:
+  `cp .antes-visual-20261122/{index.html,app.js,estilo.css} site/`.
+- APK de teste: `~/Downloads/Gasolina-teste.apk` (versão 1.2). Publicar o teste no GitHub sem mexer na
+  estável: `gasolina apk-teste "o que mudou"` (pré-lançamento; ninguém é avisado; o link fixo continua na 1.1).
+  Instalar a 1.2 de teste por cima da 1.1 mantém os dados.
+- Quando aprovado: `gasolina publicar` não é preciso de novo; rode `gasolina apk-nova "Visual novo em abas"`
+  (vira a 1.2 estável; quem tem o teste instala por cima sem perder nada).
+- Testes: `node testes/tela.js` passa pelas 5 abas em 4 tamanhos de tela (PC, celular claro/escuro, celular
+  pequeno) e acusa qualquer coisa que passe da borda do cartão.
+- 22/11 (2ª rodada, a pedido dele):
+  - Botão **"Entenda"** em 14 blocos. Abre uma explicação curta e sem termos econômicos. Os textos ficam no `EXPLICA` do app.js.
+  - Glossário "Palavras que aparecem no app" na aba Sobre (`GLOSSARIO`).
+  - **×** nos atalhos de lugar do topo, para tirar uma cidade ou Estado. O Brasil fica sempre.
+  - Rótulos técnicos trocados: gasolina A → "gasolina pura", PPI → "gasolina importada", "falta repassar" → "falta chegar à bomba".
+  - Backup desta rodada em `.antes-entenda-20261122/`.
+
+## Preço posto a posto — aba **Postos** (EM TESTE desde 23/11/2026)
+
+Pedido dele: ver os postos da cidade e quanto cada um cobra pela gasolina, pelo etanol e pelo diesel.
+Fonte: **dados abertos da ANP**, planilhas "últimas 4 semanas" do Levantamento de Preços
+(`…/dados-abertos/arquivos/shpc/qus/ultimas-4-semanas-gasolina-etanol.csv` e `…-diesel-gnv.csv`).
+Cada linha é um posto visitado, um combustível, a data da visita e o preço. São ~5.900 postos em 417 cidades
+(as mesmas do app), e a ANP atualiza uma vez por semana.
+
+- **Na tela:** aba **Postos** (6ª aba) com os combustíveis Gasolina, Etanol, Diesel S10 e Diesel comum.
+  - Postos do mais barato para o mais caro, com "visto em dd/mm", bandeira, endereço e os outros combustíveis.
+  - Botão "📍 Como chegar", que abre o Google Maps.
+  - Diferença num tanque de 50 L e "etanol ou gasolina" pela regra dos 70%.
+  - ~~No Resumo, cartão "Gasolina mais barata em <cidade>"~~ RETIRADO em 23/11 a pedido dele ("devem conter apenas na aba dos postos"). Backup em `site/*.bak-20261123-tirar-cartao-resumo`.
+  - Com Estado escolhido, a aba mostra as cidades dele para tocar.
+  - Tem "Entenda" e 4 palavras novas no glossário.
+- **No PC:** `coletor/postos.py` roda junto com a atualização das 07:45 e 19:45. Antes, pergunta à ANP o tamanho
+  das planilhas, baixando só 1 byte: a ANP **recusa HEAD**, então ele usa `Range: bytes=0-0` e lê o total no `Content-Range`.
+  Só baixa os ~12 MB quando a ANP publicou planilha nova. Grava `site/dados/postos/<UF>.json`, **sempre os 27**:
+  o Painel trava se a página pedir arquivo que não existe. Para forçar: `python3 -I coletor/postos.py --forcar`.
+- **No celular (APK):** o próprio aparelho confere o tamanho na ANP, no máximo a cada 6 h e só ao abrir uma cidade.
+  Se mudou, tenta primeiro o arquivo pequeno do Estado no GitHub (`raw.githubusercontent.com/…/site/dados/postos/UF.json`,
+  ~50 KB). Se o GitHub estiver atrasado, baixa a planilha inteira da ANP (~12 MB, uma vez por semana) e monta tudo
+  no aparelho. Funciona sem o PC.
+- **Regra dupla:** a conta existe em Python (`coletor/postos.py`) e em JS (`coletor-js/postos.mjs`).
+  `node testes/postos.mjs` compara os dois. Em 23/11/2026 os 27 Estados deram idênticos. O teste também roda no `apk-nova`.
+- **Testes:** `node testes/tela.js` passa pelas 6 abas e confere Petrolina (ordem, regra dos 70%, troca de combustível, link do mapa).
+  `testes/apk.js` simula um APK com preços velhos e confere que o "celular" baixou da ANP sozinho e não baixou de novo sem precisar.
+- **Não testado:** aparelho de verdade. Falta confirmar se o "Como chegar" abre o app Maps ou o navegador.
+- Backup de antes desta mudança: `.antes-postos-20261123/`.
+
+### Mini mapa dos postos (23/11/2026, EM TESTE) — a partir de uma tela do Dribbble que ele mandou
+
+- **Na aba Postos:** mapa da cidade com uma etiqueta de preço por posto.
+  - O mais barato fica em verde. Etiqueta tracejada quer dizer "local aproximado".
+  - Busca pelo nome do posto e botão de **seta**: "perto de mim", que usa o GPS só quando ele toca e não guarda nada.
+  - Cartões deslizando para o lado, sincronizados com o mapa: tocar numa etiqueta acende o cartão, e deslizar o cartão acende a etiqueta.
+  - Embaixo, "Todos os postos" com a escolha **Mais barato** (padrão) ou **Mais perto**.
+- **Ficou de fora, por decisão dele:** fotos dos postos e estrelas de avaliação (não há fonte gratuita) e tempo de viagem (achou desnecessário).
+  - "Como chegar" abre a rota no Google Maps com o ponto exato.
+- **Mapa:** MapLibre GL 5 (`site/lib/maplibre-gl.js`, 1 MB, carregado só quando a aba Postos abre) + **OpenFreeMap**
+  (`tiles.openfreemap.org/styles/positron` e `/dark`). É gratuito, sem chave e sem limite. Sem internet não há mapa, mas a lista funciona.
+- **Onde fica cada posto:** `coletor/locais.py`, só no PC. Usa o OpenStreetMap:
+  - Overpass traz os postos desenhados na cidade.
+  - Se o nome bate, o local é aquele.
+  - Senão, o Nominatim acha o endereço, com abreviações expandidas, e o ponto "encosta" no posto desenhado mais próximo.
+  - Se nada disso der certo, usa o bairro e marca como aproximado.
+  - Tudo respeita 1 pedido por segundo e fica guardado em `dados/postos_locais.json` (cada posto é procurado uma vez; os que falham são tentados de novo após 30 dias).
+  - Gera `site/dados/locais/<UF>.json`, sempre os 27.
+  - Roda na atualização das 07:45 e 19:45 (no máximo 15 min por rodada, só postos novos), com trava contra rodar duas vezes ao mesmo tempo.
+  - Primeira carga do país: `systemd-run --user --unit=gasolina-locais … python3 -I coletor/locais.py` (~7 h, iniciada em 23/11 às 22h). Andamento: `journalctl --user -u gasolina-locais -f`.
+  - Pernambuco: 190 de 209 postos no mapa (91%); 109 exatamente sobre o posto desenhado.
+- **No celular:** os locais vêm dentro do APK e são atualizados pelo GitHub (`raw…/site/dados/locais/UF.json`) a cada 6 h. O celular não procura endereços.
+  Posto novo que o celular baixou direto da ANP aparece só na lista até o PC achar o local dele.
+- **Permissão de localização** no `android/app/src/main/AndroidManifest.xml` (aproximada e exata).
+- **Testes:** `testes/tela.js` confere etiquetas, toque na etiqueta → cartão, "perto de mim" (com GPS simulado no centro de Petrolina) e a busca por nome.
+- Backup de antes do mapa: `.antes-mapa-20261123/`.
+
+## Atualização automática do app (como o Prumo) — desde 23/11/2026
+
+O app Android tem duas partes:
+- **Miolo** (telas, cores, regras: HTML/CSS/JS). Troca **sozinho**, sem aviso: `site/miolo.js` + `@capgo/capacitor-updater` em modo manual, sem a nuvem da Capgo.
+  - Ao abrir (no máximo a cada 30 min), o app pergunta ao GitHub as releases.
+  - Se houver um `miolo.zip` mais novo que sirva para o APK instalado, baixa e troca quando o app vai para o fundo.
+  - Se o miolo novo não abrir em 10 s, volta sozinho ao anterior. Os dados (IndexedDB/localStorage) não são tocados.
+- **Parte nativa** (APK: permissões, código Android, plugins). Quando muda, a release leva `[nativo:N]` maior que o APK instalado,
+  e o app mostra no Resumo a faixa **"Versão nova"** com o botão **Atualizar**.
+  - O botão chama `GasolinaPlugin.java`, que baixa o APK, só do `github.com/pimentel-code/gasolina/releases/download/`, e abre o instalador.
+  - Na primeira vez, o Android pede "Permitir desta fonte".
+- **Canais:** `gasolina apk-teste "o que mudou"` publica uma pré-release `v1.N` (APK + miolo.zip). Só a recebe quem ligou
+  **"Receber versões de teste"** na aba Sobre. `gasolina aprovar` libera para todos (vira a "latest", e o link fixo e o QR passam a dar essa versão).
+  `gasolina apk-nova "…"` faz as duas coisas de uma vez.
+- O script decide sozinho se a parte nativa mudou, comparando `android/`, `capacitor.config.json` e `package*.json` com a última tag `v1.N`
+  (inclui arquivos novos ainda não guardados). O número nunca se repete: a v1.2-teste antiga conta.
+- Site (quando o robô for ligado): o robô publica as telas do ramo **`estavel`** (a versão aprovada) com os dados mais novos do `main`. Assim a versão de teste não vaza para o site.
+- **Testes:** `node testes/miolo.js` cobre 5 situações de escolha de versão. `testes/apk.js` simula um GitHub com 1.8 (só telas) e 1.9 (APK novo).
+- **A 1ª versão com isso** precisa ser instalada **à mão** (QR), porque os APKs antigos não têm a peça. Depois, nunca mais.
+- Backup de antes: `.antes-autoatualizar-20261123/`.

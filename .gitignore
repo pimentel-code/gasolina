@@ -11,3 +11,6 @@ android/build/
 android/.gradle/
 android/app/src/main/assets/public/
 android/local.properties
+.antes-*/
+miolo.zip
+*.bak-*
