@@ -22006,6 +22006,1508 @@
     ]
    ]
   },
+  "GO/GOIATUBA": {
+   "bbox": [
+    -18.2054167,
+    -50.169207,
+    -17.775,
+    -49.1644836
+   ],
+   "centro": [
+    -18.0154577,
+    -49.3640591
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -18.133363,
+     -49.285513,
+     "Posto Alvorada",
+     " "
+    ],
+    [
+     -17.791841,
+     -49.573059,
+     "",
+     " "
+    ],
+    [
+     -17.795085,
+     -49.640715,
+     "",
+     " "
+    ],
+    [
+     -18.041661,
+     -49.267566,
+     "Posto O Caipirão",
+     "Ipiranga "
+    ],
+    [
+     -18.133481,
+     -49.284949,
+     "Posto Alvorada",
+     " "
+    ],
+    [
+     -17.808556,
+     -50.163588,
+     "Posto Porteirão",
+     " "
+    ],
+    [
+     -18.068692,
+     -50.151597,
+     "",
+     " "
+    ],
+    [
+     -18.133201,
+     -49.285169,
+     "Posto Alvorada",
+     " "
+    ],
+    [
+     -18.133375,
+     -49.285526,
+     "",
+     "Ipiranga "
+    ],
+    [
+     -18.055864,
+     -49.268793,
+     "",
+     " "
+    ],
+    [
+     -17.849284,
+     -49.220754,
+     "",
+     " "
+    ],
+    [
+     -18.009019,
+     -49.358247,
+     "",
+     " "
+    ],
+    [
+     -18.013046,
+     -49.358767,
+     "",
+     " "
+    ],
+    [
+     -18.012922,
+     -49.366907,
+     "",
+     " "
+    ],
+    [
+     -18.001276,
+     -49.357635,
+     "GASCOM",
+     " "
+    ],
+    [
+     -17.995343,
+     -49.364936,
+     "Posto Universitário",
+     " "
+    ],
+    [
+     -17.806497,
+     -49.620725,
+     "Auto Posto G13",
+     " "
+    ]
+   ]
+  },
+  "GO/ITUMBIARA": {
+   "bbox": [
+    -18.646,
+    -49.9792958,
+    -18.104,
+    -48.959
+   ],
+   "centro": [
+    -18.4135862,
+    -49.2172596
+   ],
+   "em": "2026-11-25",
+   "osm": null
+  },
+  "GO/LUZIANIA": {
+   "bbox": [
+    -17.0063291,
+    -48.402,
+    -16.0966889,
+    -47.64
+   ],
+   "centro": [
+    -16.2535456,
+    -47.9500276
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -16.311687,
+     -48.014263,
+     "Posto Corumbá",
+     "BR Petrobrás"
+    ],
+    [
+     -16.125342,
+     -47.962391,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.134076,
+     -47.954638,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.112822,
+     -47.970398,
+     "",
+     "Ipiranga "
+    ],
+    [
+     -16.286289,
+     -47.854979,
+     "",
+     " "
+    ],
+    [
+     -16.719663,
+     -47.655607,
+     "",
+     " "
+    ],
+    [
+     -16.151442,
+     -47.951336,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.992208,
+     -47.752808,
+     "Petrobrás",
+     " "
+    ],
+    [
+     -16.147359,
+     -47.944146,
+     "Posto Mais Você",
+     " "
+    ],
+    [
+     -16.146394,
+     -47.943247,
+     "Posto Masut",
+     " "
+    ],
+    [
+     -16.154625,
+     -47.955575,
+     "Mais Você",
+     " "
+    ],
+    [
+     -16.586613,
+     -48.34544,
+     "Rodoposto Oásis",
+     " "
+    ],
+    [
+     -16.115076,
+     -47.936905,
+     "",
+     " "
+    ],
+    [
+     -16.460636,
+     -48.210717,
+     "",
+     " "
+    ],
+    [
+     -16.110549,
+     -47.932929,
+     "",
+     " "
+    ],
+    [
+     -16.621894,
+     -47.749475,
+     "Posto 81",
+     " "
+    ],
+    [
+     -16.244982,
+     -47.90554,
+     "",
+     " "
+    ],
+    [
+     -16.148379,
+     -47.941375,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.498848,
+     -47.812088,
+     "",
+     " "
+    ],
+    [
+     -16.235431,
+     -47.911539,
+     "",
+     "BR "
+    ],
+    [
+     -16.221976,
+     -47.915534,
+     "",
+     "BR "
+    ],
+    [
+     -16.344876,
+     -47.836115,
+     "",
+     " "
+    ],
+    [
+     -16.719658,
+     -47.65555,
+     "",
+     " "
+    ],
+    [
+     -16.172247,
+     -47.928989,
+     "",
+     " "
+    ],
+    [
+     -16.813109,
+     -48.027687,
+     "ALE",
+     " "
+    ],
+    [
+     -16.586657,
+     -48.345366,
+     "Rodoposto Oásis",
+     " "
+    ],
+    [
+     -16.110551,
+     -47.932924,
+     "",
+     " "
+    ],
+    [
+     -16.1001,
+     -47.919735,
+     "BR",
+     "BR "
+    ]
+   ]
+  },
+  "GO/MINEIROS": {
+   "bbox": [
+    -18.6458659,
+    -53.2485624,
+    -16.765994,
+    -52.0984823
+   ],
+   "centro": [
+    -17.5653879,
+    -52.5536721
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -17.47219,
+     -52.572987,
+     "Posto 7 Milhas",
+     " "
+    ],
+    [
+     -17.54478,
+     -52.54217,
+     "Posto Hreis",
+     "Shell "
+    ],
+    [
+     -17.330941,
+     -53.200588,
+     "Vale do Araguaia",
+     "Simarelli "
+    ],
+    [
+     -17.565432,
+     -52.561175,
+     "BR",
+     "BR "
+    ],
+    [
+     -17.585799,
+     -52.554846,
+     "",
+     " "
+    ],
+    [
+     -17.562351,
+     -52.549197,
+     "Posto São Matheus",
+     "Ipiranga "
+    ],
+    [
+     -17.317994,
+     -53.212204,
+     "BR",
+     "BR Auto Posto Número Um Limitada"
+    ],
+    [
+     -17.551504,
+     -52.54739,
+     "Posto Potência",
+     " "
+    ],
+    [
+     -17.532477,
+     -52.532665,
+     "Décio Mineiros",
+     " "
+    ],
+    [
+     -17.317055,
+     -53.213003,
+     "Shell",
+     "Shell Posto da Divisa Limitada"
+    ],
+    [
+     -16.856641,
+     -53.029665,
+     "Alfa Auto Posto",
+     " "
+    ],
+    [
+     -17.41609,
+     -52.632017,
+     "Posto Fechado Tabocão VI",
+     " "
+    ],
+    [
+     -17.664815,
+     -52.229661,
+     "Posto 71",
+     "Ipiranga "
+    ],
+    [
+     -17.548355,
+     -52.544617,
+     "Posto Ipê",
+     "Ipiranga "
+    ],
+    [
+     -17.554708,
+     -52.548977,
+     "Posto Coqueiros",
+     "Petrobras "
+    ],
+    [
+     -17.555477,
+     -52.549575,
+     "Grupo WD",
+     " "
+    ],
+    [
+     -17.566072,
+     -52.562109,
+     "Posto Total Energies Colibri",
+     " "
+    ],
+    [
+     -17.562737,
+     -52.55102,
+     "Posto Centro Oeste",
+     "Shell "
+    ],
+    [
+     -17.568518,
+     -52.553824,
+     "",
+     "Shell "
+    ],
+    [
+     -17.561981,
+     -52.546485,
+     "Posto Masut",
+     "Shell "
+    ],
+    [
+     -17.360659,
+     -52.677362,
+     "Posto Monte Sinai",
+     " "
+    ],
+    [
+     -18.530423,
+     -53.144394,
+     "",
+     " "
+    ]
+   ]
+  },
+  "GO/MORRINHOS": {
+   "bbox": [
+    -18.0948884,
+    -49.4611869,
+    -17.5057135,
+    -48.8146322
+   ],
+   "centro": [
+    -17.7333689,
+    -49.105908
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -18.041661,
+     -49.267566,
+     "Posto O Caipirão",
+     "Ipiranga "
+    ],
+    [
+     -17.527608,
+     -49.215748,
+     "Posto São Roque",
+     " "
+    ],
+    [
+     -17.632891,
+     -49.175701,
+     "Posto Petrobras",
+     "BR "
+    ],
+    [
+     -17.666669,
+     -49.166431,
+     "Shell",
+     "Shell shell"
+    ],
+    [
+     -17.632898,
+     -49.175696,
+     "",
+     " "
+    ],
+    [
+     -18.055864,
+     -49.268793,
+     "",
+     " "
+    ],
+    [
+     -17.849284,
+     -49.220754,
+     "",
+     " "
+    ],
+    [
+     -17.527871,
+     -49.215784,
+     "Posto São Roque",
+     " "
+    ],
+    [
+     -17.666762,
+     -49.166649,
+     "Gascom",
+     " "
+    ],
+    [
+     -18.009019,
+     -49.358247,
+     "",
+     " "
+    ],
+    [
+     -18.013046,
+     -49.358767,
+     "",
+     " "
+    ],
+    [
+     -17.515374,
+     -49.440211,
+     "",
+     " "
+    ],
+    [
+     -18.012922,
+     -49.366907,
+     "",
+     " "
+    ],
+    [
+     -18.001276,
+     -49.357635,
+     "GASCOM",
+     " "
+    ],
+    [
+     -17.995343,
+     -49.364936,
+     "Posto Universitário",
+     " "
+    ]
+   ]
+  },
+  "GO/PORANGATU": {
+   "bbox": [
+    -13.7703828,
+    -49.7203849,
+    -12.79,
+    -48.8190697
+   ],
+   "centro": [
+    -13.444663,
+    -49.1423569
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -13.654688,
+     -48.868499,
+     "",
+     " "
+    ],
+    [
+     -13.432347,
+     -49.130244,
+     "",
+     " "
+    ],
+    [
+     -13.445578,
+     -49.133354,
+     "Posto Carreteiro",
+     " "
+    ],
+    [
+     -13.597264,
+     -49.042404,
+     "",
+     " "
+    ],
+    [
+     -13.450112,
+     -49.151087,
+     "",
+     " "
+    ],
+    [
+     -13.447187,
+     -49.146997,
+     "",
+     " "
+    ],
+    [
+     -13.451839,
+     -49.137386,
+     "",
+     " "
+    ],
+    [
+     -13.451854,
+     -49.135879,
+     "",
+     " "
+    ],
+    [
+     -13.440861,
+     -49.146286,
+     "Posto HS",
+     " "
+    ],
+    [
+     -13.433216,
+     -49.14236,
+     "",
+     " "
+    ],
+    [
+     -13.441296,
+     -49.133531,
+     "",
+     " "
+    ],
+    [
+     -13.422515,
+     -49.137201,
+     "",
+     " "
+    ],
+    [
+     -13.436162,
+     -49.143107,
+     "",
+     " Ipiranga"
+    ],
+    [
+     -13.436454,
+     -49.143987,
+     "",
+     " "
+    ],
+    [
+     -13.444486,
+     -49.148418,
+     "",
+     " "
+    ],
+    [
+     -12.830199,
+     -49.10063,
+     "",
+     " "
+    ],
+    [
+     -13.714015,
+     -49.020433,
+     "Auto Posto Scalabrini",
+     "GALP "
+    ],
+    [
+     -13.107031,
+     -49.201313,
+     "",
+     " "
+    ],
+    [
+     -12.830308,
+     -49.100609,
+     "",
+     " "
+    ],
+    [
+     -13.528225,
+     -49.113849,
+     "",
+     " "
+    ],
+    [
+     -13.597262,
+     -49.04239,
+     "",
+     " "
+    ],
+    [
+     -12.808276,
+     -49.095686,
+     "",
+     " "
+    ],
+    [
+     -13.318614,
+     -49.117702,
+     "",
+     " "
+    ]
+   ]
+  },
+  "GO/RIO VERDE": {
+   "bbox": [
+    -18.347,
+    -51.7307464,
+    -17.0898436,
+    -50.3568574
+   ],
+   "centro": [
+    -17.7921255,
+    -50.9191219
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -17.788575,
+     -50.917972,
+     "BR",
+     "BR "
+    ],
+    [
+     -17.81319,
+     -50.617944,
+     "",
+     " "
+    ],
+    [
+     -17.963895,
+     -50.486226,
+     "Posto Lagoa",
+     " Petrobras"
+    ],
+    [
+     -17.394513,
+     -50.382242,
+     "Posto da Maria",
+     " "
+    ],
+    [
+     -17.919612,
+     -51.697445,
+     "Posto Aldo",
+     "Ipiranga Aldo"
+    ],
+    [
+     -18.133638,
+     -50.618951,
+     "",
+     " "
+    ],
+    [
+     -17.788866,
+     -50.920994,
+     "BR",
+     "BR "
+    ],
+    [
+     -17.820234,
+     -50.9466,
+     "",
+     " "
+    ],
+    [
+     -17.810819,
+     -50.594138,
+     "posto jl",
+     " "
+    ],
+    [
+     -17.894754,
+     -51.725932,
+     "",
+     "BR "
+    ],
+    [
+     -17.806411,
+     -50.945798,
+     "Posto Décio L14",
+     "Petrobras Grupo Décio"
+    ],
+    [
+     -17.820925,
+     -51.002371,
+     "Posto Mahle",
+     "shell "
+    ],
+    [
+     -18.305142,
+     -51.144226,
+     "Posto Abobrão",
+     " "
+    ],
+    [
+     -17.819992,
+     -51.0022,
+     "Mahle",
+     " "
+    ],
+    [
+     -17.801592,
+     -50.91885,
+     "Auto Posto Bom Retiro",
+     " "
+    ],
+    [
+     -17.790716,
+     -50.89351,
+     "Posto WK (Antigo Zero Um)",
+     " "
+    ],
+    [
+     -17.810385,
+     -50.600735,
+     "",
+     " "
+    ],
+    [
+     -17.822138,
+     -50.58928,
+     "",
+     " "
+    ],
+    [
+     -17.751364,
+     -50.875533,
+     "Décio Posto e Restaurante",
+     " "
+    ],
+    [
+     -17.560069,
+     -50.630682,
+     "",
+     " "
+    ],
+    [
+     -17.391481,
+     -50.378639,
+     "",
+     " "
+    ],
+    [
+     -17.332416,
+     -51.539706,
+     "",
+     " "
+    ],
+    [
+     -17.751496,
+     -50.875628,
+     "Décio - Posto de Serviços",
+     "Décio "
+    ],
+    [
+     -17.93305,
+     -50.543872,
+     "",
+     " "
+    ],
+    [
+     -17.963823,
+     -50.48621,
+     "",
+     " "
+    ],
+    [
+     -17.800681,
+     -50.943026,
+     "Posto São João",
+     "Shell "
+    ],
+    [
+     -17.800435,
+     -50.942355,
+     "Posto Violeta",
+     "Bandeira Branca "
+    ],
+    [
+     -17.786812,
+     -50.904071,
+     "Posto Trevo",
+     "Petrobras "
+    ],
+    [
+     -17.768811,
+     -50.918399,
+     "Posto Economia",
+     "Bandeira Branca "
+    ],
+    [
+     -17.790734,
+     -50.945249,
+     "DECIO",
+     "Petrobras "
+    ],
+    [
+     -17.882709,
+     -51.717846,
+     "",
+     " "
+    ],
+    [
+     -17.449546,
+     -51.167815,
+     "Posto União",
+     " "
+    ],
+    [
+     -17.427946,
+     -51.185215,
+     "Posto do Trevo",
+     " "
+    ],
+    [
+     -17.888723,
+     -51.721452,
+     "",
+     " "
+    ],
+    [
+     -17.782139,
+     -50.905367,
+     "Posto Economia",
+     "Economia Rede Economia"
+    ],
+    [
+     -17.88855,
+     -51.715938,
+     "",
+     " "
+    ],
+    [
+     -17.884177,
+     -51.707258,
+     "",
+     " "
+    ],
+    [
+     -17.80163,
+     -50.918844,
+     "",
+     " "
+    ],
+    [
+     -17.790578,
+     -50.893434,
+     "",
+     " "
+    ],
+    [
+     -17.895299,
+     -51.730125,
+     "",
+     " "
+    ],
+    [
+     -17.384043,
+     -50.371595,
+     "",
+     " "
+    ],
+    [
+     -17.394594,
+     -50.382078,
+     "",
+     " "
+    ],
+    [
+     -17.39998,
+     -50.375918,
+     "",
+     " "
+    ],
+    [
+     -17.392701,
+     -50.371221,
+     "Posto Serra Pelada",
+     " "
+    ],
+    [
+     -17.392401,
+     -50.38205,
+     "",
+     " "
+    ],
+    [
+     -17.81786,
+     -50.60637,
+     "",
+     " "
+    ]
+   ]
+  },
+  "GO/TRINDADE": {
+   "bbox": [
+    -16.8128705,
+    -49.695789,
+    -16.489418,
+    -49.379
+   ],
+   "centro": [
+    -16.6549924,
+    -49.4876203
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -16.503923,
+     -49.421691,
+     "",
+     " "
+    ],
+    [
+     -16.501899,
+     -49.42183,
+     "",
+     " "
+    ],
+    [
+     -16.552105,
+     -49.406137,
+     "",
+     " "
+    ],
+    [
+     -16.648558,
+     -49.416992,
+     "",
+     " "
+    ],
+    [
+     -16.657022,
+     -49.381511,
+     "Auto Posto Felicidade",
+     " "
+    ],
+    [
+     -16.547664,
+     -49.404401,
+     "Posto Califórnia",
+     " "
+    ],
+    [
+     -16.756754,
+     -49.439732,
+     "Posto JF",
+     " "
+    ],
+    [
+     -16.68475,
+     -49.386212,
+     "Auto Posto Vera Cruz",
+     " "
+    ],
+    [
+     -16.645654,
+     -49.489209,
+     "",
+     " "
+    ],
+    [
+     -16.659439,
+     -49.502361,
+     "",
+     " "
+    ],
+    [
+     -16.655333,
+     -49.498908,
+     "",
+     " "
+    ],
+    [
+     -16.663711,
+     -49.499309,
+     "",
+     " "
+    ],
+    [
+     -16.654599,
+     -49.487035,
+     "",
+     " "
+    ],
+    [
+     -16.644908,
+     -49.479739,
+     "",
+     " "
+    ],
+    [
+     -16.646291,
+     -49.489233,
+     "",
+     " "
+    ],
+    [
+     -16.647548,
+     -49.505229,
+     "",
+     " "
+    ],
+    [
+     -16.64812,
+     -49.499371,
+     "",
+     " "
+    ],
+    [
+     -16.645191,
+     -49.464754,
+     "",
+     " "
+    ],
+    [
+     -16.644909,
+     -49.460031,
+     "",
+     " "
+    ]
+   ]
+  },
+  "GO/VALPARAISO DE GOIAS": {
+   "bbox": [
+    -16.1369351,
+    -48.0307223,
+    -16.0489815,
+    -47.9385728
+   ],
+   "centro": [
+    -16.0686394,
+    -47.9764907
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -16.050062,
+     -48.008149,
+     "",
+     " "
+    ],
+    [
+     -16.051134,
+     -48.007875,
+     "",
+     " "
+    ],
+    [
+     -16.054749,
+     -48.010922,
+     "",
+     " "
+    ],
+    [
+     -16.125342,
+     -47.962391,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.134076,
+     -47.954638,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.094671,
+     -47.982083,
+     "Posto Ipiranga",
+     "Ipiranga Ipiranga"
+    ],
+    [
+     -16.112822,
+     -47.970398,
+     "",
+     "Ipiranga "
+    ],
+    [
+     -16.090488,
+     -47.983117,
+     "Posto Ipiranga",
+     "Ipiranga Texaco"
+    ],
+    [
+     -16.08579,
+     -47.986032,
+     "V-TEX",
+     " "
+    ],
+    [
+     -16.052525,
+     -48.008173,
+     "",
+     " Petrobrás"
+    ],
+    [
+     -16.068996,
+     -47.985409,
+     "Posto de Gasolina Mais Você",
+     "Independent "
+    ],
+    [
+     -16.065353,
+     -48.011005,
+     "Ipiranga",
+     " "
+    ],
+    [
+     -16.051544,
+     -48.029694,
+     "Posto de Gasolina",
+     " Rua 34"
+    ],
+    [
+     -16.07548,
+     -47.99089,
+     "",
+     " "
+    ],
+    [
+     -16.062379,
+     -47.984051,
+     "Sol Telecom",
+     "Sol "
+    ],
+    [
+     -16.053584,
+     -47.965586,
+     "Posto Park",
+     " "
+    ],
+    [
+     -16.066037,
+     -48.029343,
+     "Posto Sr.",
+     " "
+    ],
+    [
+     -16.068377,
+     -47.975892,
+     "Posto BR",
+     "BR "
+    ],
+    [
+     -16.074901,
+     -47.986381,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.059548,
+     -47.982425,
+     "Ipiranga",
+     "Ipiranga "
+    ],
+    [
+     -16.057534,
+     -47.982017,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.054806,
+     -47.98296,
+     "",
+     " "
+    ],
+    [
+     -16.06331,
+     -47.982993,
+     "Shell",
+     "Shell "
+    ],
+    [
+     -16.078733,
+     -47.985487,
+     "Shell",
+     "Shell "
+    ],
+    [
+     -16.078165,
+     -47.986807,
+     "BR",
+     "BR "
+    ],
+    [
+     -16.054868,
+     -47.981756,
+     "Ipiranga",
+     "Ipiranga "
+    ]
+   ]
+  },
+  "MA/ACAILANDIA": {
+   "bbox": [
+    -5.168,
+    -48.0253655,
+    -4.236,
+    -46.841
+   ],
+   "centro": [
+    -4.9515026,
+    -47.500732
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -4.686841,
+     -46.982923,
+     "Posto Novo Bacabal",
+     " "
+    ],
+    [
+     -4.561181,
+     -47.492738,
+     "",
+     " Shell"
+    ],
+    [
+     -4.932619,
+     -47.502343,
+     "Auto Posto 77",
+     " Ale"
+    ],
+    [
+     -4.319965,
+     -47.551977,
+     "",
+     " Petrobras"
+    ],
+    [
+     -4.439923,
+     -47.535632,
+     "Auto Posto Fronteira",
+     " "
+    ],
+    [
+     -4.31343,
+     -47.553244,
+     "",
+     " "
+    ],
+    [
+     -4.298198,
+     -47.555745,
+     "",
+     " Petrobras"
+    ],
+    [
+     -4.904934,
+     -47.402456,
+     "",
+     " "
+    ],
+    [
+     -4.905783,
+     -47.406137,
+     "",
+     " "
+    ],
+    [
+     -5.110429,
+     -47.550084,
+     "",
+     " "
+    ],
+    [
+     -5.052451,
+     -47.554043,
+     "",
+     " "
+    ],
+    [
+     -5.018765,
+     -47.547131,
+     "",
+     " "
+    ],
+    [
+     -4.954576,
+     -47.503365,
+     "",
+     " "
+    ],
+    [
+     -4.45397,
+     -47.525967,
+     "Posto do Edinho",
+     " "
+    ],
+    [
+     -4.699021,
+     -47.49554,
+     "",
+     " "
+    ],
+    [
+     -4.954498,
+     -47.50454,
+     "",
+     " "
+    ],
+    [
+     -4.939256,
+     -47.463393,
+     "",
+     " "
+    ],
+    [
+     -4.486739,
+     -46.855225,
+     "",
+     " "
+    ],
+    [
+     -4.48303,
+     -46.855312,
+     "BR",
+     "BR "
+    ],
+    [
+     -4.955792,
+     -47.469599,
+     "Auto Posto Sol Nascente",
+     "BR "
+    ],
+    [
+     -4.947923,
+     -47.476639,
+     "Auto Posto Quatro Rodas",
+     "BR "
+    ],
+    [
+     -4.945247,
+     -47.473647,
+     "Posto Cajuapara 2",
+     "Ipiranga "
+    ]
+   ]
+  },
+  "MA/BACABAL": {
+   "bbox": [
+    -4.3842791,
+    -45.083,
+    -3.8547935,
+    -44.4799035
+   ],
+   "centro": [
+    -4.2318132,
+    -44.781167
+   ],
+   "em": "2026-11-25",
+   "osm": [
+    [
+     -4.069454,
+     -45.068842,
+     "",
+     " "
+    ],
+    [
+     -4.234693,
+     -44.882671,
+     "",
+     " "
+    ],
+    [
+     -4.231724,
+     -44.824889,
+     "",
+     " "
+    ],
+    [
+     -4.229726,
+     -44.811901,
+     "",
+     " "
+    ],
+    [
+     -4.377059,
+     -44.668552,
+     "",
+     " "
+    ]
+   ]
+  },
   "PE/ARARIPINA": {
    "bbox": [
     -7.9972901,
@@ -38165,6 +39667,1126 @@
    "ll": [
     -16.6754161,
     -49.29329
+   ],
+   "prec": "rua"
+  },
+  "GO|GOIATUBA|A1 COMBUSTIVEIS GOIATUBA LTDA|AVENIDA PRESIDENTE VARGAS, 357": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.0122695,
+    -49.3789515
+   ],
+   "prec": "rua"
+  },
+  "GO|GOIATUBA|AUTO POSTO KIKUDA LTDA|RUA SAO FRANCISCO, 444": {
+   "bruto": [
+    [
+     -18.0133639,
+     -49.3577634
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -18.013046,
+    -49.358767
+   ],
+   "prec": "posto"
+  },
+  "GO|GOIATUBA|AUTO POSTO SCAPIM LTDA. - ME|RUA MINAS GERAIS, 549": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.0115222,
+    -49.3742093
+   ],
+   "prec": "rua"
+  },
+  "GO|GOIATUBA|AUTO POSTO VIP LTDA|RUA PIAUI, 559": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.0096244,
+    -49.3403878
+   ],
+   "prec": "rua"
+  },
+  "GO|GOIATUBA|POSTO JB MOURA LTDA|RODOVIA GO 320 (QUADRA33 LOTE 20 AO 22)": {
+   "bruto": [
+    [
+     -18.0470224,
+     -49.2677858
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -18.041661,
+    -49.267566
+   ],
+   "prec": "posto"
+  },
+  "GO|GOIATUBA|POSTO NOVO HORIZONTE GOIATUBA LTDA|RODOVIA RODOVIA GO 320, 245 (KM 11)": {
+   "bruto": [
+    [
+     -18.0470224,
+     -49.2677858
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -18.0470224,
+    -49.2677858
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|ALFA COMBUSTIVEIS LTDA|VIA EXPRESSA JULIO BORGES DE SOUZA, 4320": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.4125207,
+    -49.1943804
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|AUTO POSTO AVENIDA I LTDA|AVENIDA AFONSO PENA, 604": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.4140176,
+    -49.2154553
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|AUTO POSTO CABORNA LTDA|VIA EXP. MUCIO DE SOUZA REZENDE, 4185": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.373519,
+    -49.2146137
+   ],
+   "prec": "aproximado"
+  },
+  "GO|ITUMBIARA|IPE COMERCIO LTDA|AVENIDA DR. CELSO MAEDA, 2015": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.3816557,
+    -49.2186771
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|IRMAOS ALCANTARA & CIA LTDA EM RECUPERACAO JUDICIAL|RODOVIA BR 153, KM 1470 (MAIS 900 METROS)": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.2698736,
+    -49.2456354
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|PLANALTO COMERCIO LTDA|RUA FRANCISCO DOMINGOS DA COSTA, 188 (QUADRA09 LOTE 10)": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.4061399,
+    -49.2380702
+   ],
+   "prec": "aproximado"
+  },
+  "GO|ITUMBIARA|POSTO PARANAIBA DE COMBUSTIVEIS LTDA|RUA PARANAIBA, 560": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.4233698,
+    -49.2331777
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|REDE EXPRESS POSTO REAL PETRO LTDA|AVENIDA DOUTOR CELSO MAEDA, 450 (QUADRAC LOTE 17)": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.3816557,
+    -49.2186771
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|SR COMERCIO DE COMBUSTIVEIS LTDA|AVENIDA CELSO MAEDA, 2478": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.3816557,
+    -49.2186771
+   ],
+   "prec": "rua"
+  },
+  "GO|ITUMBIARA|W & S DERIVADOS DO PETROLEO LTDA|AVENIDA WASHINGTON LUIZ, 1": {
+   "em": "2026-11-25",
+   "ll": [
+    -18.400746,
+    -49.2171527
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|AUTO POSTO DE COMBUSTIVEL EGPP LTDA|AVENIDA ALFREDO NASSER (QUADRA130 LOTE 1)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2514331,
+    -47.9286942
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|AUTO POSTO DOM VITAL II LTDA|RUA SAO PAULO (CHACARAS VERA CRUZ FAZENDA QUINTA GLEBA)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2592599,
+    -47.9411528
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|AUTO POSTO DOM VITAL III LTDA|QUADRA 06 RUA, 6 (LOTE 19 A 23 E 51 A 55)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|LUZIANIA|AUTO POSTO G - 3 LTDA|AVENIDA ALFREDO NASSER (QUADRA176 LOTE 01)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2514331,
+    -47.9286942
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|AUTO POSTO K 44 LTDA|QUADRA QUADRA 65 (KM 13 RODOVIA BR 040)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.1565612,
+    -47.937369
+   ],
+   "prec": "aproximado"
+  },
+  "GO|LUZIANIA|AUTO POSTO LUZIANIA LTDA|RUA SEBASTIAO ELIAS, 28": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2592799,
+    -47.9512468
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|AUTO POSTO M PENNA LTDA|QUADRA 119 (LOTE 09 E 10)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|LUZIANIA|AUTO POSTO MASUT LTDA|RODOVIA QUADRA 68 (BR 040) (LOTE: A B)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.146394,
+    -47.943247
+   ],
+   "prec": "posto"
+  },
+  "GO|LUZIANIA|AUTO POSTO PARK JK LTDA|AVENIDA DONA SARA KUBITSCHEK (QUADRA 15 LOTE 07 A 12)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2371215,
+    -47.9420947
+   ],
+   "prec": "aproximado"
+  },
+  "GO|LUZIANIA|MACHADO & MAXIMO LTDA|RODOVIA BR 040 (KM 21)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2960457,
+    -47.8492863
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|MM COMBUSTIVEIS LUZIANIA LTDA|RUA DO COMERCIO (COMENDADOR GERMANO RORIZ), 156": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2550737,
+    -47.9556785
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|MM COMBUSTIVEL VITORIA LTDA|RUA DOUTOR JOAO TEIXEIRA (QUADRA69 LOTE 30/31)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.2556039,
+    -47.9599661
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|MM CORUMBA COMBUSTIVEIS LTDA|QUADRA 201 (LOTE 01 A 06)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.311687,
+    -48.014263
+   ],
+   "prec": "posto"
+  },
+  "GO|LUZIANIA|POSTO DE COMBUSTIVEIS ALVORADA LTDA|AVENIDA 02 (QUADRA39 LOTE 20)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.1504866,
+    -47.9317309
+   ],
+   "prec": "rua"
+  },
+  "GO|LUZIANIA|POSTO SAO ROQUE ALIANCA LTDA|QUADRA QUADRA 13 (ROD BR-040 KM 32 LOTE 3A 7 A 12 15 43)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|LUZIANIA|RHAM AUTO POSTO LUZIANIA LTDA|AVENIDA DONA SARA KUBITSCHEK (QUADRA43 LOTE 13A)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|MINEIROS|AUTO POSTO MASUT XI LTDA|AVENIDA ANTONIO CARLOS PANIAGO, 96 (QUADRA06 LOTE 10)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.561981,
+    -52.546485
+   ],
+   "prec": "posto"
+  },
+  "GO|MINEIROS|AUTO POSTO MASUT XIII LTDA|AVENIDA INO REZENDE (QUADRA12 LOTE 10-12 E 13)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.561981,
+    -52.546485
+   ],
+   "prec": "aproximado"
+  },
+  "GO|MINEIROS|AUTO POSTO SAO MATHEUS LTDA|AVENIDA ANTONIO CARLOS PANIAGO (QUADRAE LOTE 94)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.562351,
+    -52.549197
+   ],
+   "prec": "posto"
+  },
+  "GO|MINEIROS|DECIO COMERCIO E SERVICOS RODOVIARIOS LTDA|AVENIDA JOAQUIM PEREIRA MARTINS (QUADRA41 LOTE 41 ANEXO I)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.532477,
+    -52.532665
+   ],
+   "prec": "posto"
+  },
+  "GO|MINEIROS|H.BRANDAO LTDA|AVENIDA ANTONIO CARLOS PANIAGO ESQ C RUA 16 E OITAVA AVENIDA (QUADRA138 LOTE 01/06 E 14)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|MINEIROS|JRT COMBUSTIVEIS LTDA|AVENIDA ANTONIO CARLOS PANIAGO ESQUINA C/ RUA 06 (QUADRA01/05 LOTE 01 - B)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|MINEIROS|POSTO BOA VISTA MINEIROS LTDA|AVENIDA MARIA EULÁLIA DE SOUZA ESQ. C/ AV ZECA ALFAIATE (QUADRA15 LOTE 07)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.532477,
+    -52.532665
+   ],
+   "prec": "aproximado"
+  },
+  "GO|MINEIROS|POSTO R7 LTDA|AVENIDA PARQUE NACIONAL DAS EMAS (QUADRA 88 LOTES 13/18)": {
+   "bruto": [
+    [
+     -17.5877064,
+     -52.5571535
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.585799,
+    -52.554846
+   ],
+   "prec": "posto"
+  },
+  "GO|MORRINHOS|AUTO POSTO CONQUISTA LTDA|RUA MAJOR EVARISTO FRAUZINO, 259": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7285283,
+    -49.1136519
+   ],
+   "prec": "rua"
+  },
+  "GO|MORRINHOS|AUTO POSTO DA SERRA LTDA.|AVENIDA CEL FERNANDO BARBOSA (LOTE 04 QUADRAA - 3)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7348675,
+    -49.1259528
+   ],
+   "prec": "rua"
+  },
+  "GO|MORRINHOS|AUTO POSTO LAMBARI LTDA|AVENIDA COUTO DE MAGALHAES, 528": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.731012,
+    -49.1072316
+   ],
+   "prec": "rua"
+  },
+  "GO|MORRINHOS|AUTO POSTO MAURO M.JUNIOR LTDA|PRACA NOSSA SENHORA DO CARMO, 295": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|MORRINHOS|COOPERATIVA MISTA DOS PRODUTORES DE LEITE DE MORRINHOS|AVENIDA ENGENHEIRO FLAVIO CASCAO QD.06 LOTES 12,13,14, 276": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7397167,
+    -49.1307153
+   ],
+   "prec": "aproximado"
+  },
+  "GO|MORRINHOS|LN ROMANO LTDA|AVENIDA CEL FERNANDO BARBOSA, 800 (QUADRA80 LOTE 11)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7348675,
+    -49.1259528
+   ],
+   "prec": "rua"
+  },
+  "GO|MORRINHOS|MENDONCA E RIBEIRO AUTO POSTO LTDA|RUA PARAIBA, 284 (QUADRA03 LOTE 01)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|PORANGATU|CARRETEIRO DERIVADOS DE PETROLEO LTDA|RODOVIA BELEM BRASILIA BR 153 (KM: 72)": {
+   "em": "2026-11-25",
+   "ll": [
+    -13.445578,
+    -49.133354
+   ],
+   "prec": "posto"
+  },
+  "GO|PORANGATU|HS - DERIVADOS DE PETROLEO LTDA|AVENIDA ADELINO AMERICO DE AZEVEDO, 163": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|PORANGATU|J. M. DA SILVA & FILHOS LTDA|AVENIDA ADELINO A. DE AZEVEDO, 147": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|PORANGATU|J. M. DA SILVA & FILHOS LTDA|AVENIDA BRASILIA, 359 (QUADRA1 LOTE 0 SALA 1)": {
+   "em": "2026-11-25",
+   "ll": [
+    -13.4434037,
+    -49.1413084
+   ],
+   "prec": "rua"
+  },
+  "GO|PORANGATU|M5 COMERCIO VAREJISTA DE COMBUSTIVEIS PARA VEICULOS AUTOMOTORES LTDA|AVENIDA ADELINO AMERICO DE AZEVEDO (QUADRA27 LOTE 02 E 03)": {
+   "em": "2026-11-25",
+   "ll": [
+    -13.4519997,
+    -49.1438288
+   ],
+   "prec": "aproximado"
+  },
+  "GO|PORANGATU|PORTAL DO PETROLEO XI E DERIVADOS LTDA|AVENIDA ADELINO AMERICO DE AZEVEDO (QUADRA66 LOTE 01 C/ A GOIAS)": {
+   "em": "2026-11-25",
+   "ll": [
+    -13.4557381,
+    -49.1535682
+   ],
+   "prec": "aproximado"
+  },
+  "GO|PORANGATU|RESENDE E RESENDE COMERCIO VAREJISTA DE DERIVADOS DE PETROLEO LTDA|RUA 02, 32": {
+   "em": "2026-11-25",
+   "ll": [
+    -13.4596235,
+    -49.1404
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|AUTO POSTO BRASIL PETRO RIO VERDE LTDA|AVENIDA PEDRO LUDOVICO TEIXEIRA (QUADRA25 LOTE 13)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7930263,
+    -50.9162508
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|AUTO POSTO BRASIL PETRO RIO VERDE LTDA|RUA DAS ROSAS (QUADRA19 LOTE 09)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7777163,
+    -50.9439881
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|AUTO POSTO BRASIL PETRO RIO VERDE LTDA|RUA PARANA (QUADRA143)": {
+   "bruto": [
+    [
+     -17.7691362,
+     -50.9185676
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.768811,
+    -50.918399
+   ],
+   "prec": "posto"
+  },
+  "GO|RIO VERDE|AUTO POSTO CHIMARRAO LTDA|RUA MAJOR OSCAR CAMPOS, 115": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7994877,
+    -50.934158
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|AUTO POSTO VISAO LTDA|PRACA JOAQUIM DA SILVEIRA LEAO., 536": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.6909709,
+    -51.0230152
+   ],
+   "prec": "aproximado"
+  },
+  "GO|RIO VERDE|CENTRO COMERCIAL CAMPESTRE E SERVICOS LTDA|RODOVIA BR 060 (KM 388)": {
+   "bruto": [
+    [
+     -17.7572147,
+     -50.8795584
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.751496,
+    -50.875628
+   ],
+   "prec": "posto"
+  },
+  "GO|RIO VERDE|DECIO L13 LIMITADA|RUA GUMERCINDO FERREIRA, 60": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.8004359,
+    -50.932296
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|FERREIRA CRUVINEL COMERCIAL DE COMBUSTIVEIS LTDA|AVENIDA 1 (: QD. 01 LT. 01 E 02/A)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.8092323,
+    -50.9388928
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|GUIMARAES BORGES COMERCIO DE DERIVADOS DE PETROLEO LTDA|AVENIDA 01, 121 (QUADRA12 LOTE 01,02 E 03)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.8032324,
+    -50.9060195
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|GUIMARAES BORGES COMERCIO DE DERIVADOS DE PETROLEO LTDA|RUA GERALDO ANDRADE, 1842 (QUADRA12 LOTE 17 E 18)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7840408,
+    -50.9235499
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|MM 2 COMERCIO DE COMBUSTIVEIS LTDA|RUA 18 (QUADRA07 LOTE 14)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7892147,
+    -50.9120785
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|MM COMERCIO DE COMBUSTIVEIS LTDA|RUA 20, 900A": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7813895,
+    -50.9138399
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|NOVO RIO COMERCIO DE COMBUSTIVEIS LTDA - EPP|AVENIDA AVENIDA UNIVERSITARIA, QD.08 LOTE 01, 168": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7965746,
+    -50.9539633
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|POSTO 5.5. LIMITADA|AVENIDA PRESIDENTE VARGAS (LOTE: 01 QUADRA: 31)": {
+   "bruto": [
+    [
+     -17.7867355,
+     -50.9146234
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.788575,
+    -50.917972
+   ],
+   "prec": "posto"
+  },
+  "GO|RIO VERDE|POSTO 5.5. LIMITADA|RUA 5, 1021 (QUADRA: 11 LOTE: 193)": {
+   "bruto": [
+    [
+     -17.9667187,
+     -50.4874067
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.963895,
+    -50.486226
+   ],
+   "prec": "posto"
+  },
+  "GO|RIO VERDE|POSTO 5.5. LIMITADA|RUA QUINCA HONORIO, 543 (QUADRA: 086 LOTE: 05)": {
+   "bruto": [
+    [
+     -17.7898479,
+     -50.9423824
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -17.790734,
+    -50.945249
+   ],
+   "prec": "posto"
+  },
+  "GO|RIO VERDE|POSTO 5.5. LIMITADA|RUA WOLNEY DA COSTA MARTINS, 341 (QUADRA: 75 LOTE: 1371)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7643641,
+    -50.9088327
+   ],
+   "prec": "aproximado"
+  },
+  "GO|RIO VERDE|POSTO ABOBRAO DOM MIGUEL LTDA|AVENIDA BEIJA FLOR, 1791 (ESQ. C/ RUA VITORIA QUADRA11 LOTE 01)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.8455751,
+    -50.9297058
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|POSTO BARRINHAS LTDA|AVENIDA JERONIMO MARTINS, 4": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.7940621,
+    -50.9180255
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|RG AUTO POSTO LTDA|RUA 15-B, 110 (QUADRA G LOTE 14/15)": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.783797,
+    -50.9198364
+   ],
+   "prec": "rua"
+  },
+  "GO|RIO VERDE|VIOLETA VI AUTO POSTO LTDA|AVENIDA PRESIDENTE VARGAS, 341": {
+   "em": "2026-11-25",
+   "ll": [
+    -17.800435,
+    -50.942355
+   ],
+   "prec": "posto"
+  },
+  "GO|TRINDADE|AUTO POSTO LAGUNA LTDA|RUA 1009, 452 (QUADRA10 LOTE 14 JUSCELINOKUBISTSCHE)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.6410472,
+    -49.51515
+   ],
+   "prec": "rua"
+  },
+  "GO|TRINDADE|AUTO POSTO LIDERANCA II LTDA|AVENIDA A 2, 286 (QUADRA18 LOTE 11)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.6421536,
+    -49.4934138
+   ],
+   "prec": "rua"
+  },
+  "GO|TRINDADE|AUTO POSTO TERRA SANTA LTDA|RODOVIA GO-060, 440 (QUADRA08 LOTE UNICO)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.6521634,
+    -49.4026867
+   ],
+   "prec": "rua"
+  },
+  "GO|TRINDADE|BATISTA E ESTANISLAU LTDA|AVENIDA JUSCELINO KUBITSCHECK, 1874 (QUADRA142 LOTE 08/10)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.64516,
+    -49.4231195
+   ],
+   "prec": "rua"
+  },
+  "GO|TRINDADE|MD1 COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA|AVENIDA SANTA MARIA, 270 (QD 05 LT 3/4)": {
+   "bruto": [
+    [
+     -16.6604104,
+     -49.5067445
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.659439,
+    -49.502361
+   ],
+   "prec": "posto"
+  },
+  "GO|TRINDADE|MD2 COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA|RUA MARGINAL SUL, 286 (QUADRAA LOTE 05/06)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|TRINDADE|NELIO FORTUNATO DE OLIVEIRA|AVENIDA G (QUADRA0AREA LOTE ARE98)": {
+   "bruto": [
+    [
+     -16.6451045,
+     -49.480449
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.644908,
+    -49.479739
+   ],
+   "prec": "posto"
+  },
+  "GO|TRINDADE|POSTO ALVES CARVALHO LTDA|RUA ALEIXO ANTONIO ALVES, 822": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.6524406,
+    -49.4945699
+   ],
+   "prec": "rua"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO POSTO CAMPOS & MESQUITA LTDA.|RUA 01 (QUADRA 60, LOTE 13)": {
+   "bruto": [
+    [
+     -16.0628217,
+     -48.0076483
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.065353,
+    -48.011005
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO POSTO M & N LTDA|RUA 06 (QUADRA04 LOTE 16 E 17)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.128775,
+    -47.98268
+   ],
+   "prec": "rua"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO POSTO VALPARAISO LTDA|LOC TREVO 2 ETAPA VALPARAISO I": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.074976,
+    -48.0005226
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO SHOPPING DERIVADOS DE PETROLEO LTDA|QUADRA QC 1 CONJUNTO A": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0544427,
+    -47.9788964
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO SHOPPING DERIVADOS DE PETROLEO LTDA|RUA 101 (QUADRA134 LOTE 2 3 E 4)": {
+   "bruto": [
+    [
+     -16.1245599,
+     -47.964389
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.125342,
+    -47.962391
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO SHOPPING DERIVADOS DE PETROLEO LTDA|RUA IGUARATIBA (RODOVIA BR 040 KM 13)": {
+   "bruto": [
+    [
+     -16.0970992,
+     -47.9891333
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.094671,
+    -47.982083
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|AUTO SHOPPING DERIVADOS DE PETROLEO LTDA|RUA RIO DE JANEIRO (QUADRA04 LOTE 08)": {
+   "bruto": [
+    [
+     -16.1163836,
+     -47.9686058
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.112822,
+    -47.970398
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|CARREFOUR COMERCIO E INDUSTRIA LTDA|RODOVIA BR 40 (LOTE AREA 02 PARTE II)": {
+   "bruto": [
+    [
+     -16.1200906,
+     -47.9647642
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.1200906,
+    -47.9647642
+   ],
+   "prec": "rua"
+  },
+  "GO|VALPARAISO DE GOIAS|CEU AZUL DERIVADOS DE PETROLEO LTDA|RUA 72 (QUADRA118 LOTE 01)": {
+   "bruto": [
+    [
+     -16.0537762,
+     -48.0080631
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -16.052525,
+    -48.008173
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|GANVAL COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA|QUADRA 117 LOTES 01, 02 E, 3": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0542267,
+    -48.0010798
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|GARZZO COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.|AVENIDA MARGINAL QUADRA 56 (LOTES 01, 02 E 03)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0586627,
+    -47.9773383
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|PARK AUTO POSTO LTDA|RUA RUA MARAJO, QUADRA 01 CHACARA 07-A1": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.053584,
+    -47.965586
+   ],
+   "prec": "posto"
+  },
+  "GO|VALPARAISO DE GOIAS|POSTO DE COMBUSTIVEIS ABASTECE VALPARAISO LTDA|AVENIDA CENTRAL LOTE 01 AREA REMANESCENTE 02": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0542267,
+    -48.0010798
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|POSTO DE COMBUSTIVEIS OCIDENTAL LTDA|BLOCO BLOCO (COMERCIO) C - ALAMEDA 3 (SETOR INDUSTRIAL C LOTE 01)": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "GO|VALPARAISO DE GOIAS|POSTO DE PETROLEO ANHANGUERA LTDA|QUADRA QUADRA 38 (CHACARA 09 A2)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0737813,
+    -47.9739965
+   ],
+   "prec": "rua"
+  },
+  "GO|VALPARAISO DE GOIAS|SAO BERNARDO SERVICOS AUTOMOTIVOS LTDA|RUA DA BR-040 KM 8,75 QUADRA 4 LOTE E": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0541339,
+    -47.9840417
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|SR ESPLANADA COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA|QUADRA 50 (LOTE 04 E 05)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0701846,
+    -47.9710679
+   ],
+   "prec": "rua"
+  },
+  "GO|VALPARAISO DE GOIAS|VALBA - COMERCIO DE COMBUSTIVEIS LTDA|AVENIDA MARGINAL S/N QUADRA 45 LOTE, 3 (LOTE 03)": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.0586627,
+    -47.9773383
+   ],
+   "prec": "aproximado"
+  },
+  "GO|VALPARAISO DE GOIAS|VALPARAISO REPRESENTACAO COMERCIAL DE COMBUSTIVEIS LTDA|AREA ESPECIAL ETAPA E LOTES, R S": {
+   "em": "2026-11-25",
+   "ll": [
+    -16.074976,
+    -48.0005226
+   ],
+   "prec": "aproximado"
+  },
+  "MA|ACAILANDIA|AUTO POSTO RANCHO LTDA|RUA RIO GRANDE, 180 (LETRA: E)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.9475057,
+    -47.5003323
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|AUTO POSTO SAO GERALDO LTDA|AVENIDA SANTA LUZIA, 18 (QUADRA: 58 LOTE: 5)": {
+   "bruto": [
+    [
+     -4.94916,
+     -47.4789094
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -4.94916,
+    -47.4789094
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|CARDOSO E RIBEIRO LTDA|RUA SAO PAULO, 649": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.9452354,
+    -47.4672389
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|CARLOS SOUSA COMBUSTIVEIS E LUBRIFICANTES LTDA|RUA DUQUE DE CAXIAS, 1246": {
+   "bruto": [
+    [
+     -4.9028434,
+     -47.4066866
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -4.905783,
+    -47.406137
+   ],
+   "prec": "posto"
+  },
+  "MA|ACAILANDIA|CARRETEIRO DERIVADOS DE PETROLEO LTDA|RODOVIA BR 010 (KM 320)": {
+   "bruto": [
+    [
+     -4.9286472,
+     -47.5026676
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -4.932619,
+    -47.502343
+   ],
+   "prec": "posto"
+  },
+  "MA|ACAILANDIA|CASTELINHO COMBUSTÍVEIS LTDA.|RUA A CONJUNTO COMERCIAL GALDINO, 5": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.9257819,
+    -47.4397838
+   ],
+   "prec": "aproximado"
+  },
+  "MA|ACAILANDIA|GCS COMBUSTIVEIS ACAILANDIA LTDA|AVENIDA SANTA LUZIA (QUADRA009 LOTE 1)": {
+   "bruto": [
+    [
+     -4.94916,
+     -47.4789094
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -4.94916,
+    -47.4789094
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|PACHECO PETRO LTDA|AVENIDA JK, 1 (LOTE 01 QUADRA03)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.9658619,
+    -47.4965977
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|POSTO MAGNOLIA LTDA|BR 010 (KM 1415)": {
+   "bruto": [
+    [
+     -4.9539688,
+     -47.5035476
+    ],
+    "rua"
+   ],
+   "em": "2026-11-25",
+   "ll": [
+    -4.954576,
+    -47.503365
+   ],
+   "prec": "posto"
+  },
+  "MA|ACAILANDIA|POSTO QUATRO RODAS LTDA|RODOVIA BR 222 (QUADRA01 SETOR PARQUE DO PLANALTO)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.947923,
+    -47.476639
+   ],
+   "prec": "posto"
+  },
+  "MA|ACAILANDIA|S C B COMBUSTIVEIS E LUBRIFICANTES LTDA.|RUA SAO RAIMUNDO, 633": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.9476992,
+    -47.4873933
+   ],
+   "prec": "rua"
+  },
+  "MA|ACAILANDIA|SUPER POSTO ECONOMICO LTDA|RUA 26 (QUADRA 05 LOTE 11E 12)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.944309,
+    -47.466196
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|B OLIVEIRA NASCIMENTO EIRELI|RODOVIA BR 316, 41": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|G LACERDA & CIA LTDA|PRACA SÃO JOSÉ, 39 (A)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.22956,
+    -44.7780221
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|M DO S M DO L FONTOURA & CIA LTDA|RODOVIA BR 316, 563": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|M. CRISTINA SOUSA LACERDA & CIA LTDA|RUA GETULIO VARGAS, 107 (B)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2356645,
+    -44.783407
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|NORDESTE COMERCIAL DE PETROLEO LTDA|RODOVIA BR 316 (LETRA B)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|POSTO ANA TERRA 02 LTDA|RODOVIA BR 316, 350 (: KM 350)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|POSTO ANA TERRA 04 LTDA|RUA CLORES MIRANDA": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "MA|BACABAL|POSTO ANA TERRA 05 LTDA|PRACA DUQUE DE CAXIAS, 1": {
+   "em": "2026-11-25",
+   "ll": null,
+   "prec": null
+  },
+  "MA|BACABAL|POSTO BELA VISTA LTDA|ESTRADA DA BELA VISTA, 248": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.221931,
+    -44.7859682
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|PRIMAVERA DERIVADOS DE PETROLEO LTDA|RODOVIA BR 316 (KM 361)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|S. R. DERIVADOS DE PETROLEO LTDA|RUA TEIXEIRA DE FREITAS, 2009 (: POSTO)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2340559,
+    -44.7740201
+   ],
+   "prec": "rua"
+  },
+  "MA|BACABAL|SAO DOMINGOS PETROLEO LTDA|RODOVIA BR 316 (KM 357)": {
+   "em": "2026-11-25",
+   "ll": [
+    -4.2196299,
+    -44.7795993
    ],
    "prec": "rua"
   },

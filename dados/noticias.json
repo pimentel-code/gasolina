@@ -1,280 +1,277 @@
 {
- "em": "2026-11-24T20:12-03:00",
+ "em": "2026-11-25T18:14-03:00",
  "itens": [
   {
    "etiquetas": [
-    "Petróleo"
+    "Petróleo",
+    "Refinarias"
    ],
-   "fonte": "Brasil 247",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcEkzN3NZTk1ReFVWT1NZV05GZ2VTWDBsQ0lXQXdmZW1jX2JPR3FxRHNLRFJhSXYwSHExR2syOXFIbFhnU1lsa3dXbHNUVnZ5SWFMMEhlVUlzQ01FampEX2p5aHJBNmtwWHp5allHSmUwOE1rTmRPX2xYZDdoM2I4UGFiMWZJbTFLZ1l5Vm1xdmhOd0xUaWx6dzI4VW8?oc=5",
-   "quando": 1795557610,
-   "titulo": "Petróleo Brent supera US$ 91 com novos ataques a navios em Ormuz"
+   "fonte": "Terra",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNWVjTlFWbVBraGI3WWtWaFM3WTkySWpMWlc4VnpCODgyNEpWT3VaS1hoWDVSVGpjUWdyblpPZjFtOGtrRTkwNDh2MmMyN2R4S0JJMElLR255bWItVmhQLWVlVDBRTzFvYVF6M2RRUHdWdmloRkQzWV9FV1VxM0dlQktMOEJySmtoSGRrUXo5aHhYV09fTm1LUXNTa2o5aERJT1Y0UDVJTm1sRnpLTGpOWDNQZkZac2MwTFBxR0VuaDN0TUI2RFlqekRSYkVtalRyZ3MtUEJBNHc2alhIemY3TUw5M2tqYzY1VEE?oc=5",
+   "quando": 1795640280,
+   "titulo": "Petróleo sobe após houthis assumirem autoria de ataque a refinaria saudita"
   },
   {
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "Notícias ao Minuto",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTQ4X0wxUHlTSmJHeTN3WWZuM2pWN2c1SGZ6ZzRkTmRxNHRBcDdiWTAzVktZMlAyUGZrRkllc0EtU0VFSjdnRll4cktXbWpuM2JMWkdtZnBBZEtwTzlob0FscEI0eWJ5dGw2bGRubVBCSEpHTi1oMTMta0lRYlozaThLbzhqaEJuaTdMTFk3bXh1MlU2MUVkbzdIUEJkbHJWSDk1d1R0MmFiOFUy?oc=5",
-   "quando": 1795555860,
-   "titulo": "Cotação do Brent sobe 2,27% e volta a superar os 90 dólares"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "UOL Economia",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcS1Ha0hLcXVIa3c5cUdhUzdtRGY4SUs3SlBnQ093OURCaHRSQWhfZ00tVFFRdXJLVmg0MmJSX3Z5ZDJVQ2t2ck10U3hRVTFWbXpzc2pTX2piV3FTU0tCX3FwT0Z0emZBSkJmNzhRVllZckxfRjZyOHZHS09CNjdObU84ek1ZVTJXSlV2S2l1djBfRDBHc3hVU3BWMGxlUWc5UTRaMEwzT1lyd3EwZ0FXWlJtMXJsTlhTM0szbDkyY0xvSk1xanNndzFsQXVnUTJnWjJvZnBjZkF5U3NUMlJaR3hPQkJWM09rWmt5T2lKa3ZsVnFIcHc?oc=5",
-   "quando": 1795555250,
-   "titulo": "Petróleo sobe com riscos à navegação em Ormuz e tensões na Arábia Saudita"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Poder360",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdFdpOWRSQXQ3S1J3alUzUFVGeHJQOVBXbzlKVTgzOEh4RU1COHhWdjA0Y3JhNkpJbnFEX2I1MFNyZEhFYktPOXp2ZldhM01BSW95QVBwektPbEpoUk5CelFVbjVIcktZcnJpVDZla2NBTWg4OFE4RXliejZfd2I2bk5kc2NGVS1nekJsNUJGYkRiV0k4aHZGN0NXZThkanZfQlBIWGxrdW5KbnU1?oc=5",
-   "quando": 1795553469,
-   "titulo": "Petróleo fecha em alta com aumento de riscos no estreito de Ormuz"
-  },
-  {
-   "etiquetas": [
-    "Etanol"
-   ],
-   "fonte": "Agronews",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sWTBTU01hSklmaFhZazNFU1pBT05NNjhCc0VpalFYd20xNU9RYlNvVUp0QkZaa21FN3NuZk1ybXc4T0NiempwUF9qYjhVUC1jSGMyUDVQcDZqVWZYQWM5aFd2dTdSS3pX?oc=5",
-   "quando": 1795553108,
-   "titulo": "Etanol sobe em São Paulo com chuvas no campo e demanda firme"
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZaC04Sk1pSEcwQTFkeG5PSVhfOERuTnBmQkZuLW45RXd4Z2FBLVhwaGZpY3Rjbkp4ZzRGajBhWlk2TXJPQTlJMjNGeEpSZG02NXpxaS1XbFU1ak5hR1ppZ2g5MzdQY3ZzeDNwdGtGbUhubm5YckpqdHB2WVdfeUk?oc=5",
+   "quando": 1795638465,
+   "titulo": "Petróleo avança com riscos no Mar Vermelho e impasse EUA-Irã"
   },
   {
    "etiquetas": [
     "Petróleo"
    ],
    "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYk1DeUpHbUxHNWRRb182Y29XU2hWWFY0QndBYThYWk9ZRUJsbkVPVW81ZGxhYlAyS3BsVXBZaEFDMHNoaHkxcnI3azNXXzhETG96aWl6T3hqMWdTLWZ6RVFiUWdkc1JEbGJ0aGJVRDYtUng4WGp6Y3puVjBQU05udDhBT3UwdDM1WVFIQ2FfLWdYaWFROE5WQThaNjdWdGpOYmJ1TFA5Ulp2QnhUU2JoQ2ZCN25JT0I4TW1RR0NJaw?oc=5",
-   "quando": 1795552800,
-   "titulo": "Petróleo sobe com riscos no Estreito de Ormuz e novos ataques na Arábia Saudita"
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnVSNDg4M2lwNGRzNUxBel80MFpqeGZHSDdDZFdlNVBOTGtueHl6dXRwUnlOeUpMdDRWak1uUHNRaDlqY1hQRm1QTGlJUzlWNVNLbmNwOFJJa0wtY3FHRk51YXk3cXFfMDZMbWVrUUVyY0RoeVdlNjJZbS11Tk1WOVppeG1NWngyaXN4eEpfTDR0REczd29pSkhydGQtc3dORlFxYk1DUQ?oc=5",
+   "quando": 1795637340,
+   "titulo": "Petróleo avança até 3,51% com escalada das tensões geopolíticas"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1FMamVHV0ZmWUZuaTBrMDN6MW1YX2pHNlBha3JtWG1uVzd0dDdCbkFUYm16WDNPZGQ2aWtoRFZ0TzZoS05ySTZrLXFuQ25hNVpzeWg4VVhUdjZWNGlTRTluQkpJT1RrLVNCeFJDdUJQcUw0SW9hSFAtTHVkNGI0VnlOMlU5OWQwTHcwWXluN2drN1Y1Vkc1M0lXaw?oc=5",
+   "quando": 1795635398,
+   "titulo": "Preço do petróleo Brent sobe mais de 5% após recuperação que sucede quedas impulsionadas pela oferta"
+  },
+  {
+   "etiquetas": [
+    "Petrobras",
+    "Petróleo"
+   ],
+   "fonte": "CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQMzROdnNQUHplNU5CWDZ5cEpHQktQOXdSdVFzbUpjVy1TS09wdGVHTlNBM1pBS2hGWGl0ZEkxUjh2WWRvZmdmV2RWcHFxT2FyV29rVmh5aEV2X183eC1JUks0RkZWYWJmelozM2c0aUVJTTNuVXpIZEVmc3k2TDlwQ2h6enF2STZjUGdia19SQjNFNnRIS2ZwVllXODUzb2dOR1R4SkYyOHRYbWdsT05vcWgzLWhTU181S1J2Z0FTcV8weDgwZzluaWo4ZDhxWUtpS0R5MWFnNzhmYlFQNVYzaHhhUDUxdUFmZGozcC14Rmk1SllDRVQ0TkYwb2lNLTdGOXNPWHNvRVVjTVNLY0pudXVobTJMejdGZzdaOVVFRk9laTdUWUlZcUpNWlFjVmlsUG9uY1U3T3ZmZw?oc=5",
+   "quando": 1795635060,
+   "titulo": "Petrobras avalia ajuste pontual na política de preços dos combustíveis com o barril abaixo de US$ 90 e a diretora Angélica Laureano diz que a queda do petróleo pode ser permanente"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Click Xaxim",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNektwUWZxV3oyM2hraWxxa3BUS0JpMHU4MFhRdWE2d3o4WVc1OXJKR1dfT1I0WDdHNkp2VkIwQm92eks1a19GV3pNSUFfbjVoeEEyQ0V6ajhYZ0x2TWtSb01Zc3M0eVo2QzZBbzQwSFBWU0pfblRxZ1RoeHJGSFVfMWx2a011VHgyS09FXy1iOTFLOHFBTV92TE93VnB6UWxaenRFSFIxSnNEU0lwX0JhOWVfVGNBZnYw?oc=5",
+   "quando": 1795631583,
+   "titulo": "Confaz divulga novos valores de referência do ICMS sobre combustíveis a partir de dezembro"
+  },
+  {
+   "etiquetas": [],
+   "fonte": "Diario de Pernambuco",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY0Y5RF9tU3dUbEZqN0NaUG92VEc3amhIZW8tX3dOb1FEdnBpUTJVX0dvc0Y0YndoYlpJTDBGMTJnVExzUHJMRDdVVV9MdkY4c00xekFxdVVyUTJVQ084SkhuSmRHcUFRS2NWV25CLWVjZzJrZ2xIeE83QnJkT1lxaldXOUFKemFMVlltWTBWNXVzR053UXpjcEJ5cVlQVk45LXFoVWxpMlVwd3g5QjhtUGRydzRlT3VJYVNpendJYWM1RG0ydXVzVExoZDYxek5xR0E?oc=5",
+   "quando": 1795630103,
+   "titulo": "Confaz divulga preços médios de combustíveis para os estados e DF"
+  },
+  {
+   "etiquetas": [
+    "Etanol"
+   ],
+   "fonte": "CenárioMT",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaE45SWRueUUzbm5WUnNXQ1Q1cVJaaTBKSTZaWW1XZmlnbDlneDhHNXNHUnpJOEVfMVZHeUpXT2hSTGprdjBlN0FDSjl1ZGVwd0FZS3gwR01fbWhtRDk5Zlg2RWhhWGR6ZzJBcHF4ZmpKTVVSVV94TnhSSEtQcm93YXM5eV9VMkNONmpDZW1wTkEtZWJhUmwwblVMSVhkbDBETi1CVU9xcGl4UVNxdTBwMGh3VnNoVHRyXzZ0OFVtb2s2Ujl4YkNCcEpTUlpDdjVwQXpMYjZGVQ?oc=5",
+   "quando": 1795628157,
+   "titulo": "Confaz atualiza preços de referência dos combustíveis; Mato Grosso tem um dos menores valores do etanol"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Jornal Diário do Povo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcFk5WU96anU1MVNQREdBd0FOZmVRVU1xZjZqSGNSdDcwRHdtV3VHbVNIdEdTd09la2l5dFRUZ080cjJxTk5GNm5iRml0amZ4YjJIWFdPeUJCU3NYam14dTVQWXdZeFU1UUNwNzlSZUVrXzhZTUFSdW1oZThtdlE3S0Y2YkFpNTlwOFlMYWxpblhvUU1sU3c4aWJ5eDg1azUzVGhtTE9iSUcxWmY1TTNUOXhhNGlxZFNLejhWX0JmMVY4THVK?oc=5",
+   "quando": 1795627860,
+   "titulo": "Confaz atualiza valores de referência do ICMS sobre combustíveis a partir de dezembro"
   },
   {
    "etiquetas": [
     "Petróleo"
    ],
    "fonte": "BPMoney",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWE9WeHZxamwxUGRaUkpWWE5NSnQ2Q204RUFUVXVzbk1oR3hkalRiQjBOcGJscHZSc1RaNWpzcDlaN1N1Z1lIWWtOemRidmd1QXEzU3hkdFJWXzF1ZnhEai1YS0RQVUlveUUtSnNzS2ltbC1CN040bElGSlVnNWdGWHVvQk1QdU9maDNFaG9SZUFTOVE?oc=5",
-   "quando": 1795552423,
-   "titulo": "Brent e WTI disparam mais de 2% após novos ataques a navios no Estreito de Ormuz"
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdzREWWZ3MDFPZkJHejVyVmhLckdqOEQtcENmbWYwX21aNmtkU3BBR2QxZ3gyTmgzd0hlYk1jMk1sbzktRW85WVNhcU5YWllhLV9rV3JnU1Ryb1pyc2JPRS16Rk4xemNzNkhBYzBVLUlFWkRjemFHeFF2dHNIX1A3N2RNVTRKUXRYcVE1WGZDZVU3WjVieGRjVnln?oc=5",
+   "quando": 1795627323,
+   "titulo": "Estoques de petróleo dos EUA sobem 1,109 milhão de barris na semana, aponta DoE"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "eixos",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOWxXNUJPeUhoZkpGQnRBWEhONEZ5UHRpRUtVSERmUUNRbkFCTk9HdW11YlVIT0owRWZwRUtmVFk2bXFuZ0JYLThHVU1ZRV9tRElRczJuMDg1TzNDWkM0Yk5GR1JCSDZxNDdvWWREQXhXN3Zfenlmb3BRN3VfVi1zOGNzajdQR2JrMlBXdElnMHdDNFd2Y19KdGpDU0pQWGRBaENLZVpJdDBfY2RfRW9HR0xJOA?oc=5",
+   "quando": 1795626310,
+   "titulo": "Confaz divulga preços médios de combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Agora Litoral",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTGhmNVFwaEtyazl1VDFLaGJCRVRWbHQ1TXljeE4xWjM5d3hVcEFWWGRsQ2ZzeE04aXJOSDRmU1pXRngwM3FtckQ4TTRTNnJ3ejQyTW9Vc2h2QWlaT3NwczNZcy1qaWlMaDctZkkzTVpVLWFQX0ZVdWs5VHFvTEUyY0hsTGJheEoyTU9aUldTWkdSV3dIbEhRUGtVb2pOdTRrX3c?oc=5",
+   "quando": 1795623588,
+   "titulo": "Confaz atualiza tabela de combustíveis para cobrança do ICMS"
   },
   {
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "politiza brasil",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DSWNkNnpGbE9keVotRVQ0TlJtVlZLLTFpTW14azNxLTRESllMWkVHZEQ1alVRa3c0bUljcnRld1NGY3gzdVdfRFhTVVlHQVpvTHVqT1UyZHhPY1locllDWk9HakRmMHRLZDU1TlQtem5oX3Az?oc=5",
-   "quando": 1795550415,
-   "titulo": "Petróleo cai quase 4% com expectativa de excesso de oferta"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "GZH",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTHJJdHEtRjF4My1FTTFvQjlORmVWYzE5UFFGT0NXeWV2ZmlDQnRBcUlfam5OWjQ2akdJa0o0ZUg3S1JWNm1DVkFudFZQYnVUTUZLZmpFZlR2cnJQeks2aVJSQjBkb0JlaWFLb2lKaWZzRWdtMm5wQUl4MHB2YXV2WDRGNFhpWEJyN3luWUxfM1p5Z2ZjMm9KUk5HMDRVemhHY3JWNlNySlBkekxRakxmM2x6UjBULXR0aEhocHJscFV4ZFhNSDBUQ1hB?oc=5",
-   "quando": 1795547138,
-   "titulo": "Petróleo hoje: siga ao vivo o valor da cotação"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "IndexBox",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem9Td3Y2UmdoekdwR0hIUXRJelpPY2FiZjEzMUJnUHZlSW5hMlNKbHdCckY4eUJIc3l0RTZmN0U4TFcxWVBZRkhXblFndnpvU0RrckppMUlCMEZXZi1FaUVzTERYRTNwa19FVl9nRi1WQkJuSmZXaWlMUjVodTVKSHgwRHA0SThZUGVwQUoyZ1hjM3RpZjNvN0RsajgxNjd6MWFMeDFR?oc=5",
-   "quando": 1795546245,
-   "titulo": "Especuladores reduzem posições compradas líquidas em Brent pelo terceiro semana - Notícias e Estatísticas"
-  },
-  {
-   "etiquetas": [
-    "Petrobras"
-   ],
-   "fonte": "Mercado&Consumo",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZzF3N3ZzeVBkN092RGRXLVVSV1pjNWFxb09HQTlmYWxpc3NuSy1tdU4wTzBnLVEtcF9TajNwZW9oY2tTdVRrY04yazJJRElqUHNjRkhQR3FSZVlNSXFmOW5BZ3NuaTB5a3B0X2x4S3JUdDZtSEtRZ2pjSVpvNDRPUzNONlVZbzdrRmNRRE1aTnp5ei1rZUxULTFWUXl5elc4RVFMa2tPTzNEbWQxYk9hUXYyRGZydUhJ0gG-AUFVX3lxTFB5RXF1U2wwdExUeVd5Uy1DeDRnMHY0d3dtUTBlUW9mQUdQdTJJQ0xId3J4NkpPZXFhWnB4am5iVF9MZjVOQjVRUHFLeEJtYll1WWhjdkw2OTYzWkhid25SdDAzd2tuOVYyMDk2Y3hZNkVjOUYtVXFackc1NmQtLUt2Y3paT24xdFJ0QzdldGItZzNvNzVhb3NuZnlXa01ibUdXSjg4MmlZeFdXc0J1a0VaSW81aWdVZ0prS2hXRmc?oc=5",
-   "quando": 1795544700,
-   "titulo": "Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031"
-  },
-  {
-   "etiquetas": [
-    "Petrobras"
-   ],
-   "fonte": "Safra",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT3dVMGtTaHM2YzdYaWl5WkNLbVBOZDAxb3I4RU4wNVFqVmFaeW9jQVRvbDNHQ1ltNHppVlRTdl9hZjVmcXRYQWRjMjlycjZnVC1QSzRJZVVwX1pOekRfTEljLUZtMWVqWi1uX0V3TDRpNVd6dktBOVNMTjZ6TEtKamhVRmVrOVdkYXJYRFI5emZwYXdpYXRN?oc=5",
-   "quando": 1795544137,
-   "titulo": "Petrobras amplia capex e reforça dividendos, diz Safra"
+   "fonte": "TIKR.com",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM290bEhxaU00Y2UzcEZEeDF4dVU1NzE2SGhNenBBOEpmLVBiTmRlckYyYTUwejNDeDZWZGgyRjAxSzczSWI4N24zMk1SV3ZmbHZuWVdzc2hSNm5qWlo4MXNDNWU2R05EVDdPRjJzdWFELXBvV2hRbEZiendlOVAySVE5OWwzZ3VHVW9jVldwRjN3QWdyMHR5di05TnhieXV0UkR0VWFnSXQxV2tEOGFEZ3dQSHV6Tk9JZTBWVE1hNVYwaDA?oc=5",
+   "quando": 1795622583,
+   "titulo": "Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut"
   },
   {
    "etiquetas": [
     "Petrobras",
-    "Etanol"
+    "Petróleo"
    ],
-   "fonte": "O Jacaré",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZm95cS1ROWxmSDBoTWc0b1NBWXhERkNienJUX09MeEgtVnlZa21WaDJVTHIxVmYxZG5rSkM1WW5zbHJtdDlRZDdsT1NpWVpGeGVNaU1pb1l2RS1HZDFoM1ZhZk14UmJfR21seHBta2llQ2pvTTVRN2JkVmFhbHE5WkxvTlN4WTVTbFRhRGpqY0FFSUllNXptQTZwN1BMeWEtTG53bktyZ2Z6eHI3WDBXU1FET1RqeVJhV2FqaDBzbFF4c2dkbGdj?oc=5",
-   "quando": 1795543760,
-   "titulo": "Petrobras investe R$ 28 bilhões na aquisição de usina de etanol de milho com unidade em MS"
-  },
-  {
-   "etiquetas": [
-    "Etanol"
-   ],
-   "fonte": "Revista RPA NEWS",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQlF4LWdZS21hZHQzNVZ6VUFLYzdRZlJqVjJ5VmFPWkZDU09OdjRyMHFRcHBwMGtTc1VKaUFEalhUYnpydUxXakJ3d3ZpQkVZblhmWkpHN3RVWjJWXzkyTUk2WVg2VktFSE42VkhqOVhrQ0Rrck9wck9oendIRTVCVmpoTXJjQ3ZjNUtzZFpqZW9EbDZyZ041TjVIQXl0bHRZdXZvTHg1MjhzOVdrZ0E?oc=5",
-   "quando": 1795542184,
-   "titulo": "Etanol hidratado acumula sete semanas consecutivas de alta no mercado paulista"
-  },
-  {
-   "etiquetas": [
-    "Petrobras",
-    "Etanol"
-   ],
-   "fonte": "Notícias Agrícolas",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMmtBNmQ3RldyY3hrLTRDb0k5anFnaVlxNFc1c1gtNjNrQmhDT2FWcElnYlBzbVluZFE1c1JXbWdUZkctcDRxSkZYUy14Z2JiaTNMMTFvOWtPWW1raUxmNTNtb2RXXzNuSXJMbjJCaktWSXlRTkRlbUg2WDFlcXc4UkUyZG5rSHhBRktOVnBfZFdVd1AzOC1UYjJDOFQ4U0lmb2hWLTczTWM1NDZzMDVKbm1LZXJnOVQxYVFodDFBZmFxaC1mazU3VjVNcHZoMkZQNUtCcndhLTRnam1Gai01R1gtOEd1dmJ1QTRLLS1XcXE5QlExc1lKY0pUYjRoTjlvN3fSAYICQVVfeXFMTzJrQTZkN0ZXcmN4ay00Q29JOWpxZ2lZcTRXNXNYLTYza0JoQ09hVnBJZ2JQc21ZbmRRNXNSV21nVGZHLXA0cUpGWFMteGdiYmkzTDExbzlrT1lta2lMZjUzbW9kV18zbklyTG4yQmpLVkl5UU5EZW1INlgxZXF3OFJFMmRua0h4QUZLTlZwX2RXVXdQMzgtVGIyQzhUOFNJZm9oVi03M01jNTQ2czA1Sm5tS2VyZzlUMWFRaHQxQWZhcWgtZms1N1Y1TXB2aDJGUDVLQnJ3YS00Z2ptRmotNUdYLThHdXZidUE0Sy0tV3FxOUJRMXNZSmNKVGI0aE45bzd3?oc=5",
-   "quando": 1795539541,
-   "titulo": "Petrobras buscará outras empresas de etanol de milho após compra de fatia na Neomille, dizem fontes"
+   "fonte": "Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQ3VPbnBZWkpGY1RXd0I1SFZ0ZFI5WVg3Z3JtYi00S0hrTDZYd0RFQXc5WDJJbmJ5NFpieFJqRFpwN3BOVVplSlZMUGdicmlsanpPZGpSLUFmVHUtZGt1blFJSk9SOVFzRnBHRXotVmVzR1hSdDQ2czZmazhadHRteElBdUdfQjVybHlKVkZlMk14U0l4U2stSDVDU0p1T3Q5RElwOVdkbXlHWFhyYWdVYjFMbVg3ckZ5amtlSEd1V2pXNEc0TXJJX1RpaEtRcXlVUjYwamlPQTNpNmNzYlVrMF9zazdqWFphV3RRUncwa0ljQWVr0gH0AUFVX3lxTE9DdU9ucFlaSkZjVFd3QjVIVnRkUjlZWDdncm1iLTRLSGtMNlh3REVBdzlYMkluYnk0WmJ4UmpEWnA3cE5VWmVKVkxQZ2JyaWxqek9kalItQWZUdS1ka3VuUUlKT1I5UXNGcEdFei1WZXNHWFJ0NDZzNmZrOFp0dG14SUF1R19CNXJseUpWRmUyTXhTSXhTay1INUNTSnVPdDlESXA5V2RteUdYWHJhZ1ViMUxtWDdyRnlqa2VIR3VXalc0RzRNcklfVGloS1FxeVVSNjBqaU9BM2k2Y3NiVWswX3NrN2pYWmFXdFFSdzBrSWNBZWs?oc=5",
+   "quando": 1795622443,
+   "titulo": "BTG avalia que Petrobras tem espaço para ampliar produção, mas queda do Brent pode apertar contas"
   },
   {
    "etiquetas": [
     "Petrobras"
    ],
-   "fonte": "Juruá 24 horas",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSEdrNzFWdzJxU3dORVg0OVl0ZnFOTHBfN1IyQUc1cjJrVVpCcGc1MnA4Z09HVDAzMy0xLWxHR0MwbXcyNU9iNXU4YVJXYTR2VTZXdnZnSWdGT2cyX0ZnSjNxLTc3NS1qMkw5UWtsZVhITEJ3dWtCV3hUYUc2ZlhPMFJ6cnNnWU5mV3ZTY2tnODZVbS03QVV6SHNKOXo1NklsdXlFWU1YZVE5c2M?oc=5",
-   "quando": 1795536696,
-   "titulo": "Ações da Petrobras sobem mais de 1% após anúncio de investimento bilionário"
+   "fonte": "Guia do Investidor",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVGU2YWFCbXFIWW9tVTBrYnN1ZFdhRVFrUnM0YmlfNzhDaU5ZaDRabjR4bDE0emFLajZrX2hXOE42ajFvODRuVC1BVnlBdlRnMnYwbnpCMW5JREZpWHJRMjNvbVZrNXV5Q2lGcXdFM3ZNdjA3b3NYUW85YzlDcHNUUXFTbGZFSXJ6eFM1YjdDYllxMmdheEpvajVpX2lrQi1KZnJXenhJMzBMTi0tYi1fWU1EUWZJTTVlemVjWWE1ekNMNGdoTWh0ek02WF9mbVdBblZWVzY0LTdDa2c?oc=5",
+   "quando": 1795621201,
+   "titulo": "Petrobras (PETR4): Santander corta recomendação e alerta para risco maior com novo plano de investimentos"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Correio Braziliense",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaDRMRHdsWS1MZFpDSEtZQ3FLRE96S3EwSnlFQ0pNeDN0c2hzeHhlNnpHZzJMYnlsV210VTdoc1I3OVVqVEp3eHdGVi1JOVljeGJvZGtjWGlRbHBHRm5GcVBfRGRVVDVQMzNCTEtxZS1qeDl4czA5QS1YdmxmMnotSUJ0NHZ5ZDNTcGdEZkZEbmIybktfV2Z6cEc4Z1Eza3RWd2QzSTFuTFZvcklZM1FCTTRvMTNqaTJ0ZlRaREVqMmg3d1pIMFNtV1kxUURZX3lfVXZZQnFyZ2fSAd4BQVVfeXFMUDlXd2RVaGlvRF85eGt0UkV6T0JiS2pteWR0THI5aGcwakVsNWhTUm5ZX0lVN0drRzNhY3lsaHlpYzRuTXp1aWllc1JpWGZsRGRFdFRhWXJFOHZmeWhjbmVUMEFSdjEwU1lRTTl6OVRpSDJ5bEZCM3FNUlZIMUk4R0VUbW9EVkdYY3BoMkVucnozX2hEb29rV0J6RzRQUEJEM3dhNGg4MG53VmdWYnAyOFlwMUFWNHZXVjMyeEFhY1RvNzN1QkJwdVBhOXRBTkdoRmF5MnB4STJQWnhTeDh3?oc=5",
+   "quando": 1795620720,
+   "titulo": "Confaz atualiza preços de referência de combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Monitor Mercantil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaC0tTGFhQU9uYkFINzEyOENQZHFjR3hZRlRGVUVUTEN1TUxaRU04MS1jbVpvRmN0c0tZRWhwUGxVWDIxaXFyMHZZOU9JaHNUanFOWkk4QzVWN1RyWkFnZzVEQ1k1WExBdjZVSDB4WHh0MndqMVB1b1NqTjBraXNORU5Ldk9yLU1BTjhxREd2bF9hYWxsZXFKSTQzbkF2WkVrOGVlOVJseWpJM1h2S3FBMGVn?oc=5",
+   "quando": 1795619112,
+   "titulo": "Confaz divulga novos preços de referência dos combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Pix News MS",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVnBYV0FOQTU4WlpCcGVVcVk3N0o5R2JCUldRRS05TzhFQ1NrRDZTNUhPRTF4VXRwWG1pNXNPa1gwNUxvckxzQVh4Z2NMZU9PemVEam1Yc3RYaW1qTlZ4c01sX3BheUhzREhOQUVkNEdDeHA2b3Y5V1luQkdRdk9YUjBKajlKRHhuRTdtSzZzLURXX2xORjVuQ0tCQ25TZzVwbXNFcFJyRTNCT3dSei1TQWhMZw?oc=5",
+   "quando": 1795617960,
+   "titulo": "Confaz atualiza preços de combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Região Noroeste",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM29RN2tBZTVDX2sxZ0ljSHpycE1saEtMSlZBS0hnZ1NYM0lqS1FHa3J5cEZwOENRVW5UMTRleC1qMlFTZE9Vd2tyYUZiY0lmVlQ4R3lkdmMwdm9nZ091WW1pd0JqeVdVdWRIdnhMdlNuTElPLUhYQV9iYWFHaUZtVXVIZVlFdC1vMl9BOWstdFBCbk5nTGNlT3ZRTmo2NEVwTjVTOHJNaWFiVURQcGpZTnlfTzhSLWNtZUhVOURETzBZYm9Wc2hVU1BNdkxRZw?oc=5",
+   "quando": 1795617900,
+   "titulo": "Confaz divulga novos preços de referência de combustíveis para cálculo do ICMS a partir de 1º de dezembro"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Portal São Miguel Notícias",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVNrcnZJTnRYcU05ZjlJbFBSRTRfdmlnRDdHYWZWT1hibmhySDYzLUFVZEl6LXplVEZ2UGtvLTZsR2c3WUhqTW9KY3cxUDJGN0p4QmJJbGpRZmVTMkdjN1lCcEExa2xmcV9heUhoZFUxR1pZRjRBQ09hTERIQ0RoVGUxWDdIdDg1ZW1mSmJBbTRjazN4THpPQlhiM1o3R25SRjZSYXN5NWdTTjJ1TmwzNUFjRFhVV2Zx?oc=5",
+   "quando": 1795616940,
+   "titulo": "Confaz divulga novos valores de referência para o ICMS sobre combustíveis"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "83 Agora",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY3lORDJMMnRacVZLSklab3EwUXBwRVd0dF8tUm1oeGtjVGNsN1lNVlhDOTBVb0hEaW9hYldjeGdjc2xtaVViV1JCaU9tODZybEtVUFRGVlhuQVU2bzA3ZDBOeDkxRkdXMUdOS3FCSTZ0Q1BvRTZrZVlwckhfT2ZRZUk5R2N1M2VfZWNfUkh6endlc0syeDlwV0d6WQ?oc=5",
+   "quando": 1795616861,
+   "titulo": "Confaz publica novos preços médios de combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Portal AZ",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEtINzk0UC0xd3BEOFlEc0RsN2UtYVNpd3lBMU04TkI5ZS1tQ3ZPdnctUnRMZU5zMTJLRS14WU1vclFIbTFtRzFxOGFVVG9MVGpfM2tLTEFjajN0UUd2dllVMDlVeUNlMWMzVDU1cjJGOVNQSEczSWhvam1LdWJRc2dZSXppTmgzMTAtMXFybjVjWWxDa1VBS205Yi1FYzNYbXI4cEtaS1htb2VEUGszQ3VrUGZKall5aWtNSE13bDV6MVFuNmdz0gHMAUFVX3lxTE1meDlMR00yM1FNZ2ZmVm5xQzhEcFNROUc5NE5FU0lkZGxnNHNNc2Q3SG0xQVhwXzN5UTlCeXZTV1JUQ0F5cVFyU0lMV2l4RFBndlpIVUpsQWs0dWtlSU5mNDFZNi1xeGJEMG1CdDcwb2NoSVMwakFIb0RLT0ZyRkFQVHQ4WDRyNFZQSTdRX2R4TmI1YkdEM2ZtNjZUMUZMbVkxY1NsVm1fLU01b1pnblhaWXhZRTN0VlVId0FCYVVmT1FXUWU3QnpfVDlYYw?oc=5",
+   "quando": 1795616703,
+   "titulo": "Confaz atualiza valores de referência dos combustíveis para cálculo do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Impostos",
+    "Etanol"
+   ],
+   "fonte": "Goiás 246",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNV042YjhQNnI0ejFON283Qjl6UHdGWFhLNzVhclE3VTFaazR0Wk9iZTkzZWdLTDY5bEVrREFJOEpubVNKQ0dkWUw0Z2luMWl6YmVxS3RCd1F5ejBXc2tCVGI2ZWFHTEhLQ2F5LTVOZzEzZFRLa21ETXVqX0xEcVpzZVB4TVBZUHBlaURWc1hIMlE3S0xFMVBLVlp3NWZ4eHJaVmZQbmI5WEFoQkJ6ZnoxYUlnbkF2aTQ1VUhmcC1sckp4enl3YVoxZndfS2xYUnhBRmVENHI0UDg3RXFZLVZfdE50bFE4YTJRMm4yMGFSbWx4N2Z2MFFWVjRYR1paam5STEd2SGdpa2t4OXNQd1E?oc=5",
+   "quando": 1795614960,
+   "titulo": "Confaz divulga novos preços médios de combustíveis para cálculo do ICMS; Goiás tem um dos menores valores do etanol"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "R7",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNODluV0NPY00xbGdyQVVSMHpiS1RJZ1VaVGhEMTZyVlVYMm1DZl9jSHQxRG5ITzI4MVlXOGFEeHpwcFpReVNyRFNkVWRhcml1dVVIekxFS3ZaWFhFRVlxZnI5MzNDQkRTMDhiNHFqVXFoX0U5TGdteUhDdWU2dlo5ZjBHaU5BVXc2ZnFiWk5RS05xWjUwdlZGQlFRWlFMeFpiZl9ESTV4Wkd0SDlUTEZYNlI1aXgwRTU4am8w?oc=5",
+   "quando": 1795614580,
+   "titulo": "ICMS: Confaz divulga preços médios de combustíveis para cálculo do imposto; confira"
   },
   {
    "etiquetas": [
     "Etanol"
    ],
    "fonte": "Portal do Agronegócio",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUElHeU1QSWpxTkRSaEVfTG0zQUZ4Z0gzcERPbUFJTG1jczhLMDhjNGZ3ekU3LXl1UFR0bGdQMjhrTEpZSUVnV1AxU0tyejJjQmd6U3dQSmJFVkZYalBoYnFCTnl4cDJMSkQ3WnVwdkNObFI4dHhodlZQcGpXVnNsMV9OWWl3bkY2SUQyN1d6T21HYmYtVXNGN3FaWTA2M1U0MTcwU1FuUXRrakx3RFpFZUNaWFlud2xjTW1ITDhGOXJvZVlvNTRjN1liYWdIMTBOVlNaX084OGJRaEhaX0g1cE9kV1pOVTJVTllDWGdB?oc=5",
-   "quando": 1795536600,
-   "titulo": "Preço do etanol sobe nas usinas de SP, e hidratado acumula alta de 5,26% em Paulínia"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY2dTTlI1VGN3WG9xYlZKMGRxUm4zZkFjbkN6ODNfN24xekM0V1JSUk5FY3phaEU3dFl1TFpMOUpTUFVPSm05Z0dDYnl2ZzFPSEtlMFU0aGd1Q0xQWGg4VXFrQnJEMVR6NkVzeWxTRTBMVEtXczIxZXBRN09BMDFYeDM0VS11UndTalBzWnZwYw?oc=5",
-   "quando": 1795533387,
-   "titulo": "Com a queda acentuada dos preços globais do petróleo, os preços dos combustíveis no mercado interno estão prestes a ser ajustados."
-  },
-  {
-   "etiquetas": [
-    "Petrobras",
-    "Etanol"
-   ],
-   "fonte": "Claudio Dantas",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJMkpKY0VNNTNFVHRlQk1tSFkxd3R3VWVpUWoyRjRDTlNZcHNRVW5Ea1ZwZ1UtSmxXWVJoaWVVcFc5SnZVM29xOGFHRFlKQWRGVTBFZ09IbkxTdUc3TWV5UDByb2lCTlRYZFZYT0Z4SnRSOWVH?oc=5",
-   "quando": 1795526940,
-   "titulo": "Petrobras volta ao mercado de etanol"
-  },
-  {
-   "etiquetas": [
-    "Etanol"
-   ],
-   "fonte": "JornalCana",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeHVhWnRteEFRb2duSXZ6amZwT2o4YTlUQllZQ3R2NGxUNnNweWdlVUpUUm5PcWFGUklKZktuOGFfaWVmZHByTHM3eVZfVlA3ZU9IQkZPdUhwSU5kUXVnVzJab2pPQm40d1h6MlZuMDJfR29ERVVLZG9ZWEszTW9PR2R6M3NlNEF6NVo5MFlJemxvekEzN1EycFdwaTNmbkZUcE0xZUFSM3loYmdTb0E?oc=5",
-   "quando": 1795525303,
-   "titulo": "Preço do etanol hidratado sobe pela sétima semana seguida no mercado paulista"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "BPMoney",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOWxweE14ZEd0bnU3d3dYdy1PeFBYcEowWTVuM3hPTlpTOS1SMnhiYmxPMFJaZEhGODFsNE9iYmI3SUdxY2xTaFdfb2g1WHlxWHVqX0ZqOTFZUndEZFNlaFF4VXRxQnVQeHM3aUwzaTlZMDRzaFFEZU9mVlV0c1JVYnJwcUoxTGw5c0Foa2VVd2g0bEg5RGNtYXZHTjV6SGc?oc=5",
-   "quando": 1795522569,
-   "titulo": "JPMorgan projeta Brent a US$ 65 em 2028 e coloca Brasil entre motores da oferta global"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObWUzYnRSekM5Vy1VSDJhR3ZOLVZIdzNZN1UxVnBlZFRFeGl0TjAtUWRBUnV2QllPOGRTQnJoOFpHMmFMRzQybnN0UGxOWmtNaWU2T2c0QXc3cWdKTmo3MVd5akxDcUV5dmgxU1FyNHNweEY1NlBOTjhueVlzS0JUMVhGb2tVQUxTbUxwa1RKb0ZXeU0?oc=5",
-   "quando": 1795522218,
-   "titulo": "Os preços do petróleo estão se aproximando da mínima dos últimos três meses, à medida que a oferta aumenta."
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT1FmbmptNXUwM1d4N01BYkNzbmdXT0pGYnhCSDYycU02MXF3eU82MzlSXy1RMy03UF9lMm1sVmVkRTl0SE1WZFdtVEdzZFg1OFFCbXF2MlFOclRxbjZzU1k0MHdBMTV3R0tKMVFuWHEwWFdBcmxDQlctenFJdlpTN3lFZ2MxZERXdlhSbzQ0ZmlIWURpVWZkUFpsZkpuWGI2UDY0aDE5eVhSLVI5RTZvMUVPV0NJdVJ1clktbWJrQlBUcFHSAcgBQVVfeXFMTXZtd1pBemFUSXR3WENHVGNSbDJva0ROV0hTMkctbDVBZXZVRDJLdmdBQTZCYVRtYXdqVldPTDluZU01d0dWZVVJLVA1VDFMeTZpdXJmR1A5QU5SVjZoREtiQlptNEluLXFhaTBGSDNjWWNOTGJ2Z1hsdzRRTk10bXpwd0lRRXhIS3lMRzJBS3gzeno1ek5oYkpOR2FIOWNXdnJZbHJjMy00a2Nwb2k2OFhjODc2ODNld1Zoak40cXRtYzZFdFItSVA?oc=5",
-   "quando": 1795521986,
-   "titulo": "Com Brasil entre destaques na produção, JPMorgan projeta petróleo a US$ 65 em 2028"
-  },
-  {
-   "etiquetas": [
-    "Petrobras"
-   ],
-   "fonte": "NovaCana",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLTZIMDlQbnVSUzJHbFlPSGhEWFJhNEFWUHFyNmIwcnpPTUxJb0Z6ZzF4bjhrVm1qS3VybHFVU1I3V0FYUzhFa0JHWm9Ua0FhamhXWlVlb3AycU5heG5sQS1sS3lIOEhXdldrRjluT3NxWUdFZjF6Tm5GVlJJR3hWTjA0RXZWVFZjVFROMmptZVJRUTB0?oc=5",
-   "quando": 1795518334,
-   "titulo": "Petrobras prevê produção recorde nos próximos cinco anos"
-  },
-  {
-   "etiquetas": [
-    "Petrobras",
-    "Etanol"
-   ],
-   "fonte": "Agência eixos",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY1lTWFFhWThQXzBNbUxLS0JlblZkWm1QaWFvdmxUWlFmMFVmMTNDdEIxR3pYZ0E5MDNDakdfUWY4WEF0Z0NTYnA3cjJFSmE4dnZNajhGWV9RSi1VRmYwTldPVkNDYW04MVJpSFZXV2R2Rkcydjd4dUFNTGRRZEdmRG9WWTNLTWRzdnByU0JwLXIzTmdqYWJSTi1xdkhfTDRWekNpVUdiWUM0LXlYLUk4?oc=5",
-   "quando": 1795515248,
-   "titulo": "Petrobras crava no plano a aposta em diesel, gasolina e etanol"
-  },
-  {
-   "etiquetas": [
-    "Petrobras"
-   ],
-   "fonte": "Jornal da Cidade Online",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaV9wUENDcVNDMlJRbzBpS1cxeDJBYzRKYzJQS1pfSnVVS3pwd28yY21MdS1QdDBrRDVkclNrbnlhZzczdU1sM2hGZzJHSWp2dW5mQkcxWFNPcHp1aEtvXzI2SnhZZGZZS1Uwc0NSbzRkZzVKNGlvVEtNdHZMLW4yVi1UUV9aSm9mbkJackwzYVM0UlJ5ZXlFdUpVUlFwQTJBS1BFMW9VOWNzQ0NfOEEteXFCZ0dMYkZIaTJHSzVGTDVXcm1MRGhhZ0JVa1lNTFBXa2lNYy1B0gHbAUFVX3lxTE1teTFZcVQzRVRQZVpscmRiRUVxdEhvQ2JFZUZ0ckhZLVhCVE9UMTY5TWRMaGg5SjJFSW9CaTV3aEM5RDBIaHNyVVFCZXdTTUNOR256elJDMUZNZEkzdUs4RGl3Xy0yZ3ROa3dVTDM5T2IyS1FTUEx2ejFNdEcwVjM3NXI1RHFnaFNDYkJlV2dSVnRpZmVKTHlLSWhReEU0aVlEaENxcmEyRUpudTRaY0pZQWFmWHptTG5VOHNyN0s2Y1djTGUyQU1YS2YzTXMzZGFOR0NmSFhCcG1Scw?oc=5",
-   "quando": 1795514820,
-   "titulo": "Petrobras prepara o cenário para repetir o filme que já foi exibido e chocou o mundo"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Money Times",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQclhqTzdiS0kycjBXY3FGZkM3c3FXRjJ0enlTOEt6anl1WFFORGxwd0xNOEdOaFZIY0tmckF1ZWhSbEtZUkE3SVpIYnlBcUJTMXlYVG9DRWFCcWRmRnhwTkNoZlNWaUtDMExzbkdTUFdzVzRFbHF0MjQ5bTk3V1cyUFVNcU5XM2tkN0IzaW5FdHVaaF96LVZvVHhsT2tuaDFHc1BKdmtRNzRPQnppZEN4THE3eEJndWlnaXZXOTR5XzRsUlVHNUZjSDdiTQ?oc=5",
-   "quando": 1795505820,
-   "titulo": "Preços do petróleo próximos das mínimas de três meses com aumento da oferta compensando ameaças"
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVk9IbDNQek4tQlVYczUzWW1UMDRGZ2V4N2E0UVZ3ZDhJcEdZaXBYMXFkV2tEUzktam5uMVZkakVzc0JKcHF4V1FVM3o2ekowa0JNdlNDQUV1MlhfQXpkVkszeU56X0xOMjVfWnRiUWpnQzdKRDl6TEdicGtENzN4ODJFOHRId1JCOUtpcHgzeVFJNnkwWGpreWRhZmZydjNtemRCYllxTjY3YWtScGk4VFd5bFFERzM4UXlmYWVYbHBCNG13ZVFhb2RPa0xCblM3ZmhjaG9YVEZxb29TeGc?oc=5",
+   "quando": 1795613400,
+   "titulo": "Preço do etanol hidratado sobe pela sétima semana seguida em São Paulo"
   },
   {
    "etiquetas": [
     "Impostos"
    ],
-   "fonte": "atlaspublico.com.br",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV1dVRHFCcWFOVmgzTUxkMDVoUGdBcHRVRS0zNmY5TEItMjllWlc1QzNFMkRVU0k4UmFyTTJud05PeFB5UHZXdjUtOTQyMDAxU2psNjFESXdCSXZnRDBjNnNraWVORGtyeURRSEpGZUI1dDZxNUNwV3d6UFRqT2E0NGVLZFc3MURhajhfR1M0VGoxdkpwNEoxWWY5dlY0N3pn?oc=5",
-   "quando": 1795500305,
-   "titulo": "Confaz publica protocolos de ICMS sobre aves no PR e SC, carne bovina entre AL e PE e sorvetes no ES"
+   "fonte": "News Rondônia",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaFYtMmg4SVIxTXk4b0EwLXZUUVBoVWhFSE51WllBczB0cTVlQk96el9KcXEyclhCWldHemVpd1ZWVFdmQ05kaWNrRVE5dlktM3dRdDh5VmJfTEhaeUVhNm12M0VkeTBCeFQtemdoTlFxS0RUakZLVEtyaGIyWDl4RmUtbDgyMGlvU3VtdUdzX1ZyT3NxZDE5aVV2UUhGTVNZVEtwVGEyVEpxSFUxYmFBWElQT3g1dzVhWUJiVUdVRnpUVzg?oc=5",
+   "quando": 1795612833,
+   "titulo": "Confaz atualiza preço médio de combustíveis para cálculo do ICMS em dezembro"
   },
   {
    "etiquetas": [
-    "Petrobras"
+    "Impostos"
    ],
-   "fonte": "ncnews.com.br",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WOGt2SllrdndNNG1XenZtVXZtajF1SDVSSE5iWGRMMXFOM3pHN0tPdFRmQzdBSnlsb09lVWhTU0EtdTlWYTdxcDhDSmhMTkVfZGlXaEsxU0hZTlFCMEh6bVFsZDhvMjVMM0EtT3owclhseFR4Zk5MbGFhRQ?oc=5",
-   "quando": 1795482939,
-   "titulo": "Petrobras anuncia US$ 122 bilhões em investimentos e revela prioridades até 2031"
+   "fonte": "WSCOM",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa21OazNtVWJNQXNMU08xNGcyS3V1WGNGM192bEt4R3BIZUtVOUhHeUNwZ0ZVTVd5SzNsb056QnNTcTRrcXVic0YtN2YxdnZxa1o3SmN6dUVLZk5MRTZ6bUJkUEZzXzVaM3c2TEQ3YWgzbmxKQjNnVDBxQm1JQy1OVTAxbVdzOUpyYTZfZGlBT085MkhxRXBlYUR4TXdVRk1VYkw2SHBNY2JIVzBoenFvSlRvWVdsRHJwQ1BUUXN5TmcxYmd2UVFDNnlqenZGTGhXVXpxeHRpOFV4WkVH?oc=5",
+   "quando": 1795612496,
+   "titulo": "Confaz atualiza preços de referência dos combustíveis para cobrança do ICMS a partir de 1º de dezembro"
   },
   {
    "etiquetas": [
-    "Petrobras",
-    "Etanol"
+    "Impostos"
    ],
-   "fonte": "Plantão Brasil",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlRTbkdtTlk3eVhvS29KamdYT291TzZuWTJObENETm9kbG1uT3BTUjNVaWpnQUdQM1c0TmRVdDgxVy1yMU1obW5oNFVud1dXU2VtcjlPZUpzZUUzemdyM1pkNHlqdE9rNTlWRHpNUjk0cHRqOEdiTEZPVnpKUmJrNERDZUM0U19vNUNIR2ppQnl2aFhFMDZTbnJ0TkF1ajhNYVhDTzZELTlBN0l3WmNUelVJX3Zhd0tXVXNJVnNSSjV1cnN6RkRfcy0wQjg1UQ?oc=5",
-   "quando": 1795481993,
-   "titulo": "Petrobras avança na transição energética com investimento bilionário em etanol de milho"
+   "fonte": "bntonline.com.br",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmhfTGE5bnAzb2ZiV01zbFQ3R0NxSGxJUHg2bnhsTXhZaVVScnZLYkF3bUwtTnVOMUM0QTBKOF90NVhWS1QzWHdsZU1lYXhiZTV2c0ZhWHFIZ0NuUnhxNTVNVkZGOFVNWk1DMkNOVTRkR2lvN1ljSWRNTVJYdEZtY2hTV2tuTDEzWGpGRlpEWk8tVmpJY3RV?oc=5",
+   "quando": 1795612380,
+   "titulo": "Confaz releases average fuel prices for ICMS calculation"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "A Crítica de Campo Grande",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3lKcTlORGtPb2NqS01HNGhxcEN6TWNSX2VPU0VvZUlIdTdQU3M2UHBibjJpVVpWYWt3ZTQzcEVHdzlvSkJoUDZNTVVDUnQ4UDFETk84cTZxaklueEdWQmthbzZudF9fektGcnQzWmJfUVpYQzY1VGxScWlheG9MV05UM1c4cjN4a1VHemZSTWpPeGkwZF9wM3Q0XzkzbEQwRk04RkdfM19hdnZTSEVLSEp1MURtN2lrMGc?oc=5",
+   "quando": 1795611900,
+   "titulo": "Confaz atualiza preços de referência dos combustíveis para cobrança do ICMS em dezembro"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "Metrô News Jornal",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRjY4bkVocnh3cmw1VlVxLVp3YlpLMGFmeDdyci1UZ2wzS19GRjdsM3lEOW52Y3lRSmRmS21HMnRVTHF5VHctcmVPcGhqQmt1SDFvZGkyenJ1UlhRMGJsc2s2S1JKN2hLTWdjZHp4aXp6d0k3dnh4R0RSOWEyN0VNb0g0RUNHRFc2RFl5eXdBcG0xU3pBbElSZlJn?oc=5",
+   "quando": 1795611720,
+   "titulo": "Confaz Anuncia Novos Preços Médios de Combustíveis para ICMS em 2026"
   }
  ]
 }
