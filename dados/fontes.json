@@ -1,21 +1,21 @@
 {
  "anp_semanal": {
-  "data_dado": "2026-11-14",
+  "data_dado": "2026-11-28",
   "erro": null,
   "falhas_seguidas": 0,
-  "msg": "semana até 2026-11-14",
+  "msg": "semana até 2026-11-28",
   "ok": true,
-  "ultima_tentativa": "2026-11-26T20:57-03:00",
-  "ultimo_sucesso": "2026-11-26T20:57-03:00"
+  "ultima_tentativa": "2026-11-27T19:45-03:00",
+  "ultimo_sucesso": "2026-11-27T19:45-03:00"
  },
  "anp_sintese": {
-  "data_dado": "2026-11-21",
+  "data_dado": "2026-11-28",
   "erro": null,
   "falhas_seguidas": 0,
-  "msg": "0 novas; mais recente: semana até 2026-11-21",
+  "msg": "1 novas; mais recente: semana até 2026-11-28",
   "ok": true,
-  "ultima_tentativa": "2026-11-26T20:57-03:00",
-  "ultimo_sucesso": "2026-11-26T20:57-03:00"
+  "ultima_tentativa": "2026-11-27T19:45-03:00",
+  "ultimo_sucesso": "2026-11-27T19:45-03:00"
  },
  "brent": {
   "data_dado": "2026-11-24",
@@ -24,26 +24,26 @@
   "fonte": "Ipeadata/EIA",
   "msg": "Ipeadata/EIA: US$ 91.80 em 2026-11-24",
   "ok": true,
-  "ultima_tentativa": "2026-11-26T20:57-03:00",
-  "ultimo_sucesso": "2026-11-26T20:57-03:00"
+  "ultima_tentativa": "2026-11-27T19:45-03:00",
+  "ultimo_sucesso": "2026-11-27T19:45-03:00"
  },
  "dolar": {
-  "data_dado": "2026-11-26",
+  "data_dado": "2026-11-27",
   "erro": null,
   "falhas_seguidas": 0,
   "fonte": "Banco Central (PTAX)",
-  "msg": "Banco Central (PTAX): R$ 5.7446 em 2026-11-26",
+  "msg": "Banco Central (PTAX): R$ 5.5430 em 2026-11-27",
   "ok": true,
-  "ultima_tentativa": "2026-11-26T20:57-03:00",
-  "ultimo_sucesso": "2026-11-26T20:57-03:00"
+  "ultima_tentativa": "2026-11-27T19:45-03:00",
+  "ultimo_sucesso": "2026-11-27T19:45-03:00"
  },
  "noticias": {
-  "data_dado": "2026-11-26",
+  "data_dado": "2026-11-27",
   "erro": null,
   "falhas_seguidas": 0,
   "msg": "30 manchetes",
   "ok": true,
-  "ultima_tentativa": "2026-11-26T20:59-03:00",
-  "ultimo_sucesso": "2026-11-26T20:59-03:00"
+  "ultima_tentativa": "2026-11-27T19:46-03:00",
+  "ultimo_sucesso": "2026-11-27T19:46-03:00"
  }
 }

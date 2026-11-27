@@ -1,23 +1,209 @@
 {
- "em": "2026-11-26T20:59-03:00",
+ "em": "2026-11-27T19:46-03:00",
  "itens": [
   {
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "Jornal Económico",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNTctWF9jbktLOHQ0U0xONVZKRVRnUzJGTUlGcEk0V2lIQ2E5TXZfTU05UEl2RDN3R2ZtLTJxNUtGSVpldkN2VUFhQmN4MHA2emk4NC1veDVyS3BlU3pBcnFWXzEyTURZaWFUb29BbDhyam5IM25mOUdEeXpXdi0weHhLT0c5MUlPZEYzcUpySHF2RTFUZ3ZIRVpNay1tQnNxQkhfUjcxeXBGaUFlSUhqejRQVnVOeEluaFFNbUlZZw?oc=5",
-   "quando": 1795734000,
-   "titulo": "Cotação do Brent para entrega em janeiro volta a subir e aproxima-se dos 100 USD"
+   "fonte": "Folha PE",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY0s4YnRsejQwa1lxOHV2Wkx3SXp2TWZZVHRNZFZDcUVOenc4cVNST2hqTjhieklteThNYmlBaExvcGJmMi1xSnJrMFZMMFVTR21BeVdTZmZ5S1lZU3ktTmxXb2xUa0dwT2lqbzJ3YkNvUy1UbUFITnZWOVFvNWZQT1l3MG9lSzMzYmF5RE80aGZkd0tpdG5aNHdMSzdQYjNFREUw0gGnAUFVX3lxTE5WVE16TE5Ldjg1MkRqSkUtN0U1NjlKTTJ1R3I5QzRuR1NxQlhWMUMtTnBOY09BRWVlM3pvbk15M2dCYlloZmwtQzV3WE9CYVBocW0xdGxvSVhkMFhNQXZjalN4XzRlR2diOWJUU1Q5ODJZaXp1VVp1RGp4NFJka3JkNFU2aXh5X2NjRG5paEJWUWxVcVZPVzNTWWNnYUtaQjFqX2ROZzNN?oc=5",
+   "quando": 1795815360,
+   "titulo": "Expectativa de excesso de oferta se mantém e petróleo cai"
   },
   {
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "Vero Notícias",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSFJXOGd2UUk3SU5RV3dxMGxsUTNzNzRBaDAxY1NIUFAwTkU5dXA0SWdaeWtWYWlPd0hLNm9VeTYwOEMxa3ZodXhrN2czMXpMR29hY1pVUlFpZVBjamxBVkdOc1RsSjBZR2JjWjNRVG5ORzRPNnprZFM4Z21FODR1Tm5PRmpXR2FMRGd1ZXZiLXhFWnZXcFFhcXphQ09UT09McEtGcHd5bkxWUQ?oc=5",
-   "quando": 1795733459,
-   "titulo": "Petróleo sobe pela terceira sessão seguida com tensões no Oriente Médio"
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZjh6aWpCak1WQU95cGxpZFk4YjZLTmppQVhhN2ZTdUppMUZKcWhxZXdWVUs1eTBfZ3BuV3lDTDZPMjRzZVdtaWFhOWdlVVNYSXk0M3ZLdzdmNjBteVNyM0NWekVLYkNNRVh6andXSlhJUlNaZk1rNzMzZkdjZ1FvU2wxM1lqQnM1T2pWRNIBkgFBVV95cUxQWkEtTjFuLUd6aHYxaWM4MjIxd21kQ3NfeE56eHRRdVJsSjhoSFlpWUhaRjJyTnpPajNMVGMtaG5fT250NUszMkNKOWlOeFAtaVlnWDRVa1hZRjVlU2cwbFNMOTYxc3E4Nm1aZHl5WlBHSWQyMkJrVVdqSXVReFpBZEk2UTNWaU1NVExVc0VHMzFCUQ?oc=5",
+   "quando": 1795815049,
+   "titulo": "Petróleo registra primeiro ganho semanal em novembro por temores sobre oferta"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWFloaEItNk5BUE9BNnNVWi1RNnc5NnJRUHRNTEVfQ2hFcXdxcHEzNjhSUzF6b0duVEh1ckp2V2ttZ0thQ1pLdHlfRXIwTGdxZm84bkNzZW40eVZ0QVd5d1ZKN2xqNUsyNi1xRzVuY25vR3ktNl9HRFJYR254MDFhWWJwWWNRR0s2emJqVGVfOTNxS0ZFVkNwMXhJTWxwYWtmakdxTHlSQ3A3dW1Bc1N6OUNvSi1NRFc5UWZCQ1pzY2hnRlBk0gHTAUFVX3lxTFBNTXJZai10ZmItU0hlcWE4ZjQwQmNhZ015VFhrTjZOTGxRVWpxMnhIRGFiblFuNkNJaWFZNVNRTkpUTDJjX1I4TG9VbVdBVzVSTjhRTXJsVlZVcVlFM1VDbUN5ZktGWktkMHA2RGVndVprWXhuMFo0cndkR1l5TjYzYkdIVXd3Y1ZKRXF4NjFwNWJlWFZLWHRDZDNsNUhsV3dISHdiZjFZcHhadnFoeWJFRHFjYy11RUo3T2plblo5WWRUQXMweG9JMFFseS11Y01QM1E?oc=5",
+   "quando": 1795809618,
+   "titulo": "Em sessão volátil, petróleo encerra em queda antes de reunião da Opep+"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSnJpa1RhVjh0aGhxdHlZcXd4TldpOTBHNENBNi1PSHFmMzl3bEM1dEhnZWNYUmRoSTZjZi1xeHlmNnM1RENkN1NhSTFld1YzdEVEODd4dkdaN1p0NkdSN1p4NDdMZEEzTkFnc0x3VjVYOTJ3R243Q3ktblItWm9KVDNMaUowNkhGaUJOcXBEdi1NZw?oc=5",
+   "quando": 1795806694,
+   "titulo": "Ataques a petroleiros e instalações sustentam os preços do petróleo Brent enquanto traders avaliam os riscos geopolíticos"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "GZH",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNjRmVkJaTmV1NWQza19JbVJxeUVCekNsNU9PaGZob0JNTTllLXRfeDlsOGwwLXU0RWJzd0kwbFpjLWl3VUIyNHVTVVlvR3VuWnY2d1U3eUdEVGxtaVNlc2RFTzFtaGN1Q3dBU0xISGJhM3h0TFQyLWY2UV9ZVGRLdmh4ZVdPM2NPelgxNVluLXVtUC1KaFhqOUxYVTNvMEhCUHRrdnFVNHcwTDVqSERwZDFPc1BYZG84ZUxNYWZGWkZDTzY2TDdrYm5B?oc=5",
+   "quando": 1795804353,
+   "titulo": "Petróleo hoje: siga ao vivo o valor da cotação"
+  },
+  {
+   "etiquetas": [
+    "Petrobras",
+    "Impostos"
+   ],
+   "fonte": "TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEVLZHNGbEVDS3NicU51NmFOeHJlX2tRa0pna1BFdHNYR2dSR2VocWFhNERQTEFVYXkzSExhakhRLWRHSGFPa2p1Q1NDN0FvTVpDMWlEcE5ydGM3Z3B4M000QlhmaGNwVWNhanlBZFpjbU9QaWJVS3NhU2Q1UjN6UUh4N3BDY0dES1VYXzFsR3prTVNHRlFzakUtZWVmQW5MVzUxTHJIWFJISjJublAxTC1QYTdnZzVUald3?oc=5",
+   "quando": 1795797052,
+   "titulo": "Petrobras discute preços dos combustíveis, mas não decide reajuste"
+  },
+  {
+   "etiquetas": [
+    "Petróleo",
+    "Refinarias"
+   ],
+   "fonte": "TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHc5Wkp2MDRVbS1nUmNRTHVJbzNTcWJQSXQtdktaQmRUbXA1MDZZVkd3MU5Wbm5rZi1IdXpNSzlDQ2VNak1jTENwMU53WVliUWVfb2ZCelBRSk8zSXk2bzFIQlZhOWRwNmk3Z1JuTzJ4RnJ0NGNCUDJfdjBFNjZVclRxcS1RbkR5NFJZX1NMa3RmbXpkcHltVUltbEQ2aG5Md2N4aFROOTZ1cFBvQU1reEp6bFVYcFdRVmc?oc=5",
+   "quando": 1795793028,
+   "titulo": "Ataque a refinaria saudita mata trabalhador e eleva petróleo 8%"
+  },
+  {
+   "etiquetas": [
+    "Etanol"
+   ],
+   "fonte": "Portal do Agronegócio",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQd2Z4N1l0bjZuX29janFLbmR3eFRYeFo2UDlXOXhQY0h3WU9wS1pKRDgwRXpFSldSVnc3S05XdW85aWFwcTNqV0IybWtlWFRXZHZESUdZT3RxTlZYSE9BNUR3UG8taFhCX2JtQzBPTkoyeXZYbU5YR29ETWJRX1ZYVTVWQkota1Z6SHdLcURIWG80OEFMZTd4ZzA4U1hzaUVETkllZHZacnZfMDJBQ0p1UlZpZFk1LWQ0UFROTW9wQmNrRmdUN2RNcXBTSlBIYXpkTkE4cDFNcGVtMmcyMGRINFgzSzdPQ1ZNbFBXZV9Wb2Vmc25TS2x2ZkNDaTh2ZHEtejlmVGtVcGtpd3RfbFE?oc=5",
+   "quando": 1795791300,
+   "titulo": "Dólar alto pressiona custos das usinas de etanol e pode ampliar receita com exportações de açúcar"
+  },
+  {
+   "etiquetas": [
+    "Impostos"
+   ],
+   "fonte": "O Tempo",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPelpGVHhNTFF1dG5KR2I0b0ZnWkhHdjNYN3NPcnlpRDcyd1REY3UzcmNCRzBIMVJzbWJlM0M0YzlpTmtRbFh4em9fNHFpMUpkSmM2Vy10WHFMOWExdmNzZ05qVE04V3NvbElrRmtPam5XWHhRMG5ZZmxLRWVyY3RCQUhqa1Zsd1JQMTNCWlVZNGxwY2xIY0NnYnRBRXZiSjZkel9hUzVxOTNYdDFydllhU29VTUdEdw?oc=5",
+   "quando": 1795790404,
+   "titulo": "Gasolina e diesel devem ficar mais caros em 2027 com alta do ICMS"
+  },
+  {
+   "etiquetas": [
+    "Petrobras"
+   ],
+   "fonte": "Brasil Fora da Caverna",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTlQeHk5WTFIMXJ4ZnV4LTVGckJRWUhva1BXaHNGbUNGOUdmRURrNmRuQW9vZXI4c1pDR09BSXIwSFhoSm9rRE9wbEgtNWgyM2RQMXRVVXU3U2NPTHdnQ0pHS095TlkyV2RSMDBsam95TWpXUThzZ05LZGhqZVUtM2JKcVpZTTVCLUZMZ3RadVo4NVdNODl6OTE3NGN4eXMxNEwweEFrWUppUUxPVDZKS2h2VThRTWpVNzJSaXZ6QnBKNm8tVlE?oc=5",
+   "quando": 1795788033,
+   "titulo": "Petrobras prepara investimento bilionário e quer acabar com dependência do Brasil em diesel"
+  },
+  {
+   "etiquetas": [
+    "Petrobras",
+    "Petróleo"
+   ],
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXBJMi0zcmJiZXJDSGpSZloxRTU1SjROV1hyMzY4MC1jSjVwV2pGR2txZ3NoNml3djZMa0xGOUxpWnY5dUhxYk5kX1ViZXBqRnBSMG9ZZVpYYmdncENmUkJHRl9wcmhXMHBTRHN4U0Q1T0s0V242eEtuV2JoTEk2NGE4NTFTWXBSenhMRVV3UGhqUTFhZWkzSGxyRmdjYVJqRzFZZzhRMi1rR2pLaDBudlJXdGdiVE0?oc=5",
+   "quando": 1795787460,
+   "titulo": "PETR4 hoje: ação da Petrobras sobiu 4,4%! E o Brent? Análise técnica completa"
+  },
+  {
+   "etiquetas": [
+    "Petróleo",
+    "Refinarias"
+   ],
+   "fonte": "BiodieselBR",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYUtUTVRQelozM3VvcFBVZllBbHVEVG0tZ2czajAzSHZUVVpjWW50cG05X2tnNEYwNGpCLXZ6UUVia1pGQmhsZ2cyYW1SVHdkVEV4ZGlmVVo4d3RsYjZGSFItTkZha0xyU2tkQmJzZ0N3MTVXd21JbXN4aGQ1WWs1R2xTekMtVVVJWjlURTZJWmUyWk9KV25PSG45WjJBRHJUaHpwZ0VUNmFOekFON3otTTdZcFZmUQ?oc=5",
+   "quando": 1795782987,
+   "titulo": "Petróleo sobe após ataque a refinaria na Arábia Saudita"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzUzMFEzcE1qU1VaX0pueDNGNXhEYm9FbW82emU1aHc4R3dYT0ZYbmYwbll1TGFFSTZNc1NLSTZmRWNDcWF2Zmw3OFlCTWdzek9JNFN0RGoxaXZ6eEJTeVpNcWZKelNQbGgyQlBuS3g0V3oweWdvVlVCTmpCbGRXZlFtcXdfSE41b1FyT1Qta002dmRhUm5JbFJzNDJJbEJQVUo3anlvazRtTjVH?oc=5",
+   "quando": 1795781820,
+   "titulo": "Previsão do petróleo para 2027: onde o Bank of America vê o Brent"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWZCdHMzY0NOa1VTTFZaNTIzM2lsODRZNTRXc0U3R1lQYU9TbEh3NW5uZzBhYW81NVctTXphRUdrTS0zenNKcEEzSUhVNGQ0NkkzY2N6MWJXUEZlLWRRMlFQNlJyRUo4cHVmNW5vT1owcV9HZ1ZPZlNfTFZYQnF4cnltbnVPdDF1el9sSi15SzNGTGJSeXhOUmpxX2gxcThuMHV1T0pIdGRjTDMxX29IbmxPeW53Q083dUN2a1pn?oc=5",
+   "quando": 1795779540,
+   "titulo": "Brent: Riscos à oferta impulsionam alta por três sessões consecutivas – Commerzbank"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa21yY1RWRlNCYlE5VWZ1WHJ5OWVsWG9rNmQ2LUwwMWRmOXJnVG9XX2dNZWVYM1dCQXBjazVsVkpNOGNkSjdGMEtsMGxNM1ROUUI5VkVEYUM5YlpuZTJua0dLQkVvTEVEdFJWZ3FPQkpxbjllWUpSYUF2UlFXWG1kc1U1WlZDLWxvVEVDeUlKSFNPRmstQWVF?oc=5",
+   "quando": 1795771175,
+   "titulo": "O preço do petróleo Brent vai continuar subindo com o apoio constante dos compradores?"
+  },
+  {
+   "etiquetas": [
+    "Impostos",
+    "Etanol"
+   ],
+   "fonte": "Diário do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mZzlGWHpsTnFUYi10bnVnMDNQSzg4aDNBSU9YRGE2dFdzQVVoT3NyZ0xoQjRLVVMzRVlTZlF3d3h4dE10bDNPRzdzelJGTmlWY2FXVXVicDZ3Wnh6NEphaDFyd0NSbVJPSHZMMXRlZ1RXZDVD?oc=5",
+   "quando": 1795766460,
+   "titulo": "Etanol deve ter novos aumentos de preço em Minas Gerais com decisão do Confaz sobre o ICMS"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "CMB News",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRXYyY1RHdDI1eFFXamg0YnIyTV92eHdPa3NOWjNBamQ3OGJZM0dUeEhtVHRndjY5T1V0SnlSR1JpUXoxbXBOVlhuMDNPMUFIY1RKVllrRkQyaFNieHRiRjBKMHBOS1U2S2NRWXhIQUQyS3JkTGNVeVdQdmJYVzIybGVsZXlONl9PWmVadk9valBmOXNYb2xMNV9JcGxrelNKcFNsUU0yY1ZTTkZabUhLUTdRdkw2Rm54TkstcU1fTEV2MnE2QXc?oc=5",
+   "quando": 1795765288,
+   "titulo": "Perspectivas do petróleo bruto WTI e Brent, 27 Nov 2026: curva em backwardation — CMB News"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Jornal do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQYlhENkEwSXBpRlN5WDlZdWxNb0VPVENZc2laWi1FcnJMWUJUY0ZIcHVrbDBhRmdtWjQ2VnFmS1FrM2VRWkRpRnFLakszTjd0TXBnVnc3c29YNFZoSFdnZHFrN2N5bW5LVUd2dmR1OU54T0ZWTjFIcGd4WGFzZTNIdjVFbC1ZUkVxSUZtNzhmbjFzanlLNTN1bE92cndWdzhFWTlHSW10YUFRbU4wLUlVRFF6S21WaWJoU2J3VlJMZmdsdmNWd3dmMUM2ZUkzRGZFSy1qYUZnVHlSSGVhd2pvbWtRWmpaUk4wQURzNEtRSQ?oc=5",
+   "quando": 1795757496,
+   "titulo": "Petróleo fecha em alta em meio a temor com oferta diante de escalada de tensão no Oriente Médio"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "www.wam.ae",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWZEotOFFJZ0lZSU1sRHcxdElncEE3LVlwRHhiWFFjbjJEalBPRGdOT0JsTjQxbzU5Tng0NlYyclg2cGRuQVVMNkRLZDBRUE52aUM3YmhCdGs4NS1vWFZYeWNJQXZ2elhoMEZfMHpXQl80V0ZjSkhtaUF0MUN3UQ?oc=5",
+   "quando": 1795755230,
+   "titulo": "Brent recua para US$ 96,19 por barril"
+  },
+  {
+   "etiquetas": [
+    "Petróleo",
+    "Refinarias"
+   ],
+   "fonte": "BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZakY2bnJnME52TVlBTExoNE50SHJpeUllWkdvLUdNZDAzRHJMdVVNSGlfYnJOeUFVWDZ6QURfV3ZLWXJ0Q3lpSkNLM2xaWjFHWGJ0bVFibGpzdkhEbzdzVzNZd3hUUGRuTkJ0YjVFVkU3ZFgxbHpuTE5QSzlLZw?oc=5",
+   "quando": 1795748761,
+   "titulo": "Ataques Houthis a refinarias sauditas aumentam. O prêmio de guerra do petróleo voltou?"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "TradingKey",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNekZ3NkczOTBYV1NJbnlHeDF2SEJZY29pVTJzQ3ItZERlY0toai16aUt6VVp1amJUWmRVMXQzb2RLY2Q5X0haaWloaWh2RjdFeFVvUmZXSC1nWFBxdkJlMnFic2xvZ2p5X0hfVHZDcmtsSmxGWUtnVElDbERNSUdoUjA1SzVZV1VZSUdXWUxhbnR5bXpzaGxwN1JuN0xkbU5vOFRuOS1yc2pqM2kzVjBIc1cxUzdFX0pua1hxTWZxUEdtY3Rsb0tj?oc=5",
+   "quando": 1795744322,
+   "titulo": "Petróleo Brent volta a superar US$ 90 em rali de três dias enquanto US$ 95 se torna resistência-chave para recuperação"
+  },
+  {
+   "etiquetas": [
+    "Petróleo"
+   ],
+   "fonte": "Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNXzBBOHR6cFN1S1dNZVgxWFdOdWl4XzVuM2JsWWF1ZV9xVjlEQzBiTW85UjNpN0ZDdVJSdS1TY0F2STc3MkRFMndJdy12dG9qb3E1dG5LZnlqQ3J6OVlISHo0Ym0zR0xZbEdhRU5pQjJqa2w3T2JPTkI4ejZJRTJWT0Zxb0FreVNaWjZ4YjZvUGJJbHdLaUg5WlZkSkVvcm8?oc=5",
+   "quando": 1795738011,
+   "titulo": "Preços do petróleo hoje, 27 de novembro: o Brent sobe devido a preocupações com os riscos de abastecimento no Oriente Médio."
   },
   {
    "etiquetas": [
@@ -32,10 +218,10 @@
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRlFYZ2E0NFJmYlZrNjVWUWFLWUhpdjFyaTdpa3pQMk1XaWc5YW9sTU9iYW5LdDBCNEFpQzljN1ctel9zWGVNamlKeGE2dUlTSWR0Z25jM0tDcmM3Wl9lMndSSWEtOTl0WTZka3duREtqVi1xSTBSM3VOM2F4MWtpSGhlZmdkOWlxVHlCZFQtb3hFdHdRQ21ZYkd6MW9QcXlTd01PckJfZ0RtWGM2a25Nb0p0SEt5bmNUU0psaW5lVjk?oc=5",
-   "quando": 1795723620,
-   "titulo": "Petróleo sobe pelo terceiro dia seguido com aumento das tensões no Oriente Médio"
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS3hRWTNNMUEzY3lQenFFSkdQZFVQc0lKM0JBV3REOXR1ckhSdmxuR3lZSTZENFU0VDRXTGRtanh1cmJ6S2RCcGhYMVZnNENBLTc0MVE5WVFtajQwSHlLUGtIQ1hHeHo3U0psY1l1ZnV0X1NMZGhVaHJCZEtmU3ZJVUpxaTRvWG81Z0EwcHpjQldnaGw0dmY2WEZpNEUxNV9IV3ZGRld4aTJzcEhIa0hF0gG0AUFVX3lxTE45dDhqVlZXTkZJUEhXY1B1cVhFMEUyMVBkNXF2VGQ5cXRsb0FvOHcxU1FkR055Z0tUQ05sOEZIQ2R2LWozYUREMjFqNmFnVnlSckhLY2dRcE53VDlwbTY5d1hwN21IZlhZenBiVndubUVwUlo2Q3J6SHFIYmgtcVFTdTlQUkJOYm1mOHVyYUtLOGt3SWdBb0tTMVc5MUZkRkljNngwcnBsdm82eFRBQ1N3aml6OA?oc=5",
+   "quando": 1795724339,
+   "titulo": "Brent fecha em alta diante de temores com interrupções no abastecimento"
   },
   {
    "etiquetas": [
@@ -49,24 +235,6 @@
   },
   {
    "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Jornal do Comércio",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQYlhENkEwSXBpRlN5WDlZdWxNb0VPVENZc2laWi1FcnJMWUJUY0ZIcHVrbDBhRmdtWjQ2VnFmS1FrM2VRWkRpRnFLakszTjd0TXBnVnc3c29YNFZoSFdnZHFrN2N5bW5LVUd2dmR1OU54T0ZWTjFIcGd4WGFzZTNIdjVFbC1ZUkVxSUZtNzhmbjFzanlLNTN1bE92cndWdzhFWTlHSW10YUFRbU4wLUlVRFF6S21WaWJoU2J3VlJMZmdsdmNWd3dmMUM2ZUkzRGZFSy1qYUZnVHlSSGVhd2pvbWtRWmpaUk4wQURzNEtRSQ?oc=5",
-   "quando": 1795721533,
-   "titulo": "Petróleo fecha em alta em meio a temor com oferta diante de escalada de tensão no Oriente Médio"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "UOL Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeXVNTjVSdTFMQk5LeGxHWmZKbGJLUkN3d3VYMkF2b3NUZGtnNUozZ3I3U3hjTVdMY1dJY3ptZDBpbWxkQXR3ZTJrWXRINDRvUFZHMzBxcEZZS2NmTWE3T0dtOUtBT2VOTG9RenpmUTQzdTRqd3VDcmIxTUJ2dFQtZEZRYUFpN1FGTVZ0S29nNkw1MnBwUjd0X0JwZHZBS0NhellOMWZ1Wm1EdXdxc2drdllBd3NWMll3QWZKbEQ4Q1RYMUJWaVMtTTZoYUg1N3RTTE84TGV3?oc=5",
-   "quando": 1795721177,
-   "titulo": "Brent fecha em alta diante de temores com interrupções no abastecimento"
-  },
-  {
-   "etiquetas": [
     "Impostos"
    ],
    "fonte": "Portal Contabeis",
@@ -76,19 +244,10 @@
   },
   {
    "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "GZH",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbFhoZWdMc0FUYUxTeGw3MEhobXM4UGFzM0twOTk1WGlRRFo5VUVFV0UxbkZlMjZfemlacl93blhyUjdsb3BFZWNyU0FYaGlPTUlrZFY1MnB3NXNxTHNoYU5ac2k0NmZGU1FKV3pIZ0x0by1ZOWFNN0VESWtnWEcwM0RwU3dxdEtjVlpjMGNCYWJFd3NVMUVFSS04Sm9pbV9uU3lpWWl4YXMwWndrU05HamV3T1NmX1FxTE1QMlZ4Y2lWMUdleEozaU9R?oc=5",
-   "quando": 1795718101,
-   "titulo": "Petróleo hoje: siga ao vivo o valor da cotação"
-  },
-  {
-   "etiquetas": [
     "Petrobras",
     "Refinarias"
    ],
-   "fonte": "XP",
+   "fonte": "XP Investimentos",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU2twa2JZWUo5V0pRYklUc2ppWkxEUVNLWnl0Q1NoRGhqb081dkRhNFN3WHBTWVBqNkdoR0x5Q3Nud1J5b1o1NWM1TUtTMXZ3b1V1S2M1S3FtNzk5RVd1QjQyS1duUEV3dFBXME1jZ0VCUlg1a1hZZjc1dUxpSGg5MGhZanBESWxLQXBXeUc3YkZjN0pGeHRYeFpTS2wtWmpXWV8tWHNPOVRPbWQ4T1VZUHdVZkxyWEFZRWZEQTZVbmczVGpaNEVwaHd1Mm9QZw?oc=5",
    "quando": 1795716130,
    "titulo": "Data Expert: Monitor semanal de Preço de Paridade de Importação da Petrobras (26/11/2026)"
@@ -107,10 +266,10 @@
    "etiquetas": [
     "Petróleo"
    ],
-   "fonte": "XTB.com",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSUxNeGNyZjRid3pRTDV6Yjk0ck04Rkdzb295Wjg0Z2Q2Z3V6U3BHaVAycHhvZjdvdGdYaVFuaWtPeG94aXZUY2tlbDZJaW1GWm9KOWJwYTRQOEZxVXFoekMwX3RaX2dIX201YmlZV2x0ZzVlaENFSnRiemhHejRKZkdwa2c4aWpjM3YxREsxWEVJREkybjBVR0hNUU51bHp6M1BVTWxJdlh5X0pKSV9XVjlqNGZhVDlWckJLag?oc=5",
-   "quando": 1795712505,
-   "titulo": "Brent sobe para 91 USD com tensões no Médio Oriente"
+   "fonte": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IU3FqLW83TjJwU3JFcE1vREc2aEhFb0o0X29wakc2LXRCUDJOLXRKX3ZIT3AzXzE0OHNkdkw2cEdPR0Q2U2lnZl9rOS03RnVILXp3aFpRRjdLRkFiZkRzMk43NWZZdw?oc=5",
+   "quando": 1795712517,
+   "titulo": "Preço do petróleo hoje: Brent sobe após novos ataques a petroleiros no Estreito de Hormuz"
   },
   {
    "etiquetas": [
@@ -120,162 +279,6 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmhNMzNudWtpRjBOQU5ja1E3N24zQ3hFSE9abU9LVGwtbXBUVjNrLTdLdGlJRzlldWxrQkMzZFBLRTZlemdTR251azlLdFJocVFhc2EzQzZGbXVUd1J6Y0tTQm1KMUR2QnI4MEwyRUdSRmJydGY3MG1XaFJaQXR4S003a05VT0JtRm1GTjA1VzF0NTJxQW9KQTZmUHpOSDRWMzFV?oc=5",
    "quando": 1795709620,
    "titulo": "Petróleo Brent cai abaixo de US$ 90 mesmo com ataques em Ormuz"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSjVJME5McjlyMy15TFJ4cFpKcmhwZjJHblJzQWVwbHNQRlRGaHJQcnU4VHQ0ZWJyTEljTDdHZUN0a2RsLWhrN29IcnJkUktqNUVsNy1vbjQ5U1BILXRoYW9kX3JWTXpUWl9Sdlc2NGwtYUhHa0F4RXNocDlPRklvZTdsOHhZWjdSVmdJQ21pUV9wWi10dTBWSlk2cU5XcWlISlBhdlVuR2Y1QkJISHJmNVZBbXhYZEFDUjExTldwOHpmQlc3SzVWMXBNem9OYTZTOVJDQVc4UXY?oc=5",
-   "quando": 1795706332,
-   "titulo": "Petróleo vira o jogo: Brent sobe quase 4% após despencar mais de 8% na véspera"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Revista Fórum",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XaGxrRVNEdVg0d0ppb0pxUEtUa0dkRVFnVVNiU2Q5QVBjNzY5OG1sdXl5ZzlrZnY5cm5OQnhTOERzNDVTMVpRYlVjaDM0c0VZY2F6NHYyaWRRWE1oQnVNN2hOZ0I5MHRFVmc?oc=5",
-   "quando": 1795705526,
-   "titulo": "Petróleo terá excesso de oferta em 2027, prevê JP Morgan; superávit brasileiro deve continuar"
-  },
-  {
-   "etiquetas": [
-    "Impostos"
-   ],
-   "fonte": "R7",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYkFDNTBaMm4xbnhiTkhlcWkzSGNLUVBFQzJrdG1tQjlxTkdvZERqSXhZTWRpb2xfWWt3NEJOcTBqMjRla0Y5Mm9sTGNlUmxGUUw3ajZIc1hIUDgtWkpmeG54V0FfU0lHS0hiRGFWSkQwME80YlRMOUZBVS1xUHh3STFwM3N0TUxRTEtmeFAzUkZrSFI2S0I4dFpUOE5tWXVzYjRESjR0bXBUbmpxZ04yaVZHZjdfeEx1WkJj?oc=5",
-   "quando": 1795699318,
-   "titulo": "Confaz aprova alíquotas do ICMS sobre combustíveis para 2027"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "ADVFN",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmRmN0V0b2JtNkNSNzA2MnBYS29hN2xidUxnTXFwbFNPQVVtaFppRjEtY1pZREVWYjhRajVqN0twakpmZlZIV0trbHo2azZSLVlGbkQwNnJERDA5TGdBSTNNYjJsR3RQTVNsakw0UFhKUHVNeHFmOU96OWcwMnFFRUl0Z1NDcjdkdW5JYm11VUJuX00?oc=5",
-   "quando": 1795692105,
-   "titulo": "Petróleo sobe com novos ataques no Estreito de Ormuz; Brent a US$ 95"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Traders Union",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSV9lM0Z1dFAtY2hWQk5RamcxcURvR05hRVd0QnhjdE9mRlBvYUE5aFdGZEtaYkRxMkkxMGd1aldoNmo3UWR6YkQxTW9CS2s2YW5MLWFNODZFdkZRU3Baakp2RDdUazFHYk00dV9GR3cyT2VOSzJDb0x6NjIxMTcxLTNpbThPcUJBRkplQklfRHJwTUpvSERHUXdPYw?oc=5",
-   "quando": 1795684710,
-   "titulo": "Preço do petróleo Brent cai enquanto XBR é negociado abaixo das principais médias móveis de longo prazo"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Money Times",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2J1dkdpVVdIS21fa1FxM0lmd3QyczV5U19VSzUwQWVmV241UVhINmQ2Q01hRV9senU4ZjZEWGJfYjVuWmthTEkxcUx5NmdyOERZX3p0ZzVWWXlFaDc2ZkNrWUNYNGtJZ3RWLVJRaVB0VmpJWERFSGRDRERoSXAtVEgyTjFCeUVJdkV0YURNcmZrWVlkWlZzeU1YLXdPdUtyWExtT3hNSk5WcVRsSjFnMjFiLWVncTFEYUpValR0dUUzR3JuVms5MHlIN0ZLX1Zmdi1hY2xZSTc?oc=5",
-   "quando": 1795678620,
-   "titulo": "Petróleo sobe diante de preocupações com o abastecimento, enquanto o Irã afirma que minas atingiram navios"
-  },
-  {
-   "etiquetas": [
-    "Impostos"
-   ],
-   "fonte": "Brasil Inovador",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZVBhR0w1LTdHajkyX1pHSmw1NjlramNlMVFEdjZEZHdZem5RTVJTTDMwc25ZS1BSUXhJSU1NaEZsR1Y4T0h0bGZYUFRZM3JUemxRZzQ4NFA5QUdyblBtbkZHaGJZeHBWRllRMVRpM21ibU1LQkNwemdaUUdraFJRbldud3JRSm5iOF9TeFlkalppZ29wRGRHYVk5eWFncnNPRXdid3BZSlcydHhXSVFJeG1xQkgyYXZCSUxYaDdR?oc=5",
-   "quando": 1795663336,
-   "titulo": "Confaz atualiza pauta fiscal do PMPF e redefine base de cálculo do ICMS sobre combustíveis"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNS10cnhBa21wc3ZWWHF6MTJIc0ZpVU9wV21nSzFMdjNDZURDRHM2WTNuOHJVUHhSVzhNYVk0amV5a3UtaTY5V1Qxd1EtdGg3MFAyanRybTdDbDZ1Vk1Zc2N0cXlud0c3MVNIeGFNT3NyUkZwYlJBQTNvX1dITkVteGNocHBXVWtpUFJrbjlObTBBRG5hbnZpSzYyajU2UFgyMnZacg?oc=5",
-   "quando": 1795654441,
-   "titulo": "Os preços mundiais do petróleo dispararam em meio a preocupações com interrupções no fornecimento no Oriente Médio."
-  },
-  {
-   "etiquetas": [
-    "Petróleo",
-    "Refinarias"
-   ],
-   "fonte": "O Cafezinho",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVlMalNXTTRhOFEzM1lfZE1heHZ4cUtvSm01NmN0Y2xiMlV0V201SmotN0lqRTRURjlNZkdITVhta0xrVmZ2UWwyV18xOFNnd0J1ckt5V0pRMHRKeWhkZnFDNTl6VVpqV3ktdF9FZ2RaTk1nTTJYaXp0LUgxYXZjckhwN2IwUzhTdHhlV2R6X3lEWkMzb0gtWnZ3QUdSUjNRYzZSNERocXUxcVBMTHBSdNIBtgFBVV95cUxNcGFkdk5sSXBFNHRDdVlnSXdoWFZJc2lJQWNrVkxxVFZra3VUQXBSbkw3MEJwM1NMa2FBMEU1Rnc5WVM4QVNuWDBZcDk5TkxORHNXaDFkR2NraDJzZW5UM2ZoN184MFZRN2lIUDcwY2kwaFJkUUhVTUQzdHByMVphQXhYSGE1VFpqTk1HNHRONFN5VldKWGFoMjBISlhWSl8tQk1XZURfNFl1MFNaSmJHVW5TWFpPdw?oc=5",
-   "quando": 1795651440,
-   "titulo": "Petróleo sobe 3,5% com ataque a refinaria saudita e impasse entre EUA e Irã"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "CPG Click Petróleo e Gás",
-   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOMllpcWxCdVA1Z045cEU2RGxtaUdWVUZBT0FINEpkdERoZlRPRnhiUGJVQlpldU13M05tZEFSSUhjQXRfQlFzQ2UwcHhFbF9JYXU4V3ZKOFNndERuUVlRbzhnRHRkWmdrclFoU2h2OWZzaFhkOFVxOUNzM0hLM1FlRWxqclUyMDQ1RFBEYW1VNE1VWDlTdXo5REIwV19ZUFpFcmVjSWVVaEVNRnZ2SzR5NXhFQmtkV012R0YyeTc0ak90dDd6ZXB4elBlWWZlbTlkN09ENFhkMEtHM3ZjUVdkaHJzdmZnRW5pRjVOUzhpYXU5Y3l3b21PNXItb1A4Q0hHQnRIZFcybDE?oc=5",
-   "quando": 1795649280,
-   "titulo": "Dólar cai 1,53% e fecha a R$ 5,81 após atingir R$ 5,95, enquanto Bolsa brasileira sobe 1,58% e petróleo dispara mais de 3% no mercado internacional"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "Brasil 247",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU1p6TEtUZklPRUJYZmY5NHJEV252Z3RrZXFYYnIwZzYwRGlaRmdaZF9sZTVmMUkzRW9xSlM0czBKWmZmRU11RTZWcWxsVE9rNGRVSVdRYTEzRGZqOUxsb0xhakVWZ1BQNk9tOENpbDJjU0p3NFllUm1KaHB0M1J0TG82RXd3QXVqU24yeXBjekxvMGJoVGk2U0Z0LTVEclU2Zmc?oc=5",
-   "quando": 1795648307,
-   "titulo": "Petróleo avança 3,5% após houthis anunciarem ataque na Arábia Saudita"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "eixos",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjE4RE5zZG9OdUpFVzVHLXVJZm0xUlQzWkhuSlQxbjJXX2Z3S1FzRk96UHJqdTl2aHFqQ3pLMTlsZmM5bnNGRlZ2bTB4Qm0yMjRGUlNoVjlFNG15S0ZkS0NZc1YxM250RUpjZFVqUzU2SGJLaFJiODM0TDJpZlJfOUk3MTNlbnNvY0FPVlZSbDVCR2dLaUFwXzM4anRRdzhFd0M1NTZ5OUxKcHAtNmFDalgwVlRrNzRLNTJGeWhNcDM?oc=5",
-   "quando": 1795645682,
-   "titulo": "Petróleo fecha em alta com tensões entre Houthis e Arábia Saudita e ataques da Ucrânia"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdnRhRlh6RkRVRnh4U25fNXN4a1diTlJ1ZzR6cmFRTzQ4Rm5CdFlDcUx1c1p4cVNDb2xEanQwNElvWEprUHNQcEx6azlYRWg5N0k4NlA1ZEQxR1V3VUpPYlF3RXZLVUQwc2hnbjEwTncwM1ExR0d0T1czcmh0LUhtOWt3R3ZwUzE1REo3NjkwenNIbkxrMnRJM2NNQ3VvTEVWdm1yWnJGS3VMdjRxRkxhd3hFWkZRZDV5aFZLMVRCWmNhYmM?oc=5",
-   "quando": 1795645334,
-   "titulo": "Petróleo sobe com novo impasse entre EUA e Irã"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "CompreRural",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRWdkZWRRSDlZNXhZOEt5RHNDU1JvakR3YXhMQXZIc2tFSEd1RENTQVNLcURZSXRKdW1DWXh4OTdIUVFKSlJ2cTdUQU52QlJ1bEJSRVVYSmlfMHdzSnl1ZTYzY0JJczBHMktvdF9ibjZIWW5JVmc1dm9QS3BkLUsxb01Pb0VTd3QwTlJtc1dBejZKWTIxWVNVQTkxWHY4LXlkV3hmSDdzY0F6WFE?oc=5",
-   "quando": 1795644441,
-   "titulo": "Petróleo Brent oscila com risco no Oriente Médio e perspectiva de oferta maior"
-  },
-  {
-   "etiquetas": [
-    "Petróleo"
-   ],
-   "fonte": "RTP",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcktUd2VudTR1aGVMX1Y3QnZfUEJfdV9yNksxbFVWMWU4TTlXOUpBN2Rvam44bDBKSklzTEVzSVlLVWh2N2EwOXpTdHhLYzN5Zm9hVlR0R1FIbTJEYlRKRGdTd1ByRThCU19tak92eHRxbm9weGw0Qml3Njk1em95UHlZNGdOSy1zenhCZTB3T2Y0MVFCT09FcmcwLWZvQ19VcWVPWDN5alZDWUVIQ3RrRFEzSHFZQQ?oc=5",
-   "quando": 1795644252,
-   "titulo": "Cotação do Brent para entrega em janeiro sobe 3,51% para 94,61 dólares"
-  },
-  {
-   "etiquetas": [
-    "Petrobras",
-    "Etanol"
-   ],
-   "fonte": "Brazil Journal",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWjVwRFJWdVM5QlVlYW1kdExoR1BNdVJCcVJmcDZNeFNEc0l6SDczenJ5U2p2eDFaMVI5ODVDTlFMRURyN29fZFF6MlhUX3pIY2NXUS1vZV8xM2NDT1FabFg0cjNVSmJ5aWlrV1hjRTlkRTVKS3RkVzFLM0tHZUpwRHJ0VlFGX2gwanVHOUEwRzZsVGhwb3JycTBnRmthdFNY?oc=5",
-   "quando": 1795640340,
-   "titulo": "A Petrobras já perdeu dinheiro no etanol de cana. Agora vai tentar o milho"
-  },
-  {
-   "etiquetas": [
-    "Petróleo",
-    "Refinarias"
-   ],
-   "fonte": "Notícias Agrícolas",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3ZMUVBYazY2T1dfSVkzeXgxcTR3ZnRxSjlIVFlwaVFuYk9rV2pPc1ctdnJ3eUkzRnVFZHE0SW9kZWZPZWRpdVltZDluUzlSbWZZdnplTUtJa2tEeTFxN1dLd1NKZ2ZMQkN0VGZ2TmlJOVZyQnI4NjRackROTzBIUGRjY1hlVVpla1oyTXd2bXA4OEt1N0Z4Sl92MWZTUUc3M18waWlMWlNTOURYWjc1SEN0Tko4YlNuMElCaHNLQURua3ZlTkhLcFI1UXFtZk44SGRkVngtZm1uUVE4REHSAd4BQVVfeXFMUEt2TFFQWGs2Nk9XX0lZM3l4MXE0d2Z0cUo5SFRZcGlRbmJPa1dqT3NXLXZyd3lJM0Z1RWRxNElvZGVmT2VkaXVZbWQ5blM5Um1mWXZ6ZU1LSWtrRHkxcTdXS3dTSmdmTEJDdFRmdk5pSTlWckJyODY0WnJETk8wSFBkY2NYZVVaZWtaMk13dm1wODhLdTdGeEpfdjFmU1FHNzNfMGlpTFpTUzlEWFo3NUhDdE5KOGJTbjBJQmhzS0FEbmt2ZU5IS3BSNVFxbWZOOEhkZFZ4LWZtblFROERB?oc=5",
-   "quando": 1795640251,
-   "titulo": "Petróleo sobe após houthis assumirem autoria de ataque a refinaria saudita"
   }
  ]
 }
