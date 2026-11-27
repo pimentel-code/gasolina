@@ -5,8 +5,8 @@
   "falhas_seguidas": 0,
   "msg": "semana até 2026-11-14",
   "ok": true,
-  "ultima_tentativa": "2026-11-25T18:12-03:00",
-  "ultimo_sucesso": "2026-11-25T18:12-03:00"
+  "ultima_tentativa": "2026-11-26T20:57-03:00",
+  "ultimo_sucesso": "2026-11-26T20:57-03:00"
  },
  "anp_sintese": {
   "data_dado": "2026-11-21",
@@ -14,36 +14,36 @@
   "falhas_seguidas": 0,
   "msg": "0 novas; mais recente: semana até 2026-11-21",
   "ok": true,
-  "ultima_tentativa": "2026-11-25T18:12-03:00",
-  "ultimo_sucesso": "2026-11-25T18:12-03:00"
+  "ultima_tentativa": "2026-11-26T20:57-03:00",
+  "ultimo_sucesso": "2026-11-26T20:57-03:00"
  },
  "brent": {
-  "data_dado": "2026-11-17",
+  "data_dado": "2026-11-24",
   "erro": null,
   "falhas_seguidas": 0,
   "fonte": "Ipeadata/EIA",
-  "msg": "Ipeadata/EIA: US$ 92.94 em 2026-11-17",
+  "msg": "Ipeadata/EIA: US$ 91.80 em 2026-11-24",
   "ok": true,
-  "ultima_tentativa": "2026-11-25T18:12-03:00",
-  "ultimo_sucesso": "2026-11-25T18:12-03:00"
+  "ultima_tentativa": "2026-11-26T20:57-03:00",
+  "ultimo_sucesso": "2026-11-26T20:57-03:00"
  },
  "dolar": {
-  "data_dado": "2026-11-25",
+  "data_dado": "2026-11-26",
   "erro": null,
   "falhas_seguidas": 0,
   "fonte": "Banco Central (PTAX)",
-  "msg": "Banco Central (PTAX): R$ 5.8825 em 2026-11-25",
+  "msg": "Banco Central (PTAX): R$ 5.7446 em 2026-11-26",
   "ok": true,
-  "ultima_tentativa": "2026-11-25T18:12-03:00",
-  "ultimo_sucesso": "2026-11-25T18:12-03:00"
+  "ultima_tentativa": "2026-11-26T20:57-03:00",
+  "ultimo_sucesso": "2026-11-26T20:57-03:00"
  },
  "noticias": {
-  "data_dado": "2026-11-25",
+  "data_dado": "2026-11-26",
   "erro": null,
   "falhas_seguidas": 0,
   "msg": "30 manchetes",
   "ok": true,
-  "ultima_tentativa": "2026-11-25T18:14-03:00",
-  "ultimo_sucesso": "2026-11-25T18:14-03:00"
+  "ultima_tentativa": "2026-11-26T20:59-03:00",
+  "ultimo_sucesso": "2026-11-26T20:59-03:00"
  }
 }
